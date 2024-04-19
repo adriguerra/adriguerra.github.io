@@ -173,21 +173,11 @@
 <p>We identified the data requirements for building a product recommendation pipeline and collected the necessary data. Drawing inspiration from <a href="https://www.uber.com/en-CH/blog/uber-eats-recommending-marketplace/">Uber Eats’ advanced recommendation techniques</a>, we designed a proof-of-concept product recommendation pipeline combining content-based and collaborative filtering methods to deliver personalized food suggestions. The development process included several key steps:</p>
 
 <ol>
-  <li>
-    <p><strong>Data Collection</strong>: We began by extracting and manipulating relevant user and product data from MongoDB, converting this information into pandas DataFrames for in-depth analysis.</p>
-  </li>
-  <li>
-    <p><strong>Exploratory Data Analysis (EDA)</strong>: We conducted a comprehensive exploratory data analysis to identify patterns and relationships within the data, which are crucial for refining our recommendation strategies based on actual user behaviors and product attributes.</p>
-  </li>
-  <li>
-    <p><strong>Content-Based Filtering</strong>: We created user and food taste profiles using features extracted from product descriptions and user preferences. These profiles were converted into numerical vectors using sklearn’s DictVectorizer, enabling the calculation of similarity scores between user tastes and product profiles.</p>
-  </li>
-  <li>
-    <p><strong>Collaborative Filtering</strong>: This technique leveraged users’ purchase histories to identify products favored by similar users, effectively capturing evolving user preferences.</p>
-  </li>
-  <li>
-    <p><strong>Hybrid Approach</strong>: By integrating content-based and collaborative filtering, our engine was able to recommend food items that not only matched previous preferences but also included popular items among similar users, thus improving both accuracy and discovery.</p>
-  </li>
+  <li><strong>Data Collection</strong>: We began by extracting and manipulating relevant user and product data from MongoDB, converting this information into pandas DataFrames for in-depth analysis.</li>
+  <li><strong>Exploratory Data Analysis (EDA)</strong>: We conducted a comprehensive exploratory data analysis to identify patterns and relationships within the data, which are crucial for refining our recommendation strategies based on actual user behaviors and product attributes.</li>
+  <li><strong>Content-Based Filtering</strong>: We created user and food taste profiles using features extracted from product descriptions and user preferences. These profiles were converted into numerical vectors using sklearn’s DictVectorizer, enabling the calculation of similarity scores between user tastes and product profiles.</li>
+  <li><strong>Collaborative Filtering</strong>: This technique leveraged users’ purchase histories to identify products favored by similar users, effectively capturing evolving user preferences.</li>
+  <li><strong>Hybrid Approach</strong>: By integrating content-based and collaborative filtering, our engine was able to recommend food items that not only matched previous preferences but also included popular items among similar users, thus improving both accuracy and discovery.</li>
 </ol>
 
 <h3 id="tools-used">Tools Used</h3>
