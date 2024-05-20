@@ -143,4 +143,26 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  // Toggle on start
+  const darkModeEnabled = sessionStorage.getItem("darkMode") === "true"
+  if (darkModeEnabled) {
+    document.body.classList.add("dark");
+  } else {
+    document.body.classList.remove("dark");
+  }
+
+  function setDarkMode() {
+    const darkModeEnabled = sessionStorage.getItem("darkMode") === "true"
+    if (!darkModeEnabled) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+    sessionStorage.setItem("darkMode", !darkModeEnabled);
+  }
+
+  const darkModeToggle = document.getElementById("dark-mode-toggle");
+  // Toggle dark mode when the toggle is clicked
+  darkModeToggle.addEventListener("click", setDarkMode);
+
 });
