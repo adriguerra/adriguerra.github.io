@@ -1,5 +1,5 @@
 <div class="post__navigation animate">
-  {% if page.previous.url %}
+  {% if page.previous.url and page.previous.path contains '/posts/'%}
   <a class="post__prev" href="{{page.previous.url}}">
     <div class="prev__image">
       <img loading="lazy" src="{{site.baseurl}}{{page.previous.image}}" alt="{{ page.title }}">
@@ -11,7 +11,7 @@
   </a>
   {% endif %}
 
-  {% if page.next.url %}
+  {% if page.next.url and page.next.path contains '/posts/'%}
   <a class="post__next" href="{{page.next.url}}">
     <div class="next__box">
       <span class="post__nav post__nav__next">Next post</span>
