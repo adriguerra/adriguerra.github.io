@@ -21,8 +21,10 @@
 
         {% if include.show_testimonials %}
         <div class="testimonials__slider my-slider">
-          {% for testimonial-item in site.testimonials %}
-            {% bookshop testimonial-card testimonial-item=testimonial-item %}
+          {% for testimonial-item in site[page.collection] %}
+            {% if testimonial-item.path contains "/testimonials" %}
+              {% bookshop testimonial-card testimonial-item=testimonial-item %}
+            {% endif %}
           {% endfor %}
         </div>
         {% endif %}
