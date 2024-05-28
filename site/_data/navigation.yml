@@ -5,14 +5,15 @@ menu__settings:
   menu__items:
     # - title: 'Home'
     #   url: '/'
-    - title: 'About'
-      url: '/about/'
-    - title: 'Services'
-      url: '/services/'
-    - title: 'Portfolio'
-      url: '/portfolio/'
-    - title: 'Blog'
-      url: '/blog/'
+    en:
+      - title: 'About'
+        url: '/about'
+      - title: 'Blog'
+        url: '/blog'
+      - title: 'Portfolio'
+        url: '/portfolio'
+      - title: 'Services'
+        url: '/services'
     # - title: 'Language'
     #   submenu:
     #   - url: ''
