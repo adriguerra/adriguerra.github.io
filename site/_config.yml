@@ -33,7 +33,13 @@ collections:
   en:
     output: true
     permalink: /:slug
-
+  fr:
+    output: true
+    permalink: /:collection/:slug
+  es:
+    output: true
+    permalink: /:collection/:slug
+  
 cloudcannon:
   collections:
     pages:
@@ -82,3 +88,34 @@ defaults:
       layout: post
       permalink: /blog/:slug
 
+  - scope:
+      type: pages
+      path: _fr/pages/index.html
+    values:
+      permalink: /
+  - scope:
+      path: _fr/projects
+    values:
+      layout: project
+      permalink: /fr/portfolio/:slug
+  - scope:
+      path: _fr/posts
+    values:
+      layout: post
+      permalink: /fr/blog/:slug
+
+  - scope:
+      type: pages
+      path: _es/pages/index.html
+    values:
+      permalink: /
+  - scope:
+      path: _es/projects
+    values:
+      layout: project
+      permalink: /es/portfolio/:slug
+  - scope:
+      path: _es/posts
+    values:
+      layout: post
+      permalink: /es/blog/:slug
