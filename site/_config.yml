@@ -4,7 +4,7 @@ plugins:
   - jekyll-bookshop
   - cloudcannon-jekyll-bookshop
   - jekyll-sitemap
-  - jekyll/tagging
+  # - jekyll/tagging
   - jekyll-pagebreak
 
 # Multiple bookshops can be used on one website,
@@ -82,7 +82,3 @@ defaults:
       layout: post
       permalink: /blog/:slug
 
-# Tags
-tag_page_dir: tag
-tag_page_layout: tag_page
-tag_permalink_style: /:title
