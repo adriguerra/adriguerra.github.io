@@ -25,20 +25,14 @@ _array_structures:
   content_blocks:
     style: modal
 
+language_default: en
+
 collections_dir: 'collections'
 
 collections:
-  pages:
+  en:
     output: true
-    permalink: /:title/
-  projects:
-    output: true
-    permalink: /portfolio/:slug
-  testimonials:
-    output: false
-  posts:
-    output: true
-    permalink: /blog/:slug
+    permalink: /:slug
 
 cloudcannon:
   collections:
@@ -74,18 +68,19 @@ defaults:
       layout: default
   - scope:
       type: pages
-      path: _pages/index.html
+      path: _en/pages/index.html
     values:
       permalink: /
   - scope:
-      type: projects
+      path: _en/projects
     values:
       layout: project
+      permalink: /portfolio/:slug
   - scope:
-      type: posts
+      path: _en/posts
     values:
       layout: post
-
+      permalink: /blog/:slug
 
 # Tags
 tag_page_dir: tag
