@@ -8,18 +8,17 @@
           <div class="section__info">
             <div class="section__head">
               <h2 class="section__title">{{ include.title }}</h2>
-              <a class="section__link" href="{{ include.link_url }}">View all <i class="ion ion-md-arrow-forward"></i></a>
+              <a class="section__link" href="{{ site.base_url }}{{include.link_url}}">View all <i class="ion ion-md-arrow-forward"></i></a>
             </div>
             <div class="section__description">{{ include.description_html }}</div>
           </div>
-
           {% if include.show_projects %}
           <div class="row">
-            {% assign sorted = site.projects | reverse %}
-            {% for project in sorted %}
-              {% if forloop.index <= 6 %}
-                {% bookshop project-card project=project %}
-              {% endif %}
+            {% assign sorted_projects = site[page.collection] | reverse %}
+            {% assign filtered_projects = sorted_projects | where_exp: "project", "project.path contains '/projects'" %}
+
+            {% for project in filtered_projects limit:6 %}
+              {% bookshop project-card project=project %}
             {% endfor %}
           </div>
           {% endif %}
