@@ -23,6 +23,15 @@ menu__settings:
         url: '/fr/portfolio'
       - title: 'Services'
         url: '/fr/services'
+    es:
+      - title: 'About'
+        url: '/es/about'
+      - title: 'Blog'
+        url: '/es/blog'
+      - title: 'Portfolio'
+        url: '/es/portfolio'
+      - title: 'Services'
+        url: '/es/services'
     # - title: 'Language'
     #   submenu:
     #   - url: ''
