@@ -26,8 +26,13 @@ layout: default
           
                 {% if post.tags.size >= 1 %}
                 <div class="article-tags__box">
+                  {% if page.collection == site.language_default %}
+                    {% assign url_collection = "" %}
+                  {% else %}
+                    {% assign url_collection = "/" | append: page.collection %}
+                  {% endif %}
                   {% for tag in post.tags %}
-                  <a href="{{ site.baseurl }}/tag/{{ tag | downcase }}" class="article__tag">{{ tag }}</a>
+                  <a href="{{ site.baseurl }}{{url_collection}}/tag/{{ tag | downcase }}" class="article__tag">{{ tag }}</a>
                   {% endfor %}
                 </div>
                 {% endif %}
