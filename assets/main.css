@@ -54,17 +54,37 @@
 
 @media all and (max-width: 600px), bookshop and (max-width: 600px) { #dark-mode-toggle { left: 0.5rem; } #dark-mode-toggle p { display: none; } .label { transform: translateY(3rem); } .toggle-text { gap: 1.4rem; } .toggle-text svg { display: block; } }
 
-@media all, bookshop { /* Footer */ .footer { position: relative; margin-top: 44px; padding: 96px 0 60px; overflow: hidden; background: linear-gradient(90deg, #1495a7 0%, #003687 167%); } .footer .social { margin-bottom: 40px; } .footer .social .social__item { margin: 0 2px; font-size: 0; } .footer .social .social__link { display: inline-block; width: 40px; height: 40px; line-height: 40px; font-size: 16px; border-radius: 50%; color: #1495a7; background: #fff; transition: all .25s; will-change: transform; } .footer .social .social__link:hover { transform: scale(0.9); color: #1495a7; } .footer .social .social__link:hover::after { content: none; } .footer .social .social__link::after { content: none; } .footer .footer_nav { text-align: center; } .footer .footer_nav .footer_nav__item { display: inline; margin: 0 24px; font-size: 0; } .footer .footer_nav .footer_nav__link { font-size: 16px; font-weight: 600; color: #fff; } }
+@media all, bookshop { /* Footer */ .footer { position: relative; margin-top: 44px; padding: 50px 50px 30px; overflow: hidden; background: linear-gradient(90deg, #1495a7 0%, #003687 167%); } .footer .first-row { display: flex; justify-content: space-between; margin-bottom: 3rem; } .footer .second-row { display: flex; justify-content: space-between; padding: 2rem 0; } .footer .third-row { display: flex; justify-content: end; } .footer .logo__image { display: none; } .footer .logo__image__white { display: block; } .footer .language-dropdown { display: flex; flex-direction: row; justify-content: center; align-items: center; margin-right: 1rem; z-index: 1000; } .footer .language-dropdown, .footer .dropdown { color: #fff; } .footer .dropdown { background-color: transparent; border-color: transparent; font-size: 15px; margin-left: 0.5rem; font-weight: 600; cursor: pointer; } .footer .social .social__link { display: inline-block; width: 40px; height: 40px; line-height: 40px; font-size: 16px; border-radius: 50%; color: #1495a7; background: #fff; transition: all .25s; will-change: transform; background-color: transparent; color: #fff; } .footer .social .social__link i { font-size: 28px; } .footer .social .social__link:hover { transform: scale(0.9); color: #1495a7; } .footer .social .social__link:hover::after { content: none; } .footer .social .social__link::after { content: none; } .footer .form { font-size: 16px; font-weight: 600; display: flex; flex-direction: column; gap: 0.4rem; max-height: min-content; color: #fff; } }
+
+@media only all and (max-width: 576px) { .footer .form { align-items: center; min-width: 100%; } }
+
+@media all, bookshop { .footer form { display: flex; position: relative; align-items: center; width: 250px; } }
+
+@media only all and (max-width: 576px) { .footer form { min-width: 100%; } }
+
+@media all, bookshop { .footer input { border-radius: 0.4rem; padding: 0.8rem; margin: 0; border: 0; height: 2.2rem; width: 250px; } }
+
+@media only all and (max-width: 576px) { .footer input { min-width: 100%; } }
+
+@media all, bookshop { .footer button { position: absolute; padding: 0.4rem 1rem; color: #fff; background-color: #110E38; border-radius: 0.4rem; font-size: 15px; font-weight: 600; right: 0.1rem; height: 2.1rem; } .footer .form-social { display: flex; flex-direction: column; gap: 1.5rem; align-items: end; } .footer .footer_nav { display: grid; grid-template-columns: 1fr 1fr 1fr; list-style-type: none; padding: 0; margin: 0; grid-auto-rows: 40%; } .footer .footer_nav .footer_nav__item { display: inline; margin: 0; margin-left: 32px; margin-right: 100px; font-size: 0; } .footer .footer_nav .footer_nav__link { font-size: 16px; font-weight: 600; color: #fff; max-height: 10px; } .footer option { color: #110E38; } }
 
 @media only all and (max-width: 1024px) { .footer { padding: 80px 0 60px; } }
 
-@media only all and (max-width: 576px) { .footer { margin-top: 30px; padding: 60px 0; } .footer .footer_nav .footer_nav__item { margin: 0 12px; } }
+@media only all and (max-width: 576px) { .footer { padding: 2rem 1.4rem; margin-top: 30px; } .footer .form-social { align-items: start; gap: 0.2rem; } .footer .footer_nav { grid-template-columns: 1fr 1fr; } .footer .footer_nav .footer_nav__item { margin-top: 0; margin-left: 20px; margin-right: 24px; margin-bottom: 8px; } .footer .second-row { flex-direction: column; } .footer .second-row { margin-bottom: 0; padding-bottom: 0; } .footer .third-row { justify-content: center; } .footer .social { display: flex; justify-content: center; margin-top: 1rem; } .footer .social .social__item { margin: 0; } .footer .social .social__list { align-items: start; justify-content: start; } .footer .social .social__link { padding: 0; margin: 0; margin-right: 0.5rem; } .footer .social .social__link i { font-size: 24px; } }
 
-@media all, bookshop { /* Copyright */ .copyright { margin-top: 20px; font-size: 16px; line-height: 1.5; text-align: center; color: rgba(255, 255, 255, 0.7); } .copyright p { margin: 0; } .copyright a { font-weight: 500; color: #fff; } }
+@media all, bookshop { .dark .footer { background: linear-gradient(90deg, #1495a7 0%, #003687 167%); } .dark .footer .footer_nav .footer_nav__link { color: #110E38; } .dark .footer .logo__image__white { display: none; } .dark .footer .logo__image { display: block; } .dark .footer .language-dropdown, .dark .footer .dropdown { color: #110E38; } .dark .footer option { color: #fff; background-color: #110E38; } .dark .footer .social .social__link { background-color: transparent; color: #110E38; } .dark .footer .social .social__link:hover { color: #1495a7; } .dark .footer .social .social__link i { font-size: 28px; } .dark .footer .form { color: #110E38; } /* Copyright */ .copyright { margin-top: 20px; font-size: 16px; line-height: 1.5; text-align: start; color: #fff; font-weight: normal; } .copyright p { margin: 0; } .copyright a { color: #fff; } }
 
-@media only all and (max-width: 576px) { .copyright { font-size: 14px; } }
+@media only all and (max-width: 576px) { .copyright { font-size: 14px; margin-top: 10px; } }
 
-@media all, bookshop { .dark .footer { background: linear-gradient(90deg, #1495a7 0%, #003687 167%); } .dark .footer .social .social__link { color: #1495a7; background: #110E38; } .dark .footer .social .social__link:hover { color: #1495a7; } .dark .footer .footer_nav .footer_nav__link { color: #110E38; } .dark .copyright { color: rgba(17, 14, 56, 0.7); } .dark .copyright a { font-weight: 500; color: #110E38; } /* Header */ .c-header { height: auto; transition: all 0.35s; } .c-header__inner { position: relative; display: flex; align-items: center; width: 100%; padding: 48px 10px 40px; min-height: 80px; } }
+@media all, bookshop { .dark .copyright { color: #110E38; } .dark .copyright a { color: #110E38; } .horizontal-line { height: 0.8px; background-color: #d5dce3; padding: 0; margin: 0; } .dark .horizontal-line { background-color: #333067; } .line-2 { display: none; } }
+
+@media only all and (max-width: 576px) { .line-2 { display: block; margin-top: 2rem; margin-bottom: 1rem; } }
+
+@media all, bookshop { .line-3 { display: block; } }
+
+@media only all and (max-width: 576px) { .line-3 { display: none; } }
+
+@media all, bookshop { /* Header */ .c-header { height: auto; transition: all 0.35s; } .c-header__inner { position: relative; display: flex; align-items: center; width: 100%; padding: 48px 10px 40px; min-height: 80px; } }
 
 @media only all and (max-width: 1024px) { .c-header__inner { align-items: baseline; } }
 
