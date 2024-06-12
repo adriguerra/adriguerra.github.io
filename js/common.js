@@ -165,4 +165,16 @@ document.addEventListener("DOMContentLoaded", function () {
   // Toggle dark mode when the toggle is clicked
   darkModeToggle.addEventListener("click", setDarkMode);
 
+  const header = document.querySelector('.c-header');
+  const header_inner = document.querySelector('.c-header__inner');
+
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 70) {
+      header.classList.add('scrolled');
+      header_inner.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+      header_inner.classList.remove('scrolled');
+    }
+  });
 });
