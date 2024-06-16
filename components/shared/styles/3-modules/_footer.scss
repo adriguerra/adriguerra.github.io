@@ -2,18 +2,51 @@
 .footer {
   position: relative;
   margin-top: 44px;
-  padding: 96px 0 60px;
+  padding: 50px 50px 30px;
   overflow: hidden;
   background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+  .first-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  .second-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    
+  }
+  .third-row{
+    display: flex;
+    justify-content: end;
+  }
+  .logo__image {
+    display: none;
+  }
+  .logo__image__white {
+    display: block;
+  }
+  .language-dropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    z-index: 1000;
+  }
+  .language-dropdown, .dropdown{
+    color: $white;
+  }
+  .dropdown{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 15px;
+    margin-left: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
 
-  .social {
-    margin-bottom: 40px;
-
-    .social__item {
-      margin: 0 2px;
-      font-size: 0;
-    }
-
+  .social{
     .social__link {
       display: inline-block;
       width: 40px;
@@ -25,6 +58,11 @@
       background: $white;
       transition: all .25s;
       will-change: transform;
+      background-color: transparent;
+      color: $white;
+      i{
+        font-size: $font-size-h2;
+      }
 
       &:hover {
         transform: scale(0.9);
@@ -40,13 +78,71 @@
       }
     }
   }
+  .form{
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    max-height: min-content;
+    color: $white;
+    @media only screen and (max-width: $mobile) {
+      align-items: center;
+      min-width: 100%;
+    }
+  }
+  form{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width:250px;
+    @media only screen and (max-width: $mobile) {
+      min-width: 100%;
+    }
+  }
+  input{
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    margin: 0;
+    border: 0;
+    height: 2.2rem;
+    width:250px;
+    @media only screen and (max-width: $mobile) {
+      min-width: 100%;
+    }
+  }
+  button{
+    position: absolute;
+    padding: 0.4rem 1rem;
+    color: $white;
+    background-color: $dark;
+    border-radius: 0.4rem;
+    font-size: 15px;
+    font-weight: 600;
+    right: 0.1rem;
+    height: 2.1rem;
+  }
+
+  .form-social{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: end;
+  }
 
   .footer_nav {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    grid-auto-rows: 40%;
 
     .footer_nav__item {
       display: inline;
-      margin: 0 24px;
+      margin: 0;
+      margin-left: 32px;
+      margin-right: 100px;
       font-size: 0;
     }
 
@@ -54,22 +150,105 @@
       font-size: 16px;
       font-weight: 600;
       color: $white;
+      max-height: 10px;
     }
+  }
+  option{
+    color: $dark
   }
 
   @media only screen and (max-width: $desktop) {
     padding: 80px 0 60px;
   }
-
+  
   @media only screen and (max-width: $mobile) {
+    padding: 2rem 1.4rem;
     margin-top: 30px;
-     padding: 60px 0;
 
-     .footer_nav {
+    .form-social{
+      align-items: start;
+      gap: 0.2rem;
+    }
+
+    .footer_nav {
+      grid-template-columns: 1fr 1fr;
       .footer_nav__item {
-        margin: 0 12px;
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 24px;
+        margin-bottom: 8px;
       }
-     }
+    }
+    .second-row{
+      flex-direction: column;
+
+    }
+    .second-row {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .third-row {
+      justify-content: center;
+    }
+    .social {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+      .social__item{
+        margin: 0;
+      }
+      .social__list{
+        align-items: start;
+        justify-content: start;
+      }
+      .social__link{
+        padding: 0;
+        margin: 0;
+        margin-right: 0.5rem;
+        i {
+          font-size: $font-size-h3;
+        }
+      }
+    }
+  }
+}
+
+.dark .footer{
+  background: linear-gradient(90deg, $dark-primary-color 0%, $dark-secondary-color 167%);
+
+  .footer_nav {
+    .footer_nav__link {
+      color: $dark; 
+    }
+  }
+  .logo__image__white {
+    display: none;
+  }
+
+  .logo__image {
+    display: block;
+  }
+
+  .language-dropdown, .dropdown{
+    color: $dark;
+  }
+  option{
+    color: $white;
+    background-color: $dark;
+  }
+  
+  .social .social__link{
+    background-color: transparent;
+    color: $dark;
+    &:hover {
+      color: $dark-primary-color;
+    }
+    i{
+      font-size: $font-size-h2;
+    }
+  }
+  .form{
+    color: $dark;
   }
 }
 
@@ -78,49 +257,54 @@
   margin-top: 20px;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
-  color: rgba($white, 0.7);
+  text-align: start;
+  color: $white;
+  font-weight: normal;
 
   p {
     margin: 0;
   }
 
   a {
-    font-weight: 500;
-    color: $white;
+    color: $white 
   }
 
   @media only screen and (max-width: $mobile) {
     font-size: 14px;
-  }
-}
-
-
-.dark .footer {
-  background: linear-gradient(90deg, $dark-primary-color 0%, $dark-secondary-color 167%);
-
-  .social {
-    .social__link {
-      color: $dark-primary-color;
-      background: $dark; 
-      &:hover {
-        color: $dark-primary-color;
-      }
-    }
-  }
-
-  .footer_nav {
-    .footer_nav__link {
-      color: $dark; 
-    }
+    margin-top: 10px;
   }
 }
 
 .dark .copyright {
-  color: rgba($dark, 0.7); 
+  color: $dark; 
   a {
-    font-weight: 500;
     color: $dark; 
   }
 }
 
+.horizontal-line{
+   height: 0.8px;
+   background-color: $border-color;
+   padding: 0;
+   margin: 0;
+}
+
+.dark .horizontal-line{
+  background-color: $dark-border-color;
+}
+
+.line-2{
+  display: none;
+  @media only screen and (max-width: $mobile) {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.line-3{
+  display: block;
+  @media only screen and (max-width: $mobile) {
+    display: none;
+  }
+}

@@ -47,6 +47,12 @@
   }
 }
 
+.c-header{
+  .social{
+    display: flex;
+  }
+}
+
 .dark .social {
   .social__link {
     &:hover {

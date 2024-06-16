@@ -9,8 +9,8 @@ footer_menu__settings:
         url: '/blog/'
       - title: 'Portfolio'
         url: '/portfolio/'
-      - title: 'Services'
-        url: '/services/'
+      # - title: 'Services'
+      #   url: '/services/'
         
     fr:
       - title: 'Home'
@@ -21,8 +21,8 @@ footer_menu__settings:
         url: '/fr/blog/'
       - title: 'Portfolio'
         url: '/fr/portfolio/'
-      - title: 'Services'
-        url: '/services/'
+      # - title: 'Services'
+      #   url: '/services/'
     es:
       - title: 'Home'
         url: '/es'
@@ -32,10 +32,8 @@ footer_menu__settings:
         url: '/es/blog/'
       - title: 'Portfolio'
         url: '/es/portfolio/'
-      - title: 'Services'
-        url: '/services/'
-    # - title: 'Elements'
-    #   url: '/elements/'
+      # - title: 'Services'
+      #   url: '/services/'
 
 copyright_text_html: 
   en: >-
