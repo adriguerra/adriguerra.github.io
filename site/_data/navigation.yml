@@ -22,7 +22,7 @@ menu__settings:
       - title: 'Portfolio'
         url: '/fr/portfolio'
       - title: 'Contact'
-        url: '/#contact'
+        url: '/fr/#contact'
       # - title: 'Services'
       #   url: '/fr/services'
     es:
@@ -33,6 +33,6 @@ menu__settings:
       - title: 'Portfolio'
         url: '/es/portfolio'
       - title: 'Contact'
-        url: '/#contact'
+        url: '/es/#contact'
       # - title: 'Services'
       #   url: '/es/services'

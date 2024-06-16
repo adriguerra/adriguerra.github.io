@@ -30,7 +30,7 @@
     <div class="horizontal-line"></div>
     <div class="second-row">
       <ul class="footer_nav">
-        {% for item in site.data.footer.footer_menu__settings.menu__items %}
+        {% for item in site.data.footer.footer_menu__settings.menu__items[page.collection] %}
         <li class="footer_nav__item">
           <a href="{{ item.url | relative_url }}" class="footer_nav__link">{{ item.title }}</a>
         </li>
@@ -53,7 +53,7 @@
     </div>
     <div class="horizontal-line line-3"></div>
     <div class="third-row">
-        {% assign footer_text = site.data.footer.copyright_text_html %}
+        {% assign footer_text = site.data.footer.copyright_text_html[page.collection] %}
         <div class="copyright">{{ footer_text }}</div>
     </div>
 </footer>
