@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Menu
   ======================= */
   var body = document.querySelector("body"),
-  menuOpenIcon = document.querySelector(".nav__icon-menu"),
-  menuCloseIcon = document.querySelector(".nav__icon-close"),
+  menuOpenIcon = document.querySelector(".nav-icon-menu"),
+  menuCloseIcon = document.querySelector(".nav-icon-close"),
   menuList = document.querySelector(".main-nav");
 
   menuOpenIcon.addEventListener("click", () => {
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
   /* =======================
   // Responsive Videos
   ======================= */
-  reframe(".post__content iframe:not(.reframe-off), .page__content iframe:not(.reframe-off)");
+  reframe(".post-content iframe:not(.reframe-off), .page-content iframe:not(.reframe-off)");
 
 
   /* =======================
@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function () {
   darkModeToggle.addEventListener("click", setDarkMode);
 
   const header = document.querySelector('.c-header');
-  const header_inner = document.querySelector('.c-header__inner');
+  const header_inner = document.querySelector('.c-header-inner');
 
   window.addEventListener('scroll', function() {
     if (window.scrollY > 70) {
