@@ -120,15 +120,15 @@
 
 @media only all and (max-width: 1024px) { .nav-button { margin-left: auto; } .nav-button .nav-icon-menu { display: block; } }
 
-@media all, bookshop { .language-dropdown { display: flex; flex-direction: row; justify-content: center; align-items: center; margin-right: 1rem; margin-top: 0.3rem; margin-left: 1rem; } option { background-color: rgba(20, 149, 167, 0.1); } .dark option { background-color: #110E38; } .dropdown { background-color: transparent; border-color: transparent; color: #110E38; font-size: 15px; padding-left: 0.2rem; padding-right: 0.1rem; font-weight: 600; margin-right: 0.3rem; cursor: pointer; } .dark .dropdown { background-color: transparent; border-color: transparent; color: #fff; } .first-language { display: none; } .second-language { display: flex; margin-left: 8%; margin-right: -13%; } }
+@media all, bookshop { .language-dropdown { display: flex; flex-direction: row; justify-content: center; align-items: center; margin-right: 1rem; margin-top: 0.3rem; margin-left: 1rem; } option { background-color: rgba(20, 149, 167, 0.1); } .dark option { background-color: #110E38; } .dropdown { background-color: transparent; border-color: transparent; color: #110E38; font-size: 15px; padding-left: 0.2rem; padding-right: 0.1rem; font-weight: 600; margin-right: 0.3rem; cursor: pointer; } .dark .dropdown { background-color: transparent; border-color: transparent; color: #fff; } .first-language { display: none; } .second-language { display: flex; margin-left: 2%; margin-right: -8%; border-left: 1px solid rgba(21, 21, 41, 0.08); padding-left: 1rem; } .second-language i { display: none; } .second-language select { appearance: none; padding: 0.3rem 0.5rem; border: none; outline: none; } .dark .second-language { border-left-color: rgba(255, 255, 255, 0.3); } }
 
-@media only all and (max-width: 1300px) { .second-language { margin-left: 4%; margin-right: -10%; } }
+@media only all and (max-width: 1300px) { .second-language { margin-left: 2%; margin-right: -10%; } }
 
-@media only all and (max-width: 1250px) { .second-language { margin-right: -8%; } }
+@media only all and (max-width: 1250px) { .second-language { margin-right: -7%; } }
 
 @media only all and (max-width: 1200px) { .second-language { margin-right: -4%; } }
 
-@media only all and (max-width: 1130px) { .second-language { margin-left: 2%; margin-right: -4%; } }
+@media only all and (max-width: 1130px) { .second-language { margin-right: -5%; } }
 
 @media only all and (max-width: 1024px) { .second-language { display: none; } .first-language { display: flex; } }
 
