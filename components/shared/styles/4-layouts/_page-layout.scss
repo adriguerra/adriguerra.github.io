@@ -49,7 +49,7 @@
 	}
 }
 
-.post__info {
+.post-info {
 	margin-left: 40px;
 
 	@media only screen and (max-width: $desktop) {
@@ -57,7 +57,7 @@
 	}
 }
 
-.page__info {
+.page-info {
 	max-width: 760px;
 	margin: 0 auto;
 }
@@ -65,7 +65,7 @@
 .post-tags {
 	display: flex;
 	
-	.post-tags__tag {
+	.post-tags-tag {
 		position: relative;
 		z-index: 1;
 		display: inline-block;
@@ -108,8 +108,8 @@
 	}
 }
 
-.post__title,
-.page__title {
+.post-title,
+.page-title {
 	margin: 20px 0;
 	font-size: 58px;
 	line-height: 1.2;
@@ -127,16 +127,16 @@
 	}
 }
 
-.page__title {
+.page-title {
 	margin-bottom: 0;
 }
 
-.post__meta {
+.post-meta {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 
-	.post__author-image {
+	.post-author-image {
 		position: relative;
 		width: 44px;
 		height: 44px;
@@ -157,19 +157,19 @@
 		}
 	}
 
-	.post__meta-bottom {
+	.post-meta-bottom {
 		display: flex;
 		flex-direction: column;
 	}
 
-	.post__author {
+	.post-author {
 		margin-bottom: 6px;
 		font-size: 16px;
 		line-height: 1;
 		font-weight: 600;
 	}
 
-	.post__date {
+	.post-date {
 		font-size: 12px;
 		line-height: 14px;
 	}
@@ -206,10 +206,10 @@
 }
 
 /* Share */
-.post__share {
+.post-share {
 	margin: 32px 0 60px;
 
-	.share__head {
+	.share-head {
 		margin-bottom: 20px;
 		text-transform: uppercase;
 		font-size: 12px;
@@ -218,19 +218,19 @@
 		text-align: center;
 	}
 
-	.share__list {
+	.share-list {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		width: 100%;
 	}
 
-	.share__item {
+	.share-item {
 		margin: 0 2px;
 		text-align: center;
 	}
 
-	.share__link {
+	.share-link {
 		display: block;
 		width: 44px;
 		height: 44px;
@@ -241,35 +241,35 @@
 		color: $background-color-alt;
 		box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.07);
 
-		&.share__facebook,
-		&.share__twitter,
-		&.share__linkedin,
-		&.share__pinterest {
+		&.share-facebook,
+		&.share-twitter,
+		&.share-linkedin,
+		&.share-pinterest {
 			background: $background-color-alt;
 
 			&:hover {
 				color: $white;
 			}
 		}
-		&.share__facebook {
+		&.share-facebook {
 			color: #3b5998;
 			&:hover {
 				background: #3b5998;
 			}
 		}
-		&.share__twitter {
+		&.share-twitter {
 			color: #55acee;
 			&:hover {
 				background: #55acee;
 			}
 		}
-		&.share__linkedin {
+		&.share-linkedin {
 			color: #0077b5;
 			&:hover {
 				background: #0077b5;
 			}
 		}
-		&.share__pinterest {
+		&.share-pinterest {
 			color: #bd081c;
 			&:hover {
 				background: #bd081c;
@@ -283,11 +283,11 @@
 }
 
 /* Post navigation */
-.post__navigation {
+.post-navigation {
 	display: flex;
 	justify-content: space-between;
 
-	.post__prev, .post__next {
+	.post-prev, .post-next {
 		display: flex;
 		align-items: center;
 		width: 49%;
@@ -301,8 +301,8 @@
 			transform: translateY(-3px);
 		}
 
-		.prev__image,
-		.next__image {
+		.prev-image,
+		.next-image {
 			position: relative;
 			transform: translate(0);
 			display: block;
@@ -323,14 +323,14 @@
 			}
 		}
 
-		.prev__image {
+		.prev-image {
 			margin-right: 20px;
 		}
-		.next__image {
+		.next-image {
 			margin-left: 20px;
 		}
 
-		.post__nav {
+		.post-nav {
 			display: inline-block;
 			margin-bottom: 6px;
 			font-size: 14px;
@@ -340,7 +340,7 @@
 			opacity: 0.7;
 		}
 
-		.post__nav__title {
+		.post-nav-title {
 			margin-bottom: 0;
 			font-size: 21px;
 			line-height: 1.4;
@@ -355,7 +355,7 @@
 		}
 	}
 
-	.post__next {
+	.post-next {
 		text-align: right;
 		margin-left: auto;
 		justify-content: flex-end;
@@ -365,7 +365,7 @@
 		flex-wrap: wrap;
 
 		
-		.post__prev, .post__next {
+		.post-prev, .post-next {
 			width: 100%;
 
 			&:last-child {
@@ -373,11 +373,11 @@
 			}
 		}
 
-		.post__prev {
+		.post-prev {
 			margin-bottom: 30px;
 		}
 
-		.next__box {
+		.next-box {
 			margin-left: auto;
 		}
 	}
@@ -385,10 +385,10 @@
 	@media only screen and (max-width: $mobile) {
 		margin-bottom: 0;
 
-		.post__prev, .post__next {
+		.post-prev, .post-next {
 			padding: 20px;
 
-			.post__nav__title {
+			.post-nav-title {
 				font-size: 16px;
 			}
 		}
@@ -418,7 +418,7 @@
 }
 
 /* Disqus comments */
-.post__comments {
+.post-comments {
 	max-width: 780px;
 	margin: 80px auto 40px;
 
@@ -441,7 +441,7 @@
 }
 
 /* Project Navigation */
-.project__navigation {
+.project-navigation {
 	max-width: 780px;
 	margin: 80px auto 40px;
 	text-align: center;
@@ -451,18 +451,18 @@
 	}
 }
 
-.project__prev {
+.project-prev {
 	&:hover {
 		color: $text-color;
 
-		.project__nav__title .arrow-right {
+		.project-nav-title .arrow-right {
 			opacity: 1;
 			transform: translateX(3px);
 		}
 	}
 }
 
-.project__nav__info {
+.project-nav-info {
 	display: inline-block;
 	margin: 0 20px 4px 0;
 	font-size: 12px;
@@ -471,7 +471,7 @@
 	text-transform: uppercase;
 }
 
-.project__nav__title {
+.project-nav-title {
 	margin-bottom: 20px;
 	font-size: 40px;
 	line-height: 1.2;

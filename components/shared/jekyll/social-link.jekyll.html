@@ -1,9 +1,9 @@
 {% if site.data.social_links.social %}
 <div class="social">
-  <ul class="social__list list-reset">
+  <ul class="social-list list-reset">
     {% for social in site.data.social_links.social %}
-    <li class="social__item">
-      <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="{{social.icon | downcase}} icon"><i class="ion ion-logo-{{social.icon | downcase}}"></i></a>
+    <li class="social-item">
+      <a class="social-link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="{{social.icon | downcase}} icon"><i class="ion ion-logo-{{social.icon | downcase}}"></i></a>
     </li>
     {% endfor %}
   </ul>

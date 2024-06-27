@@ -2,19 +2,19 @@
 .social {
   text-align: center;
 
-  .social__list {
+  .social-list {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
   }
 
-  .social__item {
+  .social-item {
     display: inline-block;
     margin: 0 2px;
   }
 
-  .social__link {
+  .social-link {
     position: relative;
     z-index: 1;
     padding: 0 10px;
@@ -54,7 +54,7 @@
 }
 
 .dark .social {
-  .social__link {
+  .social-link {
     &:hover {
       color: $dark;
     }

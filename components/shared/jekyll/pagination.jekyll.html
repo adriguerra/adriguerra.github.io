@@ -1,20 +1,20 @@
 <!-- begin pagination -->
 <nav class="pagination">
   <div class="container">
-    <div class="pagination__inner">
+    <div class="pagination-inner">
 
-      <div class="pagination__list">
+      <div class="pagination-list">
         {% capture prev_text %}<i class="ion ion-ios-arrow-back"></i> {{include.prev}} {% endcapture %}
-        <a data-pagebreak-control="prev" href="." class="pagination__prev">{{prev_text}}</a>
-        <span data-pagebreak-control="!prev" class="pagination__prev disabled">{{prev_text}}</span>
+        <a data-pagebreak-control="prev" href="." class="pagination-prev">{{prev_text}}</a>
+        <span data-pagebreak-control="!prev" class="pagination-prev disabled">{{prev_text}}</span>
 
-        <div class="pagination__count">
+        <div class="pagination-count">
           {{include.page}} <span data-pagebreak-label="current">1</span>
           {{include.of}} <span data-pagebreak-label="total">1</span>
         </div>
         {% capture next_text %}{{include.next}} <i class="ion ion-ios-arrow-forward"></i>{% endcapture %}
-        <a data-pagebreak-control="next" href="." class="pagination__next">{{next_text}}</a>
-        <span data-pagebreak-control="!next" class="pagination__next disabled">{{next_text}}</span>
+        <a data-pagebreak-control="next" href="." class="pagination-next">{{next_text}}</a>
+        <span data-pagebreak-control="!next" class="pagination-next disabled">{{next_text}}</span>
       </div>
 
     </div>

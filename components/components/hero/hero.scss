@@ -14,7 +14,7 @@
 		padding: 30px 0 60px;
 	}
 
-	&__inner {
+	&-inner {
 		display: flex;
 		align-items: center;
 
@@ -23,8 +23,8 @@
 		}
 	}
 
-	&__left,
-	&__right {
+	&-left,
+	&-right {
 		width: 50%;
 
 		@media only screen and (max-width: $tablet) {
@@ -32,7 +32,7 @@
 		}
 	}
 
-	&__left {
+	&-left {
 		max-width: 510px;
 		padding-right: 20px;
 		margin-right: auto;
@@ -43,18 +43,18 @@
 		}
 	}
 
-	&__right {
+	&-right {
 		position: relative;
 		
 		@media only screen and (max-width: 1130px) {
-			#{$c}__image {
+			#{$c}-image {
 				width: 400px;
 				height: 420px;
 			}
 		}
 
 		@media only screen and (max-width: $desktop) {
-			#{$c}__image {
+			#{$c}-image {
 				width: 340px;
 				height: 360px;
 			}
@@ -63,7 +63,7 @@
 		@media only screen and (max-width: $tablet) {
 			order: -1;
 
-			#{$c}__image {
+			#{$c}-image {
 				width: 100%;
 				height: 380px;
 				margin-bottom: 40px;
@@ -79,7 +79,7 @@
 		}
 
 		@media only screen and (max-width: $mobile) {
-			#{$c}__image {
+			#{$c}-image {
 				height: 280px;
 				margin-bottom: 32px;
 
@@ -95,7 +95,7 @@
 		}
 	}
 
-	&__title {
+	&-title {
 		margin-bottom: 20px;
 		font-size: 58px;
 		color: $heading-font-color;
@@ -114,7 +114,7 @@
 		}
 	}
 
-	&__description {
+	&-description {
 		p {
 			margin-bottom: 0;
 			font-size: 18px;
@@ -127,7 +127,7 @@
 		}
 	}
 
-	&__btn {
+	&-btn {
 		display: flex;
 		align-items: center;
 		margin-top: 40px;
@@ -175,7 +175,7 @@
 		}
 	}
 
-	&__image {
+	&-image {
 		position: relative;
 		z-index: 10;
 		width: 480px;
@@ -213,17 +213,17 @@
 .dark{
 	.c-hero { $c: &;
 			
-		&__title {
+		&-title {
 			color: $dark-heading-font-color;
 		}
 	
-		&__description {
+		&-description {
 			p {
 				color: $dark-text-color;
 			}
 		}
 	
-		&__btn {
+		&-btn {
 			.works-button {
 				.circle-bg {
 					background: linear-gradient(90deg, $dark-primary-color 0%, $dark-secondary-color 167%);
@@ -235,7 +235,7 @@
 			}
 		}
 	
-		&__image {	
+		&-image {	
 			&::before {
 				background: $dark-blue-gray;
 			}

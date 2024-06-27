@@ -1,5 +1,5 @@
-footer_menu__settings:
-  menu__items:
+footer-menu-settings:
+  menu-items:
     en:
       - title: 'Home'
         url: '/'
