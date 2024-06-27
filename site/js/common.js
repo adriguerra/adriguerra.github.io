@@ -164,6 +164,54 @@ document.addEventListener("DOMContentLoaded", function () {
   const darkModeToggle = document.getElementById("dark-mode-toggle");
   // Toggle dark mode when the toggle is clicked
   darkModeToggle.addEventListener("click", setDarkMode);
+  const defaultLanguage = 'en';
+  function changeLanguage(dropdown) {
+    var selectedLanguage = dropdown.options[dropdown.selectedIndex].value;
+    var currentUrl = window.location.pathname;
+
+    localStorage.setItem('selectedLanguage', selectedLanguage);
+
+    var newUrl;
+    if (selectedLanguage === defaultLanguage) {
+        newUrl = currentUrl.replace(/\/[a-z]{2}(\/|$)/, '/');
+    } else {
+        newUrl = currentUrl.replace(/\/[a-z]{2}(\/|$)/, '/' + selectedLanguage + '$1');
+    }
+
+    if (!/\/[a-z]{2}\//.test(currentUrl) && selectedLanguage !== defaultLanguage) {
+        newUrl = '/' + selectedLanguage + currentUrl;
+    }
+
+    window.location.href = newUrl;
+  }
+
+  function setDefaultLanguage(dropdown) {
+      var savedLanguage = localStorage.getItem('selectedLanguage') || defaultLanguage;
+      var currentUrl = window.location.pathname;
+
+      // Set the dropdown to the saved language
+      dropdown.value = savedLanguage;
+
+      var newUrl;
+      if (!currentUrl.includes('/' + savedLanguage + '/') && savedLanguage !== defaultLanguage) {
+          newUrl = currentUrl.replace(/\/[a-z]{2}(\/|$)/, '/' + savedLanguage + '$1');
+
+          if (!/\/[a-z]{2}\//.test(currentUrl)) {
+              newUrl = '/' + savedLanguage + currentUrl;
+          }
+
+          window.location.href = newUrl;
+      } else if (savedLanguage === defaultLanguage && /\/[a-z]{2}\//.test(currentUrl)) {
+          newUrl = currentUrl.replace(/\/[a-z]{2}(\/|$)/, '/');
+          window.location.href = newUrl;
+      }
+  }
+
+  var dropdown = document.querySelectorAll(".dropdown");
+  dropdown.forEach(element => {
+    setDefaultLanguage(element);
+    element.addEventListener('change', () => changeLanguage(element));
+  });
 
   const header = document.querySelector('.c-header');
   const header_inner = document.querySelector('.c-header-inner');

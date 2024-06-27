@@ -16,16 +16,16 @@
             <!-- <input type="hidden" name="_to" value="{{include.form_submission_email}}"> -->
             <div class="{{c}}-form-group">
               <label class="{{c}}-form-label screen-reader-text" for="form-name">Your Name</label>
-              <input class="{{c}}-form-input" id="form-name" type="text" name="name" placeholder="Your name..." required>
+              <input class="{{c}}-form-input" id="form-name" type="text" name="name" placeholder="{{include.form_name_place_holder}}" required>
             </div>
             <div class="{{c}}-form-group">
               <label class="{{c}}-form-label screen-reader-text" for="form-email">Your Email</label>
-              <input class="{{c}}-form-input" id="form-email" type="email" name="_replyto" placeholder="Your email..."
+              <input class="{{c}}-form-input" id="form-email" type="email" name="_replyto" placeholder="{{include.form_email_place_holder}}"
                 required>
             </div>
             <div class="{{c}}-form-group">
               <label class="{{c}}-form-label screen-reader-text" for="form-text">Your Message</label>
-              <textarea class="{{c}}-form-input" id="form-text" name="text" rows="9" placeholder="Your message..."
+              <textarea class="{{c}}-form-input" id="form-text" name="text" rows="9" placeholder="{{include.form_message_place_holder}}"
                 required></textarea>
             </div>
             <div class="{{c}}-form-group {{c}}-form-group--button">

@@ -1,11 +1,13 @@
 {% if include.show_posts %}
 <div class="container animate">
   <div class="row" data-pagebreak="6">
-    {% for post in site.posts %}
-      {% bookshop blog-card post=post %}
+    {% assign sorted_posts = site[page.collection] | reverse %}
+    {% assign filtered_posts = sorted_posts | where_exp: "post", "post.path contains '/posts'" %}
+    {% for post in filtered_posts %}
+        {% bookshop blog-card post=post %}
     {% endfor %}
   </div>
 </div>
 
-{% bookshop_include pagination %}
+{% bookshop_include pagination prev=include.prev next=include.next of=include.of page=include.page%}
 {% endif %}

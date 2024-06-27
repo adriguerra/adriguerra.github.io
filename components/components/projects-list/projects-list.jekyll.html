@@ -1,9 +1,12 @@
 {% if include.show_projects %}
 <div class="container animate">
   <div class="row">
-    {% assign sorted = site.projects | reverse %}
+
+    {% assign sorted = site[page.collection] | reverse %}
     {% for project in sorted %}
-      {% bookshop project-card project=project %}
+      {% if project.path contains "/projects/" %}
+        {% bookshop project-card project=project %}
+      {% endif %}
     {% endfor %}
   </div>
 </div>
