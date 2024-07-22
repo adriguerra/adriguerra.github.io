@@ -7,7 +7,7 @@
   &:hover {
     transform: translateY(-4px);
 
-    .article__inner {
+    .article-inner {
       box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     }
   }
@@ -18,7 +18,7 @@
     }
   }
 
-  &__inner {
+  &-inner {
     border-radius: 16px;
     overflow: hidden;
     transform: translate(0);
@@ -26,11 +26,11 @@
     transition: box-shadow .2s;
   }
 
-  &__image-wrap {
+  &-image-wrap {
     background: $background-color-alt;
   }
 
-  &__image {
+  &-image {
     position: relative;
     display: block;
     height: 0;
@@ -47,7 +47,7 @@
     }
   }
 
-  &__content {
+  &-content {
     position: relative;
     z-index: 1;
     padding: 28px;
@@ -56,11 +56,11 @@
     background: $background-color-alt;
   }
 
-  &__tags-box {
+  &-tags-box {
     display: flex;
   }
 
-  &__tag {
+  &-tag {
     position: relative;
     z-index: 1;
     display: inline-block;
@@ -102,7 +102,7 @@
     }
   }
 
-  &__title {
+  &-title {
     margin: 16px 0;
     font-size: 24px;
     line-height: 1.3;
@@ -119,7 +119,7 @@
     }
   }
 
-  &__excerpt {
+  &-excerpt {
     display: -webkit-box;
     font-size: 15px;
     line-height: 1.6;
@@ -130,14 +130,14 @@
     -webkit-box-orient: vertical;
   }
 
-  &__meta {
+  &-meta {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 
   }
 
-  &__author-image {
+  &-author-image {
     position: relative;
     width: 44px;
     height: 44px;
@@ -157,19 +157,19 @@
     }
   }
 
-  &__info {
+  &-info {
     display: flex;
     flex-direction: column;
   }
 
-  &__author-name {
+  &-author-name {
     margin-bottom: 6px;
     font-size: 16px;
     line-height: 1;
     font-weight: 600;
   }
 
-  &__date {
+  &-date {
     font-size: 12px;
     line-height: 14px;
   }
@@ -178,16 +178,16 @@
 .dark .c-blog-card{
 
   &:hover {
-    .article__inner {
+    .article-inner {
       box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1); 
     }
   }
 
-  &__image-wrap {
+  &-image-wrap {
     background: $dark-background-color-alt;
   }
 
-  &__image {
+  &-image {
     background: $dark-blue-gray;
 
     img {
@@ -195,11 +195,11 @@
     }
   }
 
-  &__content {
+  &-content {
     background: $dark-background-color-alt;
   }
 
-  &__tag {
+  &-tag {
     color: $dark;
     background: linear-gradient(90deg, $dark-primary-color 0%, $dark-secondary-color 167%);
 
@@ -209,7 +209,7 @@
 
   }
 
-  &__title {
+  &-title {
     a {
       &:hover {
         color: $dark-text-color;
@@ -217,12 +217,12 @@
     }
   }
 
-  &__excerpt {
+  &-excerpt {
     color: $dark-text-color;
   }
 
 
-  &__author-image {
+  &-author-image {
     background-color: $dark-blue-gray;   
   }
 

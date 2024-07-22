@@ -1,6 +1,6 @@
 .c-testimonial-card {
 
-	&__content {
+	&-content {
 		width: 100%;
 		padding: 32px;
 		border-radius: 16px;
@@ -8,14 +8,14 @@
 		background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
 	}
 
-	&__client-meta {
+	&-client-meta {
 		display: flex;
 		align-items: center;
 		flex-direction: column;
 		margin-bottom: 32px;
 	}
 
-	&__client-text {
+	&-client-text {
 		position: relative;
 		margin-bottom: 0;
 		font-size: 15px;
@@ -38,7 +38,7 @@
 		}
 	}
 
-	&__image-container {
+	&-image-container {
 		position: relative;
 		width: 80px;
 		height: 80px;
@@ -58,18 +58,18 @@
 		}
 	}
 
-	&__client-info {
+	&-client-info {
 		text-align: center;
 	}
 
-	&__client-name {
+	&-client-name {
 		margin-bottom: 8px;
 		font-size: 21px;
 		line-height: 1;
 		letter-spacing: normal;
 	}
 
-	&__client-position {
+	&-client-position {
 		margin: 0;
 		font-size: 14px;
 		font-weight: 500;
@@ -79,12 +79,12 @@
 }
 
 .dark .c-testimonial-card {
-	&__content {
+	&-content {
 		color: $dark;
 		background: linear-gradient(90deg, $dark-primary-color 0%, $dark-secondary-color 167%);
 	}
 
-	&__client-text {
+	&-client-text {
 		&::after {
 			color: $dark;
 		}

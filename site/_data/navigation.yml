@@ -1,8 +1,8 @@
 logo_image: '/images/Adrian_Guerra.svg' # You can add own logo. For example '/images/logo.png'.
 logo_image_white: '/images/Adrian_Guerra_White.svg'
 
-menu__settings:
-  menu__items:
+menu-settings:
+  menu-items:
     en:
       - title: 'About'
         url: '/about'

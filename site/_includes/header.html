@@ -2,18 +2,18 @@
 <header class="c-header">
   <div class="container">
     <div class="row">
-      <div class="c-header__inner">
+      <div class="c-header-inner">
 
         <div class="logo">
-          <a class="logo__link" href="{{ site.baseurl }}/{% if page.collection != site.language_default %}{{page.collection}}{%endif%}">
+          <a class="logo-link" href="{{ site.baseurl }}/{% if page.collection != site.language_default %}{{page.collection}}{%endif%}">
           {%if site.data.navigation.logo_image %}
-            <img class="logo__image" src="{{ site.baseurl }}{{ site.data.navigation.logo_image }}" alt="{{ site.data.general_settings.title }}">
+            <img class="logo-image" src="{{ site.baseurl }}{{ site.data.navigation.logo_image }}" alt="{{ site.data.general_settings.title }}">
           {% else %}
             {{ site.data.settings.title }}
           {% endif %}
           
           {%if site.data.navigation.logo_image_white %}
-            <img class="logo__image__white" src="{{ site.baseurl }}{{ site.data.navigation.logo_image_white}}" alt="{{ site.data.general_settings.title }}">
+            <img class="logo-image-white" src="{{ site.baseurl }}{{ site.data.navigation.logo_image_white}}" alt="{{ site.data.general_settings.title }}">
           {% else %}
             {{ site.data.settings.title }}
           {% endif %}
@@ -21,29 +21,29 @@
         </div>
 
         <nav class="main-nav">
-          <div class="main-nav__box">
+          <div class="main-nav-box">
 
-            <div class="nav__icon-close">
+            <div class="nav-icon-close">
               <i class="ion ion-md-close"></i>
             </div>
 
-            <div class="nav__title">Menu</div>
+            <div class="nav-title">Menu</div>
               <div class="nav-list">                
-                <ul class="nav__list list-reset">
+                <ul class="nav-list-ul list-reset">
 
-                  {% for item in site.data.navigation.menu__settings.menu__items[page.collection] %}
+                  {% for item in site.data.navigation.menu-settings.menu-items[page.collection] %}
                     {% if item.submenu %}
-                    <li class="nav__item dropdown">
-                      <span class="nav__link dropdown-toggle">{{ item.title }} <i class="ion ion-ios-arrow-down arrow-down"></i></span>
+                    <li class="nav-item dropdown">
+                      <span class="nav-link dropdown-toggle">{{ item.title }} <i class="ion ion-ios-arrow-down arrow-down"></i></span>
                       <div class="dropdown-menu">
                         {% for submenu-item in item.submenu %}
-                          <a href="{{ submenu-item.url }}" class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
+                          <a href="{{ submenu-item.url }}" class="nav-link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
                         {% endfor %}
                       </div>
                     </li>
                     {% else %}
-                    <li class="nav__item">
-                      <a href="{{ item.url | relative_url }}" class="nav__link{% if page.url == item.url %} active-link{% endif %}">{{ item.title }}</a>
+                    <li class="nav-item">
+                      <a href="{{ item.url | relative_url }}" class="nav-link{% if page.url == item.url %} active-link{% endif %}">{{ item.title }}</a>
                     </li>
                     {% endif %}
                   {% endfor %}
@@ -58,7 +58,7 @@
         </nav>
 
         <div class="nav-button">
-          <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
+          <i class="nav-icon nav-icon-menu ion ion-md-menu"></i>
         </div>
 
       </div>

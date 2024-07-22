@@ -11,21 +11,21 @@
   }
 }
 
-.section__info {
+.section-info {
   margin-bottom: 60px;
 
-  .section__head {
+  .section-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
   
-    .section__title {
+    .section-title {
       margin: 0;
       font-size: 32px;
       line-height: 1;
     }
   
-    .section__link {
+    .section-link {
       font-size: 16px;
       font-weight: 500;
       line-height: 1;
@@ -55,7 +55,7 @@
     }
   }
 
-  .section__description {
+  .section-description {
     max-width: 480px;
     line-height: 1.6;
     margin: 32px 0 0;
@@ -66,7 +66,7 @@
   }
 
   @media only screen and (max-width: $desktop) {
-    .section__description {
+    .section-description {
       max-width: 100%;
     }
   }
@@ -74,23 +74,23 @@
   @media only screen and (max-width: $mobile) {
     margin-bottom: 48px;
 
-    .section__head {
+    .section-head {
 
-      .section__title {
+      .section-title {
         margin-right: 12px;
         font-size: 28px;
       }
 
-      .section__link {
+      .section-link {
         font-size: 14px;
       }
     }
   }
 }
 
-.dark .section__info {
-  .section__head {  
-    .section__link { 
+.dark .section-info {
+  .section-head {  
+    .section-link { 
       &:hover {
         color: $dark-text-color;
       }

@@ -15,7 +15,7 @@ layout: default
       {%endif %}
 
       <div class="col col-6 col-d-12">
-        <div class="post__info">
+        <div class="post-info">
 
           {% if page.tags.size >= 1 %}
           <div class="post-tags">
@@ -25,22 +25,22 @@ layout: default
               {% assign url_collection = "/" | append: page.collection %}
             {% endif %}
             {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}{{url_collection}}/tag/{{ tag | downcase }}" class="post-tags__tag">{{ tag }}</a>
+              <a href="{{ site.baseurl }}{{url_collection}}/tag/{{ tag | downcase }}" class="post-tags-tag">{{ tag }}</a>
             {% endfor %}
           </div>
           {% endif %}
 
 
-          <h1 class="post__title">{{ page.title | escape }}</h1>
+          <h1 class="post-title">{{ page.title | escape }}</h1>
 
-          <div class="post__meta">
-            <div class="post__author-image">
+          <div class="post-meta">
+            <div class="post-author-image">
               <img loading="lazy" src="{{ site.data.author.author_image }}" alt="{{ site.data.author.author_name }}">
             </div>
 
-            <div class="post__meta-bottom">
-              <div class="post__author">{{ site.data.author.author_name }}</div>
-              <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string
+            <div class="post-meta-bottom">
+              <div class="post-author">{{ site.data.author.author_name }}</div>
+              <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string
                 }}</time>
             </div>
           </div>
@@ -56,7 +56,7 @@ layout: default
 
   <article class="post">
 
-    <div class="post__content" style="text-align: justify;">
+    <div class="post-content" style="text-align: justify;">
       {{ content }}
     </div>
 

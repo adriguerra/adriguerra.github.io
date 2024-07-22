@@ -5,24 +5,24 @@
 		position: relative;
 	}
 
-	&__form-box {
+	&-form-box {
 		max-width: 580px;
 		margin: 0 auto;
 		padding-top: 140px;
 	}
 
-	&__contact-head {
+	&-contact-head {
 		margin-bottom: 48px;
 		text-align: center;
 	}
 
-	&__contact-title {
+	&-contact-title {
 		display: inline-block;
 		margin-bottom: 20px;
 		font-size: 58px;
 	}
 
-	&__contact-description {
+	&-contact-description {
 		font-size: 20px;
 		font-weight: 600;
 
@@ -31,12 +31,12 @@
 		}
 	}
 
-	&__form {
+	&-form {
 		position: relative;
 		margin-bottom: 60px;
 	}
 
-	&__form-group {
+	&-form-group {
 		margin-bottom: 20px;
 		font-size: 0;
 
@@ -45,7 +45,7 @@
 		}
 	}
 
-	&__form-input {
+	&-form-input {
 		width: 100%;
 		padding: 22px;
 		font-size: 16px;
@@ -72,7 +72,7 @@
 
 .dark .c-contact-form { $c: &;
 
-	&__form-input {
+	&-form-input {
 		border: 1px solid $dark-border-color;
 		color: $dark-text-color;
 		background: $dark-background-color-alt;

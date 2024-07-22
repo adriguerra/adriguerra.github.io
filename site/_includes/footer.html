@@ -2,16 +2,16 @@
 <footer class="footer">
     <div class="first-row">
       <div class="logo">
-        <a class="logo__link" href="{{ site.baseurl}}/">
+        <a class="logo-link" href="{{ site.baseurl}}/">
           {%if site.data.navigation.logo_image %}
-          <img class="logo__image" src="{{ site.baseurl }}{{ site.data.navigation.logo_image }}"
+          <img class="logo-image" src="{{ site.baseurl }}{{ site.data.navigation.logo_image }}"
             alt="{{ site.data.general_settings.title }}">
           {% else %}
           {{ site.data.settings.title }}
           {% endif %}
 
           {%if site.data.navigation.logo_image_white %}
-          <img class="logo__image__white" src="{{ site.baseurl }}{{ site.data.navigation.logo_image_white}}"
+          <img class="logo-image-white" src="{{ site.baseurl }}{{ site.data.navigation.logo_image_white}}"
             alt="{{ site.data.general_settings.title }}">
           {% else %}
           {{ site.data.settings.title }}
@@ -30,23 +30,22 @@
     <div class="horizontal-line"></div>
     <div class="second-row">
       <ul class="footer_nav">
-        {% for item in site.data.footer.footer_menu__settings.menu__items[page.collection] %}
-        <li class="footer_nav__item">
-          <a href="{{ item.url | relative_url }}" class="footer_nav__link">{{ item.title }}</a>
+        {% for item in site.data.footer.footer-menu-settings.menu-items[page.collection] %}
+        <li class="footer_nav-item">
+          <a href="{{ item.url | relative_url }}" class="footer_nav-link">{{ item.title }}</a>
         </li>
         {% endfor %}
       </ul>
       <div class="horizontal-line line-2"></div>
       <div class="form-social">
-        <div class="form">
+        <div class="form-subscribe">
           <span class="">Subscribe to my newsletter</span>  
           <form class="validate" action="//{{ site.data.newsletter.newsletter_identifier }}"
             method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
             <input class="" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Email">
-            <button class="" id="membedded-subscribe" type="submit" name="subscribe">Sign Up</button>
-          </form>
-        
-      </div>
+            <button class="" id="membedded-subscribe" type="submit" name="subscribe"><i class="ion ion-md-arrow-round-forward"></i></button>
+          </form> 
+        </div>
       
       {% bookshop_include social-link %}
       </div>

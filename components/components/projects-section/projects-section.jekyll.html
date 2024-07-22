@@ -3,14 +3,13 @@
   <div class="container">
     <div class="row">
       <div class="col col-12">
-        <div class="contaniner__inner animate">
-
-          <div class="section__info">
-            <div class="section__head">
-              <h2 class="section__title">{{ include.title }}</h2>
-              <a class="section__link" href="{{ site.base_url }}{{include.link_url}}">{{ include.view_all }} <i class="ion ion-md-arrow-forward"></i></a>
+        <div class="contaniner-inner animate">
+          <div class="section-info">
+            <div class="section-head">
+              <h2 class="section-title">{{ include.title }}</h2>
+              <a class="section-link" href="{{ site.base_url }}{{include.link_url}}">{{ include.view_all }} <i class="ion ion-md-arrow-forward"></i></a>
             </div>
-            <div class="section__description">{{ include.description_html }}</div>
+            <div class="section-description">{{ include.description_html }}</div>
           </div>
           {% if include.show_projects %}
           <div class="row">
