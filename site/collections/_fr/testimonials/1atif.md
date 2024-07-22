@@ -2,5 +2,5 @@
 name: Atif Aziz
 position: Principal Software Engineer at Microsoft
 image: '../images/atif.jpg'
-blurb: Adrian does not shy away from challenges. I have seen tech professionals with years of industrial experience have trouble where he delivers with ease.
+blurb: Adrian ne recule pas devant les défis. J'ai vu des professionnels en technologie avec des années d'expérience rencontrer des difficultés là où il réussit avec aisance.
 ---
