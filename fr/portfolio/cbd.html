@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Social Sentiment Analysis of CBD Consumption</title>
+  <meta name='description' content='Adrian Guerra - Freelancing Services'>
+
+  <link rel="canonical" href="/fr/portfolio/cbd">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Social Sentiment Analysis of CBD Consumption – Adrian Guerra">
+  <meta name="twitter:description" content="Problem
+Despite the rising popularity of Cannabidiol (CBD) products, there is a lack of conclusive scientific evidence regarding its health benefits. Online communities are burgeoning with discussions about CBD, its uses, effects, and health benefits, making them a rich source of unstructured data. However, there is a significant gap in systematically analyzing this wealth of information to understand public sentiment and the prevalent uses of CBD at an epidemiological scale.
+">
+  <meta name="twitter:image:src" content="/images/hemp-oil.jpg">
+
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="Social Sentiment Analysis of CBD Consumption – Adrian Guerra">
+  <meta property="og:description" content="Problem
+Despite the rising popularity of Cannabidiol (CBD) products, there is a lack of conclusive scientific evidence regarding its health benefits. Online communities are burgeoning with discussions about CBD, its uses, effects, and health benefits, making them a rich source of unstructured data. However, there is a significant gap in systematically analyzing this wealth of information to understand public sentiment and the prevalent uses of CBD at an epidemiological scale.
+">
+  <meta property="og:image" content="/images/hemp-oil.jpg">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Ionicons -->
+  <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+
+<body>
+    
+<div id="dark-mode-toggle">
+    <div class="toggle-text">
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+            <p>Sombre</p>
+        </div>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"/>
+                <line x1="12" y1="1" x2="12" y2="3"/>
+                <line x1="12" y1="21" x2="12" y2="23"/>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                <line x1="1" y1="12" x2="3" y2="12"/>
+                <line x1="21" y1="12" x2="23" y2="12"/>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+            <p>Clair</p>
+        </div>
+    </div>
+    <div class="label">
+        <div class="darkLabel">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>              
+            <p>Sombre</p>
+        </div>
+        <div class="lightLabel">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"/>
+                <line x1="12" y1="1" x2="12" y2="3"/>
+                <line x1="12" y1="21" x2="12" y2="23"/>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                <line x1="1" y1="12" x2="3" y2="12"/>
+                <line x1="21" y1="12" x2="23" y2="12"/>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+            <p>Clair</p>
+        </div>
+    </div>
+</div>
+
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4RW0YMJE1V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-4RW0YMJE1V');
+</script>
+    
+
+    <!-- begin header -->
+<header class="c-header">
+  <div class="container">
+    <div class="row">
+      <div class="c-header-inner">
+
+        <div class="logo">
+          <a class="logo-link" href="/fr">
+          
+            <img class="logo-image" src="/images/Adrian_Guerra.svg" alt="Adrian Guerra">
+          
+          
+          
+            <img class="logo-image-white" src="/images/Adrian_Guerra_White.svg" alt="Adrian Guerra">
+          
+          </a>
+        </div>
+
+        <nav class="main-nav">
+          <div class="main-nav-box">
+
+            <div class="nav-icon-close">
+              <i class="ion ion-md-close"></i>
+            </div>
+
+            <div class="nav-title">Menu</div>
+              <div class="nav-list">                
+                <ul class="nav-list-ul list-reset">
+
+                  
+                    
+                    <li class="nav-item">
+                      <a href="/fr/about" class="nav-link">About</a>
+                    </li>
+                    
+                  
+                    
+                    <li class="nav-item">
+                      <a href="/fr/blog" class="nav-link">Blog</a>
+                    </li>
+                    
+                  
+                    
+                    <li class="nav-item">
+                      <a href="/fr/portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    
+                  
+                    
+                    <li class="nav-item">
+                      <a href="/fr/#contact" class="nav-link">Contact</a>
+                    </li>
+                    
+                  
+                  
+                </ul>
+                
+<div class="language-dropdown first-language">   
+    <i class="ion ion-md-globe"></i>
+    <select class="dropdown">
+        <option value="en">EN</option>
+        <option value="fr">FR</option>
+        <option value="es">ES</option>        
+    </select>
+</div>
+
+              </div>
+          </div>
+
+          <!--bookshop-live name(social-link.jekyll.html) params(show_sign_up=true) context() -->
+          
+<div class="social">
+  <ul class="social-list list-reset">
+    
+    <li class="social-item">
+      <a class="social-link" href="https://instagram.com/adriguerra/" target="_blank" rel="noopener" aria-label="instagram icon"><i class="ion ion-logo-instagram"></i></a>
+    </li>
+    
+    <li class="social-item">
+      <a class="social-link" href="https://linkedin.com/in/adriguerra/" target="_blank" rel="noopener" aria-label="linkedin icon"><i class="ion ion-logo-linkedin"></i></a>
+    </li>
+    
+    <li class="social-item">
+      <a class="social-link" href="https://github.com/adriguerra" target="_blank" rel="noopener" aria-label="github icon"><i class="ion ion-logo-github"></i></a>
+    </li>
+    
+  </ul>
+</div>
+
+          <!--bookshop-live end-->     
+          
+<div class="language-dropdown second-language">   
+    <i class="ion ion-md-globe"></i>
+    <select class="dropdown">
+        <option value="en">EN</option>
+        <option value="fr">FR</option>
+        <option value="es">ES</option>        
+    </select>
+</div>
+
+        </nav>
+
+        <div class="nav-button">
+          <i class="nav-icon nav-icon-menu ion ion-md-menu"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
+
+    <main>
+        <div class="container">
+
+  <!--bookshop-live name(page-heading/page-heading.jekyll.html) params(title=page.title description=page.subtitle) context() -->
+          
+<div class="container">
+  <div class="c-page-heading">
+    <h1 class="c-page-heading-title">Social Sentiment Analysis of CBD Consumption</h1>
+    
+      <p class="c-page-heading-description">Natural Language Processing</p>
+    
+  </div>
+</div>
+          <!--bookshop-live end-->
+  
+  <!--bookshop-live name(page-image/page-image.jekyll.html) params(image=page_image) context() -->
+          
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="c-page-image animate">
+        <img loading="lazy" src="/images/hemp-oil.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+          <!--bookshop-live end-->
+
+  <div class="page animate" style="text-align: justify;">
+    <h3 id="problem">Problem</h3>
+<p>Despite the rising popularity of Cannabidiol (CBD) products, there is a lack of conclusive scientific evidence regarding its health benefits. Online communities are burgeoning with discussions about CBD, its uses, effects, and health benefits, making them a rich source of unstructured data. However, there is a significant gap in systematically analyzing this wealth of information to understand public sentiment and the prevalent uses of CBD at an epidemiological scale.</p>
+
+<h3 id="solution">Solution</h3>
+<p>The project aimed to harness the power of Natural Language Processing (NLP) to analyze discussions from online communities, specifically on the Reddit platform, where health benefits and effects of CBD are frequently discussed. The approach involved two key methodologies:</p>
+
+<ol>
+  <li>
+    <p><strong>Bio-medical Entity Recognition</strong>: This technique was applied to submissions from the Reddit communities to identify and categorize medical entities being discussed. This step was crucial for understanding the context and focus areas of the discussions, particularly related to medical terms and CBD usage.</p>
+  </li>
+  <li>
+    <p><strong>Aspect-based Sentiment Analysis</strong>: Utilizing a BERT-based sentiment analysis model, the project analyzed both submissions and comments to gauge public sentiment surrounding four aspects of CBD: effectiveness, side effects, dosage, and administration methods.</p>
+  </li>
+</ol>
+
+<h4 id="tools-used">Tools Used:</h4>
+<ol>
+  <li>
+    <p><strong>BERT (Bidirectional Encoder Representations from Transformers)</strong>: Leveraged as a state-of-the-art NLP model for understanding the context of words in search queries and performing aspect-based sentiment analysis, providing nuanced insights into public sentiment towards CBD.</p>
+  </li>
+  <li>
+    <p><strong>Bio-medical Entity Recognition Tools</strong>: Employed specialized NLP tools designed for recognizing and categorizing medical entities within large text datasets, essential for filtering and interpreting the discussions accurately.</p>
+  </li>
+</ol>
+
+<h3 id="outcome">Outcome</h3>
+<p>The analysis revealed that CBD is predominantly used for managing mental health conditions, particularly anxiety disorders, with sublingual administration being the most popular method. The overall sentiment towards CBD on these online platforms is low, with slightly positive views on its effectiveness but mixed feelings regarding side effects and dosage. This project underscores the potential of advanced NLP methods in mining social media data to track public sentiment and usage patterns related to health products like CBD. It highlights the importance of social media surveillance as a fast, convenient, and cost-effective method to complement traditional surveillance sources. The findings also suggest a need for more research and better public health communication regarding the effects and potential benefits of CBD consumption.</p>
+
+  </div>
+
+  
+  <div class="project-navigation animate">
+    <a class="project-prev" href="/fr/blog/7-lessons">
+      <div class="project-box">
+        <span class="project-nav-info">Next Project</span>
+        <h2 class="project-nav-title">7 Lessons for Student-Entrepreneurs<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
+      </div>
+    </a>
+  </div>
+  
+
+</div>
+
+
+
+<!--bookshop-live name(newsletter/newsletter.jekyll.html) params(newsletter_title=newsletter_data.newsletter_title
+  newsletter_description=newsletter_data.newsletter_description
+  newsletter_identifier=newsletter_data.newsletter_identifier
+  newsletter_placeholder=newsletter_data.newsletter_placeholder
+  newsletter_button=newsletter_data.newsletter_button) context() -->
+          <!-- begin subscribe -->
+
+<section class="c-subscribe section" id="newsletter">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+
+        <div class="c-subscribe-inner">
+          <div class="c-subscribe-info">
+            <h3 class="c-subscribe-title">Join my mailing list</h3>
+            <div class="c-subscribe-subtitle">
+              <span id="ityped"></span>
+            </div>
+          </div>
+
+          <form class="c-subscribe-form validate" action="//adriguerra.us21.list-manage.com/subscribe/post?u=797ad5c238231ca5a3ca3478e&amp;id=3ef0806f26&amp;f_id=00fffbe6f0"
+            method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+            <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
+            <input class="c-subscribe-form-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Your email address">
+            <button class="c-button c-button--primary c-button--large" id="membedded-subscribe" type="submit" name="subscribe">Subscribe</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end subscribe -->
+
+<script>
+  var itype_text = ["Get inspiration, updates and, cool stuff!"];
+</script>
+          <!--bookshop-live end-->
+
+        <!-- 
+            Bookshop components are accessed using the bookshop tag, 
+            using the same syntax as the standard Jekyll include tag.
+        -->
+        <!--bookshop-live name(page.jekyll.html) params(content_blocks=page.content_blocks page_theme=page.page_theme) context() -->
+          
+          <!--bookshop-live end-->
+
+        <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
+
+        <!-- begin footer -->
+<footer class="footer">
+    <div class="first-row">
+      <div class="logo">
+        <a class="logo-link" href="/">
+          
+          <img class="logo-image" src="/images/Adrian_Guerra.svg"
+            alt="Adrian Guerra">
+          
+
+          
+          <img class="logo-image-white" src="/images/Adrian_Guerra_White.svg"
+            alt="Adrian Guerra">
+          
+        </a>
+      </div>
+      <div class="language-dropdown">   
+        <i class="ion ion-md-globe"></i>
+        <select class="dropdown">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="es">Español</option>
+        </select>
+      </div>
+    </div>
+    <div class="horizontal-line"></div>
+    <div class="second-row">
+      <ul class="footer_nav">
+        
+        <li class="footer_nav-item">
+          <a href="/fr" class="footer_nav-link">Home</a>
+        </li>
+        
+        <li class="footer_nav-item">
+          <a href="/fr/about/" class="footer_nav-link">About</a>
+        </li>
+        
+        <li class="footer_nav-item">
+          <a href="/fr/blog/" class="footer_nav-link">Blog</a>
+        </li>
+        
+        <li class="footer_nav-item">
+          <a href="/fr/portfolio/" class="footer_nav-link">Portfolio</a>
+        </li>
+        
+      </ul>
+      <div class="horizontal-line line-2"></div>
+      <div class="form-social">
+        <div class="form-subscribe">
+          <span class="">Subscribe to my newsletter</span>  
+          <form class="validate" action="//"
+            method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+            <input class="" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Email">
+            <button class="" id="membedded-subscribe" type="submit" name="subscribe"><i class="ion ion-md-arrow-round-forward"></i></button>
+          </form> 
+        </div>
+      
+      <!--bookshop-live name(social-link.jekyll.html) params() context() -->
+          
+<div class="social">
+  <ul class="social-list list-reset">
+    
+    <li class="social-item">
+      <a class="social-link" href="https://instagram.com/adriguerra/" target="_blank" rel="noopener" aria-label="instagram icon"><i class="ion ion-logo-instagram"></i></a>
+    </li>
+    
+    <li class="social-item">
+      <a class="social-link" href="https://linkedin.com/in/adriguerra/" target="_blank" rel="noopener" aria-label="linkedin icon"><i class="ion ion-logo-linkedin"></i></a>
+    </li>
+    
+    <li class="social-item">
+      <a class="social-link" href="https://github.com/adriguerra" target="_blank" rel="noopener" aria-label="github icon"><i class="ion ion-logo-github"></i></a>
+    </li>
+    
+  </ul>
+</div>
+
+          <!--bookshop-live end-->
+      </div>
+    </div>
+    <div class="horizontal-line line-3"></div>
+    <div class="third-row">
+        
+        <div class="copyright"><p>&copy;2023 <a href="/fr">Adrian Guerra Consulting.</a> All Rights Reserved.</p></div>
+    </div>
+</footer>
+<!-- end footer -->
+    </main>
+
+    <!--
+        load the live component for CloudCannon live previews.
+    -->
+    <script>
+(function(){
+  const bookshopLiveSetup = (CloudCannon) => {
+    CloudCannon.enableEvents();
+
+    const head = document.querySelector('head');
+    const script = document.createElement('script');
+    script.src = `/_cloudcannon/bookshop-live.js`;
+    script.onload = function() {
+      window.bookshopLive = new window.BookshopLive({
+        remoteGlobals: ['/_cloudcannon/bookshop-site-data.json']
+      });
+      const updateBookshopLive = async () => {
+        const frontMatter = await CloudCannon.value();
+        const options = window.bookshopLiveOptions || {};
+        await window.bookshopLive.update({page: frontMatter}, options);
+        CloudCannon?.refreshInterface?.();
+      }
+      document.addEventListener('cloudcannon:update', updateBookshopLive);
+      updateBookshopLive();
+    }
+    head.appendChild(script);
+  }
+
+  document.addEventListener('cloudcannon:load', function (e) {
+    bookshopLiveSetup(e.detail.CloudCannon);
+  });
+})();
+</script>
+
+    <script src="/js/scripts.js"></script>
+    <script src="/js/common.js"></script>
+    <!-- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> -->
+</body>
+</html>

@@ -36,7 +36,8 @@ In the volatile oil trading market, predicting the volume of oil flow through pi
 </head>
 
 <body>
-    <div id="dark-mode-toggle">
+    
+<div id="dark-mode-toggle">
     <div class="toggle-text">
         <div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -127,19 +128,19 @@ In the volatile oil trading market, predicting the volume of oil flow through pi
                   
                     
                     <li class="nav-item">
-                      <a href="/about/" class="nav-link">About</a>
+                      <a href="/about" class="nav-link">About</a>
                     </li>
                     
                   
                     
                     <li class="nav-item">
-                      <a href="/portfolio/" class="nav-link">Portfolio</a>
+                      <a href="/blog" class="nav-link">Blog</a>
                     </li>
                     
                   
                     
                     <li class="nav-item">
-                      <a href="/blog/" class="nav-link">Blog</a>
+                      <a href="/portfolio" class="nav-link">Portfolio</a>
                     </li>
                     
                   
@@ -285,10 +286,13 @@ In the volatile oil trading market, predicting the volume of oil flow through pi
 
 </div>
 
-<!--bookshop-live name(newsletter/newsletter.jekyll.html) params(newsletter_title=site.data.newsletter.newsletter_title
-  newsletter_description=site.data.newsletter.newsletter_description
-  newsletter_identifier=site.data.newsletter.newsletter_identifier
-  newsletter_button=site.data.newsletter.newsletter_button) context() -->
+
+
+<!--bookshop-live name(newsletter/newsletter.jekyll.html) params(newsletter_title=newsletter_data.newsletter_title
+  newsletter_description=newsletter_data.newsletter_description
+  newsletter_identifier=newsletter_data.newsletter_identifier
+  newsletter_placeholder=newsletter_data.newsletter_placeholder
+  newsletter_button=newsletter_data.newsletter_button) context() -->
           <!-- begin subscribe -->
 
 <section class="c-subscribe section" id="newsletter">
@@ -319,7 +323,7 @@ In the volatile oil trading market, predicting the volume of oil flow through pi
 <!-- end subscribe -->
 
 <script>
-  var itype_text = ['Get inspiration, updates and, cool stuff!'];
+  var itype_text = ["Get inspiration, updates and, cool stuff!"];
 </script>
           <!--bookshop-live end-->
 
@@ -378,16 +382,12 @@ In the volatile oil trading market, predicting the volume of oil flow through pi
           <a href="/portfolio/" class="footer_nav-link">Portfolio</a>
         </li>
         
-        <li class="footer_nav-item">
-          <a href="/services/" class="footer_nav-link">Services</a>
-        </li>
-        
       </ul>
       <div class="horizontal-line line-2"></div>
       <div class="form-social">
         <div class="form-subscribe">
           <span class="">Subscribe to my newsletter</span>  
-          <form class="validate" action="//adriguerra.us21.list-manage.com/subscribe/post?u=797ad5c238231ca5a3ca3478e&amp;id=3ef0806f26&amp;f_id=00fffbe6f0"
+          <form class="validate" action="//"
             method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
             <input class="" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Email">
             <button class="" id="membedded-subscribe" type="submit" name="subscribe"><i class="ion ion-md-arrow-round-forward"></i></button>
