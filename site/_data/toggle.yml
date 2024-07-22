@@ -1,0 +1,9 @@
+en:
+  light: 'Light'
+  dark: 'Dark'
+fr:
+  light: 'Clair'
+  dark: 'Sombre'
+es:
+  light: 'Claro'
+  dark: 'Oscuro'

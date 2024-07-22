@@ -1,0 +1,9 @@
+{% assign collection=page.collection %}
+{% assign newsletter_data = site.data.newsletter[collection] %}
+{% bookshop
+  newsletter newsletter_title=newsletter_data.newsletter_title
+  newsletter_description=newsletter_data.newsletter_description
+  newsletter_identifier=newsletter_data.newsletter_identifier
+  newsletter_placeholder=newsletter_data.newsletter_placeholder
+  newsletter_button=newsletter_data.newsletter_button
+%}

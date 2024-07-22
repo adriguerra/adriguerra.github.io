@@ -19,8 +19,13 @@ layout: default
 
           {% if page.tags.size >= 1 %}
           <div class="post-tags">
+            {% if page.collection == site.language_default %}
+              {% assign url_collection = "" %}
+            {% else %}
+              {% assign url_collection = "/" | append: page.collection %}
+            {% endif %}
             {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}/tag/{{ tag | downcase }}" class="post-tags-tag">{{ tag }}</a>
+              <a href="{{ site.baseurl }}{{url_collection}}/tag/{{ tag | downcase }}" class="post-tags-tag">{{ tag }}</a>
             {% endfor %}
           </div>
           {% endif %}
@@ -75,9 +80,4 @@ layout: default
   {% include disqus-comments.html %}
 {% endif %}
 
-{% bookshop
-  newsletter newsletter_title=site.data.newsletter.newsletter_title
-  newsletter_description=site.data.newsletter.newsletter_description
-  newsletter_identifier=site.data.newsletter.newsletter_identifier
-  newsletter_button=site.data.newsletter.newsletter_button
-%}
+{% include newsletter.html %}

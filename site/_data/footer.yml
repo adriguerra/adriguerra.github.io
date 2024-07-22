@@ -1,18 +1,44 @@
 footer-menu-settings:
   menu-items:
-    - title: 'Home'
-      url: '/'
-    - title: 'About'
-      url: '/about/'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'Portfolio'
-      url: '/portfolio/'
-    - title: 'Services'
-      url: '/services/'
-    # - title: 'Elements'
-    #   url: '/elements/'
+    en:
+      - title: 'Home'
+        url: '/'
+      - title: 'About'
+        url: '/about/'
+      - title: 'Blog'
+        url: '/blog/'
+      - title: 'Portfolio'
+        url: '/portfolio/'
+      # - title: 'Services'
+      #   url: '/services/'
+        
+    fr:
+      - title: 'Home'
+        url: '/fr'
+      - title: 'About'
+        url: '/fr/about/'
+      - title: 'Blog'
+        url: '/fr/blog/'
+      - title: 'Portfolio'
+        url: '/fr/portfolio/'
+      # - title: 'Services'
+      #   url: '/services/'
+    es:
+      - title: 'Home'
+        url: '/es'
+      - title: 'About'
+        url: '/es/about/'
+      - title: 'Blog'
+        url: '/es/blog/'
+      - title: 'Portfolio'
+        url: '/es/portfolio/'
+      # - title: 'Services'
+      #   url: '/services/'
 
-
-copyright_text_html: >-
-  <p>&copy;2023 <a href="/">Adrian Guerra Consulting.</a> All Rights Reserved.</p>
+copyright_text_html: 
+  en: >-
+    <p>&copy;2023 <a href="/">Adrian Guerra Consulting.</a> All Rights Reserved.</p>
+  fr: >-
+    <p>&copy;2023 <a href="/fr">Adrian Guerra Consulting.</a> All Rights Reserved.</p>
+  es: >-
+    <p>&copy;2023 <a href="/fr">Adrian Guerra Consulting.</a> All Rights Reserved.</p>

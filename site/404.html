@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Page Not Found</title>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Define the original path
+      const originalPath = window.location.pathname;
+
+      // Regex to match the language code at the start of the path (e.g., /fr/)
+      const langCodeRegex = /^\/[a-z]{2}(\/|$)/;
+
+      // Check if the path matches the regex pattern
+      if (langCodeRegex.test(originalPath)) {
+        // Remove the language code from the path
+        const newPath = originalPath.replace(langCodeRegex, '/');
+
+        // Redirect to the new path without the language code
+        window.location.href = newPath;
+        localStorage.setItem('selectedLanguage', "en");
+      }
+    });
+  </script>
+</head>
+<body>
+  <h1>404: Page Not Found</h1>
+  <p>Sorry, but the page you are looking for does not exist. Redirecting...</p>
+  <p>If you are not redirected automatically, <a id="redirect-link" href="/">click here</a>.</p>
+</body>
+</html>

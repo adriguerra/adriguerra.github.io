@@ -4,7 +4,7 @@ plugins:
   - jekyll-bookshop
   - cloudcannon-jekyll-bookshop
   - jekyll-sitemap
-  - jekyll/tagging
+  # - jekyll/tagging
   - jekyll-pagebreak
 
 # Multiple bookshops can be used on one website,
@@ -25,21 +25,21 @@ _array_structures:
   content_blocks:
     style: modal
 
+language_default: en
+
 collections_dir: 'collections'
 
 collections:
-  pages:
+  en:
     output: true
-    permalink: /:title/
-  projects:
+    permalink: /:slug
+  fr:
     output: true
-    permalink: /portfolio/:slug
-  testimonials:
-    output: false
-  posts:
+    permalink: /:collection/:slug
+  es:
     output: true
-    permalink: /blog/:slug
-
+    permalink: /:collection/:slug
+  
 cloudcannon:
   collections:
     pages:
@@ -74,20 +74,48 @@ defaults:
       layout: default
   - scope:
       type: pages
-      path: _pages/index.html
+      path: _en/pages/index.html
     values:
       permalink: /
   - scope:
-      type: projects
+      path: _en/projects
     values:
       layout: project
+      permalink: /portfolio/:slug
   - scope:
-      type: posts
+      path: _en/posts
     values:
       layout: post
+      permalink: /blog/:slug
 
+  - scope:
+      type: pages
+      path: _fr/pages/index.html
+    values:
+      permalink: /
+  - scope:
+      path: _fr/projects
+    values:
+      layout: project
+      permalink: /fr/portfolio/:slug
+  - scope:
+      path: _fr/posts
+    values:
+      layout: post
+      permalink: /fr/blog/:slug
 
-# Tags
-tag_page_dir: tag
-tag_page_layout: tag_page
-tag_permalink_style: /:title
+  - scope:
+      type: pages
+      path: _es/pages/index.html
+    values:
+      permalink: /
+  - scope:
+      path: _es/projects
+    values:
+      layout: project
+      permalink: /es/portfolio/:slug
+  - scope:
+      path: _es/posts
+    values:
+      layout: post
+      permalink: /es/blog/:slug

@@ -5,7 +5,7 @@
       <div class="c-header-inner">
 
         <div class="logo">
-          <a class="logo-link" href="{{ site.baseurl }}/">
+          <a class="logo-link" href="{{ site.baseurl }}/{% if page.collection != site.language_default %}{{page.collection}}{%endif%}">
           {%if site.data.navigation.logo_image %}
             <img class="logo-image" src="{{ site.baseurl }}{{ site.data.navigation.logo_image }}" alt="{{ site.data.general_settings.title }}">
           {% else %}
@@ -31,7 +31,7 @@
               <div class="nav-list">                
                 <ul class="nav-list-ul list-reset">
 
-                  {% for item in site.data.navigation.menu-settings.menu-items %}
+                  {% for item in site.data.navigation.menu-settings.menu-items[page.collection] %}
                     {% if item.submenu %}
                     <li class="nav-item dropdown">
                       <span class="nav-link dropdown-toggle">{{ item.title }} <i class="ion ion-ios-arrow-down arrow-down"></i></span>

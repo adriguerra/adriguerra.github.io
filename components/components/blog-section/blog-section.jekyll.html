@@ -4,19 +4,20 @@
     <div class="row">
       <div class="col col-12">
         <div class="contaniner-inner animate">
-
           <div class="section-info">
             <div class="section-head">
               <h2 class="section-title">{{ include.title }}</h2>
-              <a class="section-link" href="{{ include.link_url | relative_url }}">View all <i class="ion ion-md-arrow-forward"></i></a>
+              <a class="section-link" href="{{ site.base_url }}{{include.link_url}}">{{ include.view_all }} <i class="ion ion-md-arrow-forward"></i></a>
             </div>
             <div class="section-description">{{ include.description_html }} </div>
           </div>
 
           {% if include.show_posts %}
           <div class="row">
-            {% if site.posts.size > 0 %}
-              {% for post in site.posts offset:0 limit:3 %}
+            {% assign filtered_posts = site[page.collection] | where_exp: "post", "post.path contains '/posts/'"  | reverse  %}
+
+            {% if filtered_posts.size > 0 %}
+              {% for post in filtered_posts offset:0 limit:3 %}
                 {% bookshop blog-card post=post %}
               {% endfor %}
             {% endif %}
