@@ -1,6 +1,6 @@
 ---
 name: Cosmin Rusu
-position: Founder and Lead Software Engineer at Duty Ventures
+position: Fondateur et Ingénieur Logiciel Principal chez Duty Ventures
 image: '../images/cosmin.jpg'
-blurb: Adrian est organisé, planifie bien et communique de manière proactive. Sa capacité à passer à l'action fait de lui un excellent entrepreneur.
+blurb: Adrian est organisé, planifie méticuleusement et communique de manière proactive. Ce qui le distingue particulièrement, c'est sa capacité à passer à l'action, ce qui en fait un entrepreneur exceptionnel.
 ---
