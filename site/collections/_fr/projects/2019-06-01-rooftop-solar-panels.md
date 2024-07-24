@@ -1,31 +1,31 @@
 ---
 date: 2019-06-01
-title: "Automatic Detection of Rooftop Solar Panels using Convolutional Neural Networks"
+title: "Détection Automatique de Panneaux Solaires sur les Toits en Utilisant des Réseaux de Neurones Convolutionnels"
 subtitle: Deep Learning
 image: '/images/deepsolar_getty-960x540.jpg'
 ---
 
 ***Note:***
-*This project culminated in the publication of an academic paper, detailing our methodology, findings, and implications for the broader field of distributed energy infrastructure and urban planning. The paper, titled "Automatic Detection of Rooftop Solar Panels using Convolutional Neural Networks," and co-authored along with Roberto Castello, Simon Roquette, Martin Esguerra and Jean-Louis Scartezzini, is accessible at the following [link.](https://iopscience.iop.org/article/10.1088/1742-6596/1343/1/012034)*
+*Ce projet a abouti à la publication d'un article académique détaillant notre méthodologie, nos résultats et leurs implications pour le domaine plus large de l'infrastructure énergétique distribuée et de la planification urbaine. L'article, intitulé "Automatic Detection of Rooftop Solar Panels using Convolutional Neural Networks," et co-écrit avec Roberto Castello, Simon Roquette, Martin Esguerra et Jean-Louis Scartezzini, est accessible via le lien suivant [ici.](https://iopscience.iop.org/article/10.1088/1742-6596/1343/1/012034)*
 
-### Problem
-Accurately mapping the location and size of solar installations in urban areas presents a significant challenge yet is crucial for policymakers and investors in distributed energy infrastructures. Traditional methods, such as surveys and database analysis, are often limited in scope and scalability, leading to a gap in comprehensive, large-scale mapping of solar installations. This gap hinders effective policy-making and investment in solar technology.
+### Problème
+Cartographier avec précision l'emplacement et la taille des installations solaires dans les zones urbaines présente un défi significatif mais crucial pour les décideurs politiques et les investisseurs dans les infrastructures énergétiques distribuées. Les méthodes traditionnelles, telles que les enquêtes et l'analyse de bases de données, sont souvent limitées en portée et en échelle, entraînant une lacune dans la cartographie exhaustive et à grande échelle des installations solaires. Cette lacune entrave l'élaboration de politiques efficaces et les investissements dans la technologie solaire.
 
 ### Solution
-This project addresses the challenge by applying a supervised machine learning approach, specifically convolutional neural networks (CNNs), for the pixel-wise image segmentation of rooftop solar panels. By utilizing high-resolution aerial photos provided by the Swiss Federal Office of Topography, the project enables precise delineation and size detection of rooftop solar installations. The approach involves:
+Ce projet relève le défi en appliquant une approche d'apprentissage supervisé, en particulier les réseaux de neurones convolutionnels (CNN), pour la segmentation d'image pixel par pixel des panneaux solaires sur les toits. En utilisant des photos aériennes haute résolution fournies par l'Office fédéral de topographie suisse, le projet permet une délimitation précise et une détection de la taille des installations solaires sur les toits. L'approche comprend :
 
-1. **Data Augmentation and Parameter Tuning**: Implementing various data augmentation techniques and adjusting network parameters to optimize model performance, ensuring the model's robustness and accuracy in different urban scenarios. 
+1. **Augmentation des Données et Réglage des Paramètres** : Mise en œuvre de diverses techniques d'augmentation des données et ajustement des paramètres du réseau pour optimiser les performances du modèle, assurant la robustesse et la précision du modèle dans différents scénarios urbains.
    
-2. **Pixel-wise Image Segmentation**: Employing CNNs for pixel-wise segmentation, the model accurately identifies and delineates individual solar panels on rooftops, providing detailed insights into their distribution and size.
+2. **Segmentation d'Image Pixel par Pixel** : Utilisation des CNN pour la segmentation pixel par pixel, le modèle identifie et délimite avec précision les panneaux solaires individuels sur les toits, fournissant des informations détaillées sur leur distribution et leur taille.
 
-3. **Scalability and National Scale Prediction**: Demonstrating the scalability of the trained model by predicting the deployment of solar panels at a national level, specifically across Switzerland, showcasing the model's applicability for large-scale analysis.
+3. **Évolutivité et Prédiction à l'Échelle Nationale** : Démonstration de l'évolutivité du modèle entraîné en prévoyant le déploiement de panneaux solaires à l'échelle nationale, en particulier à travers la Suisse, montrant l'applicabilité du modèle pour une analyse à grande échelle.
 
-4. **Correlation Analysis with Environmental and Socio-economic Variables**: Analyzing the correlation between solar panel deployment and local environmental and socio-economic factors, paving the way for predictive models that can foster the future adoption of solar technology in urban areas.
+4. **Analyse de Corrélation avec des Variables Environnementales et Socio-économiques** : Analyse de la corrélation entre le déploiement des panneaux solaires et les facteurs environnementaux et socio-économiques locaux, ouvrant la voie à des modèles prédictifs pouvant favoriser l'adoption future de la technologie solaire dans les zones urbaines.
 
-### Tools Used
-1. **Python Deep Learning Libraries**: Utilizing popular Python libraries such as PyTorch, Keras, and TensorFlow to build, train, and validate the convolutional neural networks, ensuring the use of cutting-edge techniques in deep learning.
+### Outils Utilisés
+1. **Bibliothèques de Deep Learning en Python** : Utilisation de bibliothèques Python populaires telles que PyTorch, Keras et TensorFlow pour construire, entraîner et valider les réseaux de neurones convolutionnels, assurant l'utilisation des techniques les plus avancées en deep learning.
    
-2. **High-Resolution Aerial Photos**: Leveraging high-quality aerial imagery provided by the Swiss Federal Office of Topography as the primary data source for the model, ensuring accurate and high-fidelity input data for analysis.
+2. **Photos Aériennes Haute Résolution** : Utilisation d'images aériennes de haute qualité fournies par l'Office fédéral de topographie suisse comme source de données principale pour le modèle, garantissant des données d'entrée précises et de haute fidélité pour l'analyse.
 
-### Outcome
-The project successfully developed a machine learning model capable of accurately detecting and delineating rooftop solar panels in urban areas with a high degree of precision (accuracy of about 0.94 and an Intersection over Union index of up to 0.64). The scalability of the model enables the prediction of solar panel deployment on a national scale, offering valuable insights for policymakers and investors. Furthermore, the correlation of solar installation data with local environmental and socio-economic variables opens avenues for predictive analytics, supporting the strategic expansion of solar technology in urban landscapes.
+### Résultat
+Le projet a réussi à développer un modèle d'apprentissage automatique capable de détecter et de délimiter avec précision les panneaux solaires sur les toits dans les zones urbaines avec un haut degré de précision (une précision d'environ 0,94 et un indice d'intersection sur union allant jusqu'à 0,64). L'évolutivité du modèle permet de prévoir le déploiement de panneaux solaires à l'échelle nationale, offrant des informations précieuses aux décideurs politiques et aux investisseurs. De plus, la corrélation des données d'installation solaire avec les variables environnementales et socio-économiques locales ouvre des perspectives pour l'analyse prédictive, soutenant l'expansion stratégique de la technologie solaire dans les paysages urbains.
