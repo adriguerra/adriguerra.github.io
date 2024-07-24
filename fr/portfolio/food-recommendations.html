@@ -6,21 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Product Recommendation Pipeline for a Food Delivery Online Marketplace</title>
+  <title>Recommandation de Produits pour la Livraison de Nourriture en Ligne</title>
   <meta name='description' content='Adrian Guerra - Freelancing Services'>
 
   <link rel="canonical" href="/fr/portfolio/food-recommendations">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Product Recommendation Pipeline for a Food Delivery Online Marketplace – Adrian Guerra">
-  <meta name="twitter:description" content="Problem
+  <meta name="twitter:title" content="Recommandation de Produits pour la Livraison de Nourriture en Ligne – Adrian Guerra">
+  <meta name="twitter:description" content="Problème
 ">
   <meta name="twitter:image:src" content="/images/food_recs.jpg">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="Product Recommendation Pipeline for a Food Delivery Online Marketplace – Adrian Guerra">
-  <meta property="og:description" content="Problem
+  <meta property="og:title" content="Recommandation de Produits pour la Livraison de Nourriture en Ligne – Adrian Guerra">
+  <meta property="og:description" content="Problème
 ">
   <meta property="og:image" content="/images/food_recs.jpg">
 
@@ -126,7 +126,7 @@
                   
                     
                     <li class="nav-item">
-                      <a href="/fr/about" class="nav-link">About</a>
+                      <a href="/fr/about" class="nav-link">À propos de moi</a>
                     </li>
                     
                   
@@ -213,9 +213,9 @@
           
 <div class="container">
   <div class="c-page-heading">
-    <h1 class="c-page-heading-title">Product Recommendation Pipeline for a Food Delivery Online Marketplace</h1>
+    <h1 class="c-page-heading-title">Recommandation de Produits pour la Livraison de Nourriture en Ligne</h1>
     
-      <p class="c-page-heading-description">Data Analysis</p>
+      <p class="c-page-heading-description">Analyse de Données</p>
     
   </div>
 </div>
@@ -235,39 +235,39 @@
           <!--bookshop-live end-->
 
   <div class="page animate" style="text-align: justify;">
-    <h3 id="problem">Problem</h3>
+    <h3 id="problème">Problème</h3>
 
-<p>An online delivery marketplace aimed to boost its revenue by integrating data-driven improvements into its user experience. We collaboratively identified four potential data science applications for its marketplace: product recommendations, delivery time predictions, dynamic fare pricing, and delivery route optimization. After evaluating the data availability and practicality of each option, we decided to initiate a proof-of-concept initiative focusing on product recommendations within the food segment.</p>
+<p>Une place de marché de livraison en ligne visait à augmenter ses revenus en intégrant des améliorations basées sur les données dans son expérience utilisateur. Nous avons identifié quatre applications potentielles de science des données pour cette place de marché : recommandations de produits, prévisions des temps de livraison, tarification dynamique, et optimisation des itinéraires de livraison. Après avoir évalué la disponibilité des données et la faisabilité de chaque option, nous avons décidé de lancer une initiative de preuve de concept en nous concentrant sur les recommandations de produits dans le segment alimentaire.</p>
 
-<p>In 2023 alone, the food segment accounted for over 205,000 orders, generating approximately $6 million in revenue for the marketplace. The company’s databases were brimming with underutilized data that had not been leveraged for analytical purposes nor for data-driven management decisions. Additionally, the existing user interface lacked any form of personalized recommendations. The client’s goal was to explore the potential of data science to enhance the user experience by offering personalized food recommendations.</p>
+<p>En 2023 seulement, le segment alimentaire a représenté plus de 205 000 commandes, générant environ 6 millions de dollars de revenus pour la place de marché. Les bases de données de l’entreprise regorgeaient de données sous-utilisées qui n’avaient pas été exploitées à des fins analytiques ni pour des décisions de gestion basées sur les données. De plus, l’interface utilisateur existante manquait de toute forme de recommandations personnalisées. L’objectif du client était d’explorer le potentiel de la science des données pour améliorer l’expérience utilisateur en offrant des recommandations alimentaires personnalisées.</p>
 
 <h3 id="solution">Solution</h3>
 
-<p>We identified the data requirements for building a product recommendation pipeline and collected the necessary data. Drawing inspiration from <a href="https://www.uber.com/en-CH/blog/uber-eats-recommending-marketplace/">Uber Eats’ advanced recommendation techniques</a>, we designed a proof-of-concept product recommendation pipeline combining content-based and collaborative filtering methods to deliver personalized food suggestions. The development process included several key steps:</p>
+<p>Nous avons identifié les besoins en données pour construire un pipeline de recommandation de produits et avons collecté les données nécessaires. En nous inspirant des techniques avancées de recommandation d’<a href="https://www.uber.com/en-CH/blog/uber-eats-recommending-place de marché/">Uber Eats</a>, nous avons conçu un pipeline de recommandation de produits combinant des méthodes de filtrage basé sur le contenu et collaboratif pour fournir des suggestions alimentaires personnalisées. Le processus de développement a inclus plusieurs étapes clés :</p>
 
 <ol>
-  <li><strong>Data Collection</strong>: We began by extracting and manipulating relevant user and product data from MongoDB, converting this information into pandas DataFrames for in-depth analysis.</li>
-  <li><strong>Exploratory Data Analysis (EDA)</strong>: We conducted a comprehensive exploratory data analysis to identify patterns and relationships within the data, which are crucial for refining our recommendation strategies based on actual user behaviors and product attributes.</li>
-  <li><strong>Content-Based Filtering</strong>: We created user and food taste profiles using features extracted from product descriptions and user preferences. These profiles were converted into numerical vectors using sklearn’s DictVectorizer, enabling the calculation of similarity scores between user tastes and product profiles.</li>
-  <li><strong>Collaborative Filtering</strong>: This technique leveraged users’ purchase histories to identify products favored by similar users, effectively capturing evolving user preferences.</li>
-  <li><strong>Hybrid Approach</strong>: By integrating content-based and collaborative filtering, our engine was able to recommend food items that not only matched previous preferences but also included popular items among similar users, thus improving both accuracy and discovery.</li>
+  <li><strong>Collecte de Données</strong> : Nous avons commencé par extraire et manipuler les données pertinentes des utilisateurs et des produits à partir de MongoDB, en convertissant ces informations en DataFrames pandas pour une analyse approfondie.</li>
+  <li><strong>Analyse Exploratoire des Données (EDA)</strong> : Nous avons mené une analyse exploratoire complète des données pour identifier les motifs et les relations au sein des données, essentiels pour affiner nos stratégies de recommandation en fonction des comportements réels des utilisateurs et des attributs des produits.</li>
+  <li><strong>Filtrage Basé sur le Contenu</strong> : Nous avons créé des profils de goûts des utilisateurs et des aliments en utilisant des caractéristiques extraites des descriptions de produits et des préférences des utilisateurs. Ces profils ont été convertis en vecteurs numériques à l’aide de DictVectorizer de sklearn, permettant le calcul des scores de similarité entre les goûts des utilisateurs et les profils de produits.</li>
+  <li><strong>Filtrage Collaboratif</strong> : Cette technique a exploité les historiques d’achat des utilisateurs pour identifier les produits favoris des utilisateurs similaires, capturant ainsi efficacement les préférences évolutives des utilisateurs.</li>
+  <li><strong>Approche Hybride</strong> : En intégrant le filtrage basé sur le contenu et collaboratif, notre moteur a pu recommander des articles alimentaires qui correspondaient non seulement aux préférences précédentes, mais incluaient également des articles populaires parmi les utilisateurs similaires, améliorant ainsi à la fois la précision et la découverte.</li>
 </ol>
 
-<h3 id="tools-used">Tools Used</h3>
+<h3 id="outils-utilisés">Outils Utilisés</h3>
 
 <ul>
-  <li><strong>MongoDB:</strong> Primary database for storing user and product data.</li>
-  <li><strong>Python:</strong> The primary programming language for developing the recommendation algorithms and performing data analysis.</li>
-  <li><strong>Pandas:</strong> Utilized for data manipulation and analysis to convert raw data into insights.</li>
-  <li><strong>Matplotlib:</strong> Primary library used to visualize data trends and algorithmic outputs.</li>
-  <li><strong>Sklearn (DictVectorizer):</strong> Used for encoding categorical data into numerical vectors, critical for our machine learning models.</li>
+  <li><strong>MongoDB</strong> : Base de données principale pour le stockage des données utilisateurs et produits.</li>
+  <li><strong>Python</strong> : Langage de programmation principal pour développer les algorithmes de recommandation et effectuer l’analyse des données.</li>
+  <li><strong>Pandas</strong> : Utilisé pour la manipulation et l’analyse des données afin de convertir les données brutes en informations exploitables.</li>
+  <li><strong>Matplotlib</strong> : Bibliothèque principale utilisée pour visualiser les tendances des données et les résultats des algorithmes.</li>
+  <li><strong>Sklearn (DictVectorizer)</strong> : Utilisé pour encoder les données catégorielles en vecteurs numériques, crucial pour nos modèles d’apprentissage automatique.</li>
 </ul>
 
-<h3 id="outcome">Outcome</h3>
+<h3 id="résultat">Résultat</h3>
 
-<p>The proof-of-concept recommendation pipeline demonstrated the potential to implement complex AI-driven solutions in real-world scenarios. Its success marks a promising step towards extending recommendation services to other segments of the marketplace, potentially transforming the shopping experience for customers across various categories. Additionally, this initiative highlighted the importance of well-structured, ordered, and maintained data for making data-driven decisions. It also revealed gaps in existing data pipelines that, once addressed, could further refine the product’s user experience.</p>
+<p>Le pipeline de recommandation a démontré le potentiel de mise en œuvre de solutions complexes basées sur l’IA dans des scénarios réels. Son succès marque une étape prometteuse vers l’extension des services de recommandation à d’autres segments de la place de marché, transformant potentiellement l’expérience d’achat des clients à travers diverses catégories. De plus, cette initiative a souligné l’importance de données bien structurées, ordonnées et maintenues pour prendre des décisions basées sur les données. Elle a également révélé des lacunes dans les pipelines de données existants qui, une fois corrigées, pourraient encore affiner l’expérience utilisateur du produit.</p>
 
-<p>In the coming weeks, this proof-of-concept will be implemented in a sandbox environment within the marketplace. This will allow us to closely simulate real-world usage and make the necessary adjustments before proceeding with a full-scale deployment.</p>
+<p>Dans les semaines à venir, cette preuve de concept sera mise en place dans un environnement de test au sein de la place de marché. Cela nous permettra de simuler de près l’utilisation réelle et d’apporter les ajustements nécessaires avant de procéder à un déploiement à grande échelle.</p>
 
   </div>
 
@@ -276,7 +276,7 @@
     <a class="project-prev" href="/fr/portfolio/feedly">
       <div class="project-box">
         <span class="project-nav-info">Next Project</span>
-        <h2 class="project-nav-title">Automating Social Media Engagement for Reus Pharma<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
+        <h2 class="project-nav-title">Automatiser l'Engagement sur les Réseaux Sociaux pour Reus Pharma<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
       </div>
     </a>
   </div>
@@ -300,7 +300,7 @@
 
         <div class="c-subscribe-inner">
           <div class="c-subscribe-info">
-            <h3 class="c-subscribe-title">Join my mailing list</h3>
+            <h3 class="c-subscribe-title">Joindre ma liste de diffusion</h3>
             <div class="c-subscribe-subtitle">
               <span id="ityped"></span>
             </div>
@@ -309,8 +309,8 @@
           <form class="c-subscribe-form validate" action="//adriguerra.us21.list-manage.com/subscribe/post?u=797ad5c238231ca5a3ca3478e&amp;id=3ef0806f26&amp;f_id=00fffbe6f0"
             method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
             <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
-            <input class="c-subscribe-form-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Your email address">
-            <button class="c-button c-button--primary c-button--large" id="membedded-subscribe" type="submit" name="subscribe">Subscribe</button>
+            <input class="c-subscribe-form-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Votre addresse email">
+            <button class="c-button c-button--primary c-button--large" id="membedded-subscribe" type="submit" name="subscribe">S'abonner</button>
           </form>
 
         </div>
@@ -321,7 +321,7 @@
 <!-- end subscribe -->
 
 <script>
-  var itype_text = ["Get inspiration, updates and, cool stuff!"];
+  var itype_text = ["Recevez de l'inspiration, mes actualités et des nouveautés sympas !"];
 </script>
           <!--bookshop-live end-->
 
@@ -365,11 +365,11 @@
       <ul class="footer_nav">
         
         <li class="footer_nav-item">
-          <a href="/fr" class="footer_nav-link">Home</a>
+          <a href="/fr" class="footer_nav-link">Accueil</a>
         </li>
         
         <li class="footer_nav-item">
-          <a href="/fr/about/" class="footer_nav-link">About</a>
+          <a href="/fr/about/" class="footer_nav-link">À propos de moi</a>
         </li>
         
         <li class="footer_nav-item">
@@ -418,7 +418,7 @@
     <div class="horizontal-line line-3"></div>
     <div class="third-row">
         
-        <div class="copyright"><p>&copy;2023 <a href="/fr">Adrian Guerra Consulting.</a> All Rights Reserved.</p></div>
+        <div class="copyright"><p>&copy;2023 <a href="/fr">Adrian Guerra Consulting.</a> Tous Droits Réservés.</p></div>
     </div>
 </footer>
 <!-- end footer -->
