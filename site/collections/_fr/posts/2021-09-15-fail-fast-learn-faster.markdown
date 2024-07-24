@@ -1,47 +1,47 @@
 ---
 date: 2021-09-15
-title: Fail fast, learn faster.
+title: Échouer rapidement, apprendre plus vite.
 description: >-
-  After trying to launch a startup, I kneel down and surrender my sword to begin looking at new career opportunities.
+  Après avoir essayé de lancer une startup, je m'agenouille et rends mon épée pour commencer à chercher de nouvelles opportunités de carrière.
 tags:
-  - career
-  - entrepreneurship
+  - carrière
+  - entrepreneuriat
 image: /images/knight_surrender.jpg
 ---
 
-*Two years after taking the initiative of launching a startup, I kneel down and surrender my sword to begin looking at new career opportunities. The ride was crazy. Ecstatic moments repeatedly turned into emotional wreckages, only for new impulses to push me forward again. Despite the final outcome, the lessons were invaluable. Today, I feel more resilient than ever to face the next challenges that life will throw at me.*
+*Deux ans après avoir pris l'initiative de lancer une startup, je m'agenouille et rends mon épée pour commencer à chercher de nouvelles opportunités de carrière. Le parcours a été fou. Des moments d'extase se sont transformés à plusieurs reprises en naufrages émotionnels, seulement pour que de nouvelles impulsions me poussent à avancer encore. Malgré le résultat final, les leçons ont été inestimables. Aujourd'hui, je me sens plus résilient que jamais pour affronter les prochains défis que la vie me réservera.*
 
-While following my Master’s at EPFL, I realized how lucky I was to have a startup ecosystem that offered support to entrepreneurial students. University really seemed like the best time to launch a startup. It also motivated me for my studies: I didn’t simply want to get them over with anymore, I wanted to enjoy the experience and stick around a little longer.
+Pendant que je poursuivais mon Master à l'EPFL, j'ai réalisé à quel point j'avais de la chance d'avoir un écosystème de startup qui offrait un soutien aux étudiants entrepreneurs. L'université semblait vraiment être le meilleur moment pour lancer une startup. Cela m'a également motivé pour mes études : je ne voulais plus simplement les terminer, je voulais profiter de l'expérience et rester un peu plus longtemps.
 
-Naivety, curiosity and a strong desire to express my creativity pushed me toward entrepreneurship. The class of actions that followed made me grow in ways I couldn’t have possibly imagined. Taking on responsibilities, communicating regularly and trusting the right people were skills that I couldn’t have developed in a classroom or through a textbook. Had I known how difficult the entrepreneurial path would be, I would have never pursued it in the first place.
+La naïveté, la curiosité et un fort désir d'exprimer ma créativité m'ont poussé vers l'entrepreneuriat. La série d'actions qui ont suivi m'a fait grandir de manière que je n'aurais jamais pu imaginer. Prendre des responsabilités, communiquer régulièrement et faire confiance aux bonnes personnes étaient des compétences que je n'aurais pas pu développer en classe ou à travers un manuel. Si j'avais su à quel point le chemin entrepreneurial serait difficile, je ne l'aurais jamais poursuivi en premier lieu.
 
-I started brainstorming several ideas, but eventually settled for the Vivino of CBD. My dad was becoming quite a wine expert thanks to Vivino, while a friend was set to start a job at a CBD business. I tried CBD for sleep, stress, muscle pain and even as part of my spiritual practices. I discovered how much science there was to the cannabis plant, but how little was being presented to the public.
+J'ai commencé à brainstormer plusieurs idées, mais j'ai finalement opté pour le Vivino du CBD. Mon père devenait assez expert en vin grâce à Vivino, tandis qu'un ami s'apprêtait à commencer un travail dans une entreprise de CBD. J'ai essayé le CBD pour le sommeil, le stress, les douleurs musculaires et même dans le cadre de mes pratiques spirituelles. J'ai découvert combien il y avait de science autour de la plante de cannabis, mais combien peu de choses étaient présentées au public.
 
 {:style="text-align:center;"}
 ![CBD](https://miro.medium.com/max/1400/0*RapTk4VMeNkn3yNC)
 
-University peers recommended me a startup course given by the Swiss Innovation Agency. Participants had to pitch their idea hoping to work on it throughout the course. Selected projects would have the opportunity to recruit team members and have coaches regularly provide them feedback. One of which would become my mentor and business partner: Haider Alleg.
+Des pairs universitaires m'ont recommandé un cours de startup donné par l'Agence suisse pour l'innovation. Les participants devaient présenter leur idée en espérant travailler dessus tout au long du cours. Les projets sélectionnés auraient la possibilité de recruter des membres de l'équipe et d'avoir des coachs qui leur fourniraient régulièrement des retours. L'un d'eux deviendrait mon mentor et partenaire commercial : Haider Alleg.
 
-But things could have gone very differently from the start. Haider missed the round of introduction between the coaches and the startups. A couple of weeks later, I received a long thread of emails between Haider and another coach. Haider had been trying to reach me, but the messages had ended up in the wrong mailbox.
+Mais les choses auraient pu se passer très différemment dès le début. Haider a raté la présentation entre les coachs et les startups. Quelques semaines plus tard, j'ai reçu un long fil de courriels entre Haider et un autre coach. Haider avait essayé de me joindre, mais les messages avaient fini dans la mauvaise boîte aux lettres.
 
-When we finally managed to schedule our first in-person meeting, he came over an hour late. I entered our meeting annoyed, but came out amazed by the momentum he was already giving us. He sent me a duplicate of his Wordpress website for a similar project, which he had invested time and money in. It needed some tweaking, but within a week we could have our minimum viable product.
+Lorsque nous avons enfin réussi à organiser notre première réunion en personne, il est arrivé avec plus d'une heure de retard. Je suis entré à notre réunion agacé, mais j'en suis sorti émerveillé par l'élan qu'il nous donnait déjà. Il m'a envoyé un duplicata de son site Wordpress pour un projet similaire, dans lequel il avait investi du temps et de l'argent. Il avait besoin de quelques ajustements, mais en une semaine, nous pouvions avoir notre produit minimum viable.
 
-Unfortunately, the excitement didn’t last. Coursework, project deadlines and final year exams were taking more time than expected. On top of that, my team wasn’t helping as much as I would have hoped for. I felt overwhelmed.
+Malheureusement, l'excitation n'a pas duré. Les cours, les échéances de projets et les examens de fin d'année prenaient plus de temps que prévu. De plus, mon équipe n'aidait pas autant que je l'aurais espéré. Je me sentais dépassé.
 
-Nonetheless, Haider’s input kept us going. His advice was so valuable that sometimes it took me months to realize things he had been saying all along. When the course came to an end, my teammates left the project. Haider couldn’t imagine me going forward with no team and no money.
+Néanmoins, les contributions de Haider nous ont permis de continuer. Ses conseils étaient si précieux que parfois il me fallait des mois pour réaliser ce qu'il disait depuis le début. Lorsque le cours s'est terminé, mes coéquipiers ont quitté le projet. Haider ne pouvait pas m'imaginer avancer sans équipe ni argent.
 
-Still, I didn’t feel like it was time to give up just yet. I started reaching out to friends I thought might be interested by the project. Once I had recruited my first couple of team members, the tables turned: people were coming to me to offer help. We entered our best-ever-yet honeymoon phase. Launching a startup was fun!
+Pourtant, je ne sentais pas que c'était le moment d'abandonner. J'ai commencé à contacter des amis qui pourraient être intéressés par le projet. Une fois que j'avais recruté mes premiers membres d'équipe, la situation s'est inversée : les gens venaient vers moi pour offrir leur aide. Nous sommes entrés dans notre meilleure phase de lune de miel. Lancer une startup était amusant !
 
-Everything was hugs and kisses until one day, my friend who wrote blog articles told me that he was quitting. I was devastated, but wasted little time in looking for new potential recruits.
+Tout allait pour le mieux jusqu'à ce qu'un jour, mon ami qui écrivait des articles de blog m'annonce qu'il quittait. J'étais dévasté, mais je n'ai pas perdu de temps à chercher de nouveaux recrues potentielles.
 
-I was discussing terms with a new co-founder, when Haider called. He had a new project for me. His friend had developed an agricultural commodity trading platform, and was looking to deploy it in new industries such as cannabis. At first, I was hesitant. How could I let go of everything achieved in the past year. After seeing the platform, it became clearer that this project required my full uncontested attention.
+Je discutais des termes avec un nouveau co-fondateur quand Haider a appelé. Il avait un nouveau projet pour moi. Son ami avait développé une plateforme de trading de matières premières agricoles et cherchait à la déployer dans de nouvelles industries telles que le cannabis. Au début, j'étais hésitant. Comment pouvais-je abandonner tout ce que j'avais accompli au cours de l'année passée ? Après avoir vu la plateforme, il est devenu clair que ce projet nécessitait toute mon attention incontestée.
 
-I called the previous project off and started dedicating myself to the new one. We had meetings every week. I was the most junior of the three, so every meeting was incredibly stimulating— I was learning so much!
+J'ai arrêté le projet précédent et commencé à me consacrer au nouveau. Nous avions des réunions chaque semaine. J'étais le plus junior des trois, donc chaque réunion était incroyablement stimulante — j'apprenais tellement !
 
-Fast-forward to 10 months later, and a mix of circumstances — including a lack of experience on my side — made us lose traction. Team dynamics weren’t on track anymore and eventually, we agreed that the best solution was to part ways.
+Dix mois plus tard, un mélange de circonstances — y compris un manque d'expérience de ma part — nous a fait perdre de la traction. Les dynamiques de l'équipe n'étaient plus en place et finalement, nous avons convenu que la meilleure solution était de nous séparer.
 
-Weirdly enough, pulling the plug the second time was far easier than the first. I was happy to notice a reduction in the half-life of my emotions, key to move on in life.
+Étrangement, tirer la prise pour la deuxième fois était beaucoup plus facile que la première. J'étais heureux de constater une réduction de la demi-vie de mes émotions, essentielle pour aller de l'avant dans la vie.
 
-I feel extremely fortunate to have had an experience that I will carry on learning from for years to come. A massive thank you goes to everyone that I met along the way. Especially my parents for their unconditional support. None of this would have been possible without them.
+Je me sens extrêmement chanceux d'avoir eu une expérience dont je continuerai d'apprendre pendant des années. Un immense merci à tous ceux que j'ai rencontrés en cours de route. En particulier mes parents pour leur soutien inconditionnel. Rien de tout cela n'aurait été possible sans eux.
 
-And remember: *fail fast, learn faster.*
+Et rappelez-vous : *échouez rapidement, apprenez plus vite.*
