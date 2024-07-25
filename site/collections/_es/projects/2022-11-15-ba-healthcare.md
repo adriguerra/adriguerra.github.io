@@ -1,28 +1,28 @@
 ---
 date: 2022-11-15
-title: Enhancing Efficiency and User Experience for a Health Agency Platform
-subtitle: Business Analysis
+title: Análisis de Negocios para una Plataforma de una Agencia de Salud
+subtitle: Análisis de Negocios
 image: '/images/ba-swiss-healthcare.png'
 ---
 
-### Problem
-A state health agency handling invoices between healthcare providers and insurances, faced significant challenges with its aging operational web platform. Despite its critical role in managing over 300,000 invoices yearly, the platform struggled with a discrepancy between the collaborators’ needs and the available features. The outdated technology stack, inefficient business processes, and an interface that no longer met user requirements needed a comprehensive revamp of the system.
+### Problema
+Una agencia estatal de salud que maneja facturas entre proveedores de atención médica y seguros enfrentaba desafíos significativos con su plataforma web operativa envejecida. A pesar de su papel crítico en la gestión de más de 300,000 facturas anuales, la plataforma tenía problemas con una discrepancia entre las necesidades de los colaboradores y las funciones disponibles. La tecnología obsoleta, los procesos empresariales ineficientes y una interfaz que ya no cumplía con los requisitos de los usuarios necesitaban una renovación completa del sistema.
 
-### Solution
-As a Business Analyst, I played a pivotal role in the initiative to transform the web platform, with a strong emphasis on user-centricity and efficiency. This project unfolded through a series of carefully orchestrated steps:
+### Solución
+Como Analista de Negocios, desempeñé un papel fundamental en la iniciativa para transformar la plataforma web, con un fuerte énfasis en la centración en el usuario y la eficiencia. Este proyecto se desarrolló a través de una serie de pasos cuidadosamente orquestados:
 
-1. **User Experience Revamp**: Utilizing mockups and clickable prototypes, we redesigned the user experience of the Web App. We introduced standardized front-end components to the user interface, ensuring a more intuitive and user-friendly environment.
+1. **Reforma de la Experiencia del Usuario**: Utilizando maquetas y prototipos interactivos, rediseñamos la experiencia del usuario de la aplicación web. Introdujimos componentes estándar de front-end en la interfaz de usuario, asegurando un entorno más intuitivo y fácil de usar.
 
-2. **Business Process Automation**: We analyzed and re-engineered business processes to minimize repetitive tasks and align the system with the actual user requirements. This strategic automation significantly reduced time and effort spent on low-value activities.
+2. **Automatización de Procesos Empresariales**: Analizamos y reingenieramos los procesos empresariales para minimizar tareas repetitivas y alinear el sistema con los requisitos reales de los usuarios. Esta automatización estratégica redujo significativamente el tiempo y el esfuerzo dedicados a actividades de bajo valor.
 
-3. **Technology Stack Upgrade**: Acknowledging the limitations of the outdated technology stack, we upgraded the system to comply with the most recent industry standards, ensuring robust performance, security, and scalability.
+3. **Actualización de la Pila Tecnológica**: Reconociendo las limitaciones de la pila tecnológica obsoleta, actualizamos el sistema para cumplir con los estándares más recientes de la industria, asegurando un rendimiento robusto, seguridad y escalabilidad.
 
-### Tools Used
-1. **Jira**: Employed for project management, tracking progress, and ensuring transparent communication among all project stakeholders. Jira was instrumental in managing the development sprints, documenting requirements, and tracking issues and resolutions throughout the project lifecycle.
+### Herramientas Utilizadas
+1. **Jira**: Empleado para la gestión de proyectos, seguimiento del progreso y asegurar una comunicación transparente entre todos los interesados del proyecto. Jira fue fundamental en la gestión de los sprints de desarrollo, la documentación de requisitos y el seguimiento de problemas y resoluciones durante el ciclo de vida del proyecto.
 
-2. **Confluence**: Served as the central repository for all project documentation, including requirements, design specifications, and user guides. Confluence facilitated effective knowledge sharing and collaboration among the project team.
+2. **Confluence**: Sirvió como el repositorio central para toda la documentación del proyecto, incluidos los requisitos, especificaciones de diseño y guías de usuario. Confluence facilitó el intercambio efectivo de conocimientos y la colaboración entre el equipo del proyecto.
 
-3. **Slack**: Used as the primary communication platform, Slack enabled real-time discussions, quick resolution of queries, and seamless collaboration among the team members, ensuring that everyone was aligned and informed throughout the project.
+3. **Slack**: Utilizado como la plataforma de comunicación principal, Slack permitió discusiones en tiempo real, resolución rápida de consultas y colaboración fluida entre los miembros del equipo, asegurando que todos estuvieran alineados e informados a lo largo del proyecto.
 
-### Outcome
-The revamped web platform marked a significant milestone in improving operational efficiency and user satisfaction. By closely involving stakeholders in each iteration and focusing on user-centric design and process automation, the project delivered a modern, efficient, and user-friendly solution. The outcome was not just a technologically advanced platform but also a testament to the positive impact on the collaborators’ day-to-day tasks, reflected in their increased efficiency and the visible satisfaction upon the deployment of the new solution. This transformation not only streamlined the invoice handling process but also set a benchmark for future digital initiatives within the healthcare sector.
+### Resultado
+La renovación de la plataforma web marcó un hito significativo en la mejora de la eficiencia operativa y la satisfacción del usuario. Al involucrar de cerca a los interesados en cada iteración y centrarse en el diseño centrado en el usuario y la automatización de procesos, el proyecto entregó una solución moderna, eficiente y fácil de usar. El resultado no fue solo una plataforma tecnológicamente avanzada, sino también un testimonio del impacto positivo en las tareas diarias de los colaboradores, reflejado en su mayor eficiencia y la visible satisfacción tras el despliegue de la nueva solución. Esta transformación no solo optimizó el proceso de manejo de facturas, sino que también estableció un punto de referencia para futuras iniciativas digitales dentro del sector de la salud.

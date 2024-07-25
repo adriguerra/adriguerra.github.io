@@ -1,26 +1,26 @@
 ---
 date: 2022-01-15 07:20:35 +0300
-title: Automated Costs Allocation Based on Historical Inputs of Financial Controllers
-subtitle: Machine Learning
+title: Asignación Automática de Costos Basada en Entradas Históricas de Controladores Financieros
+subtitle: Aprendizaje Automático
 image: '/images/semiconductor.jpg'
 ---
 
-### Problem
-[STMicroelectronics](https://www.st.com/), a prominent figure in the semiconductor industry, faced challenges in optimizing the cost allocation processes for wafer production and material costs. These costs are crucial in semiconductor manufacturing, and the existing manual methods were inefficient and prone to errors. The company needed a solution to accurately classify these costs into multiple categories, leveraging the vast amounts of historical financial controller data.
+### Problema
+Una empresa prominente en la industria de semiconductores enfrentaba desafíos en la optimización de los procesos de asignación de costos para la producción de obleas y costos de materiales. Estos costos son cruciales en la fabricación de semiconductores, y los métodos manuales existentes eran ineficientes y propensos a errores. La empresa necesitaba una solución para clasificar estos costos con precisión en múltiples categorías, aprovechando las grandes cantidades de datos históricos de los controladores financieros.
 
-### Solution
-The solution was an advanced machine learning-based system designed to automate the cost allocation process. This system was developed to analyze financial controller data, specifically focusing on wafer production and material costs, and classify these costs accurately using a multi-class classification approach. The project involved a detailed analysis of the financial data, followed by the application of several machine learning techniques to find the most effective method for cost classification.
+### Solución
+La solución fue un sistema avanzado basado en aprendizaje automático diseñado para automatizar el proceso de asignación de costos. Este sistema se desarrolló para analizar los datos de los controladores financieros, específicamente enfocados en la producción de obleas y costos de materiales, y clasificar estos costos con precisión utilizando un enfoque de clasificación multiclase. El proyecto involucró un análisis detallado de los datos financieros, seguido de la aplicación de varias técnicas de aprendizaje automático para encontrar el método más efectivo para la clasificación de costos.
 
-### Tools Used
-The project employed a variety of machine learning tools and techniques to achieve its objectives:
+### Herramientas Utilizadas
+El proyecto empleó una variedad de herramientas y técnicas de aprendizaje automático para lograr sus objetivos:
 
-- **Regression Analysis** to understand the relationships between different factors and cost allocations.
-- **Decision Trees** for their simplicity and ease of interpretation, providing clear decision paths.
-- **Naive Bayes** for its probabilistic approach, suited for handling high-dimensional data.
-- **Neural Networks** to model complex, non-linear relationships inherent in the financial data.
-- **Ensemble Methods** to enhance predictive accuracy by combining multiple models.
+- **Análisis de Regresión** para entender las relaciones entre diferentes factores y las asignaciones de costos.
+- **Árboles de Decisión** por su simplicidad y facilidad de interpretación, proporcionando rutas de decisión claras.
+- **Naive Bayes** por su enfoque probabilístico, adecuado para manejar datos de alta dimensión.
+- **Redes Neuronales** para modelar relaciones complejas y no lineales inherentes en los datos financieros.
+- **Métodos de Ensamble** para mejorar la precisión predictiva combinando múltiples modelos.
 
-Integration with the [SAP Data Intelligence platform](https://www.sap.com/products/technology-platform/data-intelligence.html) was a crucial step, ensuring that the machine learning algorithm could be directly applied within STMicroelectronics' existing procurement processes.
+La integración con la [plataforma SAP Data Intelligence](https://www.sap.com/products/technology-platform/data-intelligence.html) fue un paso crucial, asegurando que el algoritmo de aprendizaje automático pudiera aplicarse directamente dentro de los procesos de adquisición existentes del cliente.
 
-### Outcome
-The implementation of the machine learning-based cost allocation system marked a significant improvement for STMicroelectronics. The system achieved a 90% accuracy rate in automatically allocating costs, significantly streamlining the process. This automation allowed financial controllers to focus on the 10% of cases that required manual intervention, thus optimizing both time and resources. The project not only resulted in cost savings but also set a new standard for financial process efficiency in the semiconductor industry.
+### Resultado
+La implementación del sistema de asignación de costos basado en aprendizaje automático marcó una mejora significativa para el cliente. El sistema alcanzó una tasa de precisión del 90% en la asignación automática de costos, lo que simplificó considerablemente el proceso. Esta automatización permitió a los controladores financieros centrarse en el 10% de los casos que requerían intervención manual, optimizando así tanto el tiempo como los recursos. El proyecto no solo resultó en ahorros de costos, sino que también estableció un nuevo estándar de eficiencia en los procesos financieros en la industria de semiconductores.
