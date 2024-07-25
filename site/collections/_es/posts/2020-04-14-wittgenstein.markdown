@@ -1,70 +1,70 @@
 ---
 date: 2020-04-14
-title: "Wittgenstein: Finding the Meaning of a Word"
+title: "Wittgenstein: Encontrar el Significado de una Palabra"
 description: >-
-  A brief overview of the Socratic method and Wittgenstein’s philosophy of language to define words.
+  Una breve descripción del método socrático y la filosofía del lenguaje de Wittgenstein para definir palabras.
 tags:
-  - philosophy
-  - language
+  - filosofía
+  - lenguaje
 image: /images/socrates.jpg
 ---
 
-*A brief overview of the Socratic method and Wittgenstein’s philosophy of language to define words.*
+*Una breve descripción del método socrático y la filosofía del lenguaje de Wittgenstein para definir palabras.*
 
-In the Socratic dialogues, Socrates asks many times *“What is X?”*. X being courage, piety, justice, temperance or wisdom. The protagonists give him instances of these abstracts words as they try to come up with a definition. But Socrates rejects all of them; he always finds a use of the word which does not fit the given definition.
+En los diálogos socráticos, Sócrates pregunta muchas veces *“¿Qué es X?”*. X siendo valor, piedad, justicia, templanza o sabiduría. Los protagonistas le dan ejemplos de estas palabras abstractas mientras intentan encontrar una definición. Pero Sócrates rechaza todos ellos; siempre encuentra un uso de la palabra que no encaja en la definición dada.
 
-In Euthyphro, for instance, Socrates and Euthyphro attempt to establish a definitive meaning for the word piety. Socrates asks: *“What is piety?”*, to which Euthyphro replies that piety is what he is doing right now. Socrates rejects this definition, because Euthyphro’s action is merely an example and does not provide the essential characteristic that make pious actions pious. Euthyphro attempts to give four further definitions, but Socrates keeps questioning them (known as the **Socratic questioning** or **Socratic method**). Euthyphro ends up running out of patience and leaves Socrates without a clear definition of piety.
+En Eutifrón, por ejemplo, Sócrates y Eutifrón intentan establecer un significado definitivo para la palabra piedad. Sócrates pregunta: *“¿Qué es piedad?”*, a lo que Eutifrón responde que piedad es lo que él está haciendo ahora mismo. Sócrates rechaza esta definición, porque la acción de Eutifrón es meramente un ejemplo y no proporciona la característica esencial que hace que las acciones piadosas sean piadosas. Eutifrón intenta dar cuatro definiciones más, pero Sócrates sigue cuestionándolas (conocido como el **cuestionamiento socrático** o **método socrático**). Eutifrón termina perdiendo la paciencia y deja a Sócrates sin una definición clara de piedad.
 
-![Euthyphro](https://miro.medium.com/max/1200/0*JvZwMoSu7ABRDgQU)
+![Eutifrón](https://miro.medium.com/max/1200/0*JvZwMoSu7ABRDgQU)
 
-Socrates was seeking a common nature amongst the instances given to him to find a real definition. He believed the common nature justified the use of the common name, that it was unethical to use words if their meaning wasn’t truly known. For instance, one could only be just if one knew the underlying common nature in justice. But neither Socrates nor any of the protagonists of the Socratic dialogues ever manage to find true definitions. The unfinished work suggested philosophy still had much progress to make. In any case, Socrates believed that being aware of his ignorance made him wiser than those who, though ignorant, still claimed knowledge.
+Sócrates buscaba una naturaleza común entre los ejemplos dados para encontrar una definición real. Creía que la naturaleza común justificaba el uso del nombre común, que era poco ético usar palabras si su significado no era realmente conocido. Por ejemplo, uno solo podría ser justo si conocía la naturaleza común subyacente en la justicia. Pero ni Sócrates ni ninguno de los protagonistas de los diálogos socráticos logran encontrar definiciones verdaderas. El trabajo inconcluso sugería que la filosofía aún tenía mucho progreso por hacer. En cualquier caso, Sócrates creía que ser consciente de su ignorancia lo hacía más sabio que aquellos que, aunque ignorantes, todavía afirmaban tener conocimiento.
 
-> “I know that I know nothing.”
+> “Solo sé que no sé nada.”
 >
-> the Socratic paradox
+> La paradoja socrática
 
-Centuries later, Ludwig Wittgenstein would attempt to resume Socrates’ unfinished work. He believed, however, that the people’s approach to give instances of words was right.
+Siglos después, Ludwig Wittgenstein intentaría retomar el trabajo inconcluso de Sócrates. Sin embargo, él creía que el enfoque de las personas al dar ejemplos de palabras era correcto.
 
-> “I can characterize my standpoint no better than by saying that it is the antithetical standpoint to the one occupied by Socrates in the Platonic dialogues. For if I were asked what knowledge is, I would enumerate instances of knowledge and add the words ‘and similar things’. There is no shared constituent to be discovered since none exists.”
+> “No puedo caracterizar mejor mi postura que diciendo que es la antitética a la ocupada por Sócrates en los diálogos platónicos. Porque si me preguntaran qué es el conocimiento, enumeraría ejemplos de conocimiento y añadiría las palabras ‘y cosas similares’. No hay un componente compartido por descubrir ya que ninguno existe.”
 >
 > Voices of Wittgenstein, Waismann & Wittgenstein, 2003, p. 33
 
 ![Wittgenstein](https://miro.medium.com/max/800/0*z-u5VJtjCSKd2xiL.webp)
 
-In Philosophical Investigations, he considers instances of the word game to illustrate his point.
+En Investigaciones Filosóficas, considera ejemplos de la palabra juego para ilustrar su punto.
 
-> “Consider for example the proceedings that we call “games”. I mean board-games, card-games, ball-games, Olympic games, and so on. What is common to them all? Don’t say: “There must be something common, or they would not be called ‘games’” — but look and see whether there is anything common to all. — For if you look at them you will not see something that is common to all, but similarities, relationships, and a whole series of them at that. To repeat: don’t think, but look!” 
+> “Considera por ejemplo los procedimientos que llamamos ‘juegos’. Me refiero a juegos de mesa, juegos de cartas, juegos de pelota, juegos olímpicos, etcétera. ¿Qué tienen en común todos ellos? No digas: ‘Debe haber algo en común, o no se llamarían “juegos”’ — pero mira y ve si hay algo común a todos. — Porque si los miras no verás algo que sea común a todos, sino similitudes, relaciones, y una serie de ellas en eso. Para repetir: ¡no pienses, sino mira!”
 >
-> Philosophical Investigations, Wittgenstein, 1953, p. 31
+> Investigaciones Filosóficas, Wittgenstein, 1953, p. 31
 
-Wittgenstein suggests to look instead of to think, and to describe instead of to explain. Thinking is an abstract process subject to the mind’s corrupted point of view, while looking is practical and avoids this bias. Wittgenstein argued that things, which could be thought to be connected by one essential common feature, may in fact be connected by a series of overlapping similarities, where no one feature is common to all of the things. He coined this concept **family resemblance**.
+Wittgenstein sugiere mirar en lugar de pensar, y describir en lugar de explicar. Pensar es un proceso abstracto sujeto al punto de vista corrompido de la mente, mientras que mirar es práctico y evita este sesgo. Wittgenstein argumentó que las cosas que podrían pensarse conectadas por una característica común esencial, en realidad pueden estar conectadas por una serie de similitudes superpuestas, donde ninguna característica es común a todas las cosas. A este concepto lo llamó **parecido de familia**.
 
-> I can think of no better expression to characterize these similarities than “family resemblances”;… And I shall say: ‘games’ form a family.
-
-> Philosophical Investigations, Wittgenstein, 1953, p. 32
-
-Wittgenstein didn’t think that words corresponded to things. The function and the meaning of a word were determined by its use. Definition is not something prior to the use of a word that fixes its meaning and determines how it will be used, but rather a descriptive tool that reflects the various ways a word is used:
-
-> “Think of the tools in a tool-box: there is a hammer, pliers, a saw, a screwdriver, a rule, a glue-pot, nails and screws. — The functions of words are as diverse as the functions of these objects.” 
+> No puedo pensar en una mejor expresión para caracterizar estas similitudes que “parecidos de familia”;… Y diré: ‘los juegos’ forman una familia.
 >
-> Philosophical Investigations, Wittgenstein, 1953, p. 6
+> Investigaciones Filosóficas, Wittgenstein, 1953, p. 32
 
-Wittgenstein saw language merely as a tool used to accomplish everyday goals and activities, which essentially determine a word’s meaning. He called these activities **language-games**, because the rules of language were like the rules of a game, and saying something was like making a move in a game.
+Wittgenstein no creía que las palabras correspondieran a cosas. La función y el significado de una palabra estaban determinados por su uso. La definición no es algo anterior al uso de una palabra que fije su significado y determine cómo se usará, sino una herramienta descriptiva que refleja las diversas formas en que se usa una palabra:
 
-> “Here the term “language-game” is meant to bring into prominence the fact that the speaking of language is part of an activity, or of a form of life.”
+> “Piensa en las herramientas en una caja de herramientas: hay un martillo, alicates, una sierra, un destornillador, una regla, un bote de pegamento, clavos y tornillos. — Las funciones de las palabras son tan diversas como las funciones de estos objetos.”
 >
-> Philosophical Investigations, Wittgenstein, 1953, p. 11
+> Investigaciones Filosóficas, Wittgenstein, 1953, p. 6
 
-While our brains naturally associate pictures to words, even when thinking of abstract ones like justice or soul, words in reality don’t tell us anything about the true nature of the thing they represent. Wittgenstein’s main point was to escape from our mental images when dealing with philosophy because everyone had a different image that clouds reality.
+Wittgenstein veía el lenguaje simplemente como una herramienta utilizada para alcanzar metas y actividades cotidianas, que esencialmente determinan el significado de una palabra. Llamó a estas actividades **juegos de lenguaje**, porque las reglas del lenguaje eran como las reglas de un juego, y decir algo era como hacer una jugada en un juego.
 
-> “A picture held us captive. And we could not get outside it, for it lay in our language and language seemed to repeat it to us inexorably.”
+> “Aquí el término ‘juego de lenguaje’ tiene la intención de resaltar el hecho de que hablar un lenguaje es parte de una actividad, o de una forma de vida.”
 >
-> Philosophical Investigations, Wittgenstein, 1953, p. 48
+> Investigaciones Filosóficas, Wittgenstein, 1953, p. 11
 
-On the other hand, even if one could find an essential definition of a word, this would not undermine Wittgenstein’s argument. Wittgenstein isn’t necessarily against definitions, because in many cases essential definitions do exist and are even needed, typically in scientific contexts. But he just does not think all words must have an essential definition, so he suggests the concept of family resemblance. This raises the question: *How can we know which terms have essential definitions and which do not?* Wittgenstein’s claim makes defining a concept easier by lowering the expectations of what is required, but the challenge is to remain precise.
+Mientras nuestros cerebros asocian naturalmente imágenes con palabras, incluso cuando pensamos en palabras abstractas como justicia o alma, las palabras en realidad no nos dicen nada sobre la verdadera naturaleza de la cosa que representan. El punto principal de Wittgenstein era escapar de nuestras imágenes mentales cuando se trata de filosofía porque cada uno tenía una imagen diferente que nubla la realidad.
 
-Wittgenstein valued clarity more than universal truth, which really made him stand out as a philosopher. Philosophers generally ask why to uncover hidden truths and consider that this is the most profound they can do. Wittgenstein, on the other hand, deemed looking as much profounder and saw it as a great difficulty because one must learn to ignore many preconceptions that cloud our judgment. Wittgenstein claiming that there is no shared constituent in knowledge would typically be reprimanded by most philosophers, particularly Socrates, because he gives up in the search for truth. While Wittgenstein does give valid answers to many of philosophy’s questions, he also inevitably raises further questions, like which terms have essential definitions and which do not. Much like in Socrates’ case, there is still work left to do in this regard. But in response to many of his critics, Wittgenstein would say:
+> “Una imagen nos tenía cautivos. Y no podíamos salir de ella, porque estaba en nuestro lenguaje y el lenguaje parecía repetírnosla inexorablemente.”
+>
+> Investigaciones Filosóficas, Wittgenstein, 1953, p. 48
 
-> “The mystical is not how the world is, but that it is.” 
+Por otro lado, incluso si uno pudiera encontrar una definición esencial de una palabra, esto no socavaría el argumento de Wittgenstein. Wittgenstein no está necesariamente en contra de las definiciones, porque en muchos casos existen definiciones esenciales y son incluso necesarias, típicamente en contextos científicos. Pero él simplemente no cree que todas las palabras deban tener una definición esencial, por lo que sugiere el concepto de parecido de familia. Esto plantea la pregunta: *¿Cómo podemos saber qué términos tienen definiciones esenciales y cuáles no?* La afirmación de Wittgenstein hace que definir un concepto sea más fácil al reducir las expectativas de lo que se requiere, pero el desafío es permanecer preciso.
+
+Wittgenstein valoraba la claridad más que la verdad universal, lo que realmente lo hizo destacar como filósofo. Los filósofos generalmente preguntan por qué para descubrir verdades ocultas y consideran que esto es lo más profundo que pueden hacer. Wittgenstein, por otro lado, consideraba que mirar era mucho más profundo y lo veía como una gran dificultad porque uno debe aprender a ignorar muchas ideas preconcebidas que nublan nuestro juicio. Wittgenstein afirmando que no hay un componente compartido en el conocimiento sería típicamente reprendido por la mayoría de los filósofos, particularmente Sócrates, porque renuncia a la búsqueda de la verdad. Si bien Wittgenstein da respuestas válidas a muchas de las preguntas de la filosofía, también inevitablemente plantea más preguntas, como qué términos tienen definiciones esenciales y cuáles no. Al igual que en el caso de Sócrates, aún queda trabajo por hacer en este sentido. Pero en respuesta a muchos de sus críticos, Wittgenstein diría:
+
+> “Lo místico no es cómo es el mundo, sino que es.”
 >
 > Wittgenstein, Tractatus Logico-Philosophicus, 1922
