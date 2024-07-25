@@ -1,36 +1,36 @@
 ---
 date: 2023-01-10 07:30:35 +0300
-title: Product Recommendation Pipeline for a Food Delivery Online Marketplace
-subtitle: Data Analysis
+title: Recommandation de Produits pour la Livraison de Nourriture en Ligne
+subtitle: Analyse de Données
 image: '/images/food_recs.jpg'
 ---
 
-### Problem
+### Problème
 
-An online delivery marketplace aimed to boost its revenue by integrating data-driven improvements into its user experience. We collaboratively identified four potential data science applications for its marketplace: product recommendations, delivery time predictions, dynamic fare pricing, and delivery route optimization. After evaluating the data availability and practicality of each option, we decided to initiate a proof-of-concept initiative focusing on product recommendations within the food segment.
+Une place de marché de livraison en ligne visait à augmenter ses revenus en intégrant des améliorations basées sur les données dans son expérience utilisateur. Nous avons identifié quatre applications potentielles de science des données pour cette place de marché : recommandations de produits, prévisions des temps de livraison, tarification dynamique, et optimisation des itinéraires de livraison. Après avoir évalué la disponibilité des données et la faisabilité de chaque option, nous avons décidé de lancer une initiative de preuve de concept en nous concentrant sur les recommandations de produits dans le segment alimentaire.
 
-In 2023 alone, the food segment accounted for over 205,000 orders, generating approximately $6 million in revenue for the marketplace. The company's databases were brimming with underutilized data that had not been leveraged for analytical purposes nor for data-driven management decisions. Additionally, the existing user interface lacked any form of personalized recommendations. The client's goal was to explore the potential of data science to enhance the user experience by offering personalized food recommendations.
+En 2023 seulement, le segment alimentaire a représenté plus de 205 000 commandes, générant environ 6 millions de dollars de revenus pour la place de marché. Les bases de données de l'entreprise regorgeaient de données sous-utilisées qui n'avaient pas été exploitées à des fins analytiques ni pour des décisions de gestion basées sur les données. De plus, l'interface utilisateur existante manquait de toute forme de recommandations personnalisées. L'objectif du client était d'explorer le potentiel de la science des données pour améliorer l'expérience utilisateur en offrant des recommandations alimentaires personnalisées.
 
 ### Solution
 
-We identified the data requirements for building a product recommendation pipeline and collected the necessary data. Drawing inspiration from [Uber Eats’ advanced recommendation techniques](https://www.uber.com/en-CH/blog/uber-eats-recommending-marketplace/), we designed a proof-of-concept product recommendation pipeline combining content-based and collaborative filtering methods to deliver personalized food suggestions. The development process included several key steps:
+Nous avons identifié les besoins en données pour construire un pipeline de recommandation de produits et avons collecté les données nécessaires. En nous inspirant des techniques avancées de recommandation d'[Uber Eats](https://www.uber.com/en-CH/blog/uber-eats-recommending-place de marché/), nous avons conçu un pipeline de recommandation de produits combinant des méthodes de filtrage basé sur le contenu et collaboratif pour fournir des suggestions alimentaires personnalisées. Le processus de développement a inclus plusieurs étapes clés :
 
-1. **Data Collection**: We began by extracting and manipulating relevant user and product data from MongoDB, converting this information into pandas DataFrames for in-depth analysis.
-2. **Exploratory Data Analysis (EDA)**: We conducted a comprehensive exploratory data analysis to identify patterns and relationships within the data, which are crucial for refining our recommendation strategies based on actual user behaviors and product attributes.
-3. **Content-Based Filtering**: We created user and food taste profiles using features extracted from product descriptions and user preferences. These profiles were converted into numerical vectors using sklearn’s DictVectorizer, enabling the calculation of similarity scores between user tastes and product profiles.
-4. **Collaborative Filtering**: This technique leveraged users’ purchase histories to identify products favored by similar users, effectively capturing evolving user preferences.
-5. **Hybrid Approach**: By integrating content-based and collaborative filtering, our engine was able to recommend food items that not only matched previous preferences but also included popular items among similar users, thus improving both accuracy and discovery.
+1. **Collecte de Données** : Nous avons commencé par extraire et manipuler les données pertinentes des utilisateurs et des produits à partir de MongoDB, en convertissant ces informations en DataFrames pandas pour une analyse approfondie.
+2. **Analyse Exploratoire des Données (EDA)** : Nous avons mené une analyse exploratoire complète des données pour identifier les motifs et les relations au sein des données, essentiels pour affiner nos stratégies de recommandation en fonction des comportements réels des utilisateurs et des attributs des produits.
+3. **Filtrage Basé sur le Contenu** : Nous avons créé des profils de goûts des utilisateurs et des aliments en utilisant des caractéristiques extraites des descriptions de produits et des préférences des utilisateurs. Ces profils ont été convertis en vecteurs numériques à l'aide de DictVectorizer de sklearn, permettant le calcul des scores de similarité entre les goûts des utilisateurs et les profils de produits.
+4. **Filtrage Collaboratif** : Cette technique a exploité les historiques d'achat des utilisateurs pour identifier les produits favoris des utilisateurs similaires, capturant ainsi efficacement les préférences évolutives des utilisateurs.
+5. **Approche Hybride** : En intégrant le filtrage basé sur le contenu et collaboratif, notre moteur a pu recommander des articles alimentaires qui correspondaient non seulement aux préférences précédentes, mais incluaient également des articles populaires parmi les utilisateurs similaires, améliorant ainsi à la fois la précision et la découverte.
 
-### Tools Used
+### Outils Utilisés
 
-- **MongoDB:** Primary database for storing user and product data.
-- **Python:** The primary programming language for developing the recommendation algorithms and performing data analysis.
-- **Pandas:** Utilized for data manipulation and analysis to convert raw data into insights.
-- **Matplotlib:** Primary library used to visualize data trends and algorithmic outputs.
-- **Sklearn (DictVectorizer):** Used for encoding categorical data into numerical vectors, critical for our machine learning models.
+- **MongoDB** : Base de données principale pour le stockage des données utilisateurs et produits.
+- **Python** : Langage de programmation principal pour développer les algorithmes de recommandation et effectuer l'analyse des données.
+- **Pandas** : Utilisé pour la manipulation et l'analyse des données afin de convertir les données brutes en informations exploitables.
+- **Matplotlib** : Bibliothèque principale utilisée pour visualiser les tendances des données et les résultats des algorithmes.
+- **Sklearn (DictVectorizer)** : Utilisé pour encoder les données catégorielles en vecteurs numériques, crucial pour nos modèles d'apprentissage automatique.
 
-### Outcome
+### Résultat
 
-The proof-of-concept recommendation pipeline demonstrated the potential to implement complex AI-driven solutions in real-world scenarios. Its success marks a promising step towards extending recommendation services to other segments of the marketplace, potentially transforming the shopping experience for customers across various categories. Additionally, this initiative highlighted the importance of well-structured, ordered, and maintained data for making data-driven decisions. It also revealed gaps in existing data pipelines that, once addressed, could further refine the product's user experience.
+Le pipeline de recommandation a démontré le potentiel de mise en œuvre de solutions complexes basées sur l'IA dans des scénarios réels. Son succès marque une étape prometteuse vers l'extension des services de recommandation à d'autres segments de la place de marché, transformant potentiellement l'expérience d'achat des clients à travers diverses catégories. De plus, cette initiative a souligné l'importance de données bien structurées, ordonnées et maintenues pour prendre des décisions basées sur les données. Elle a également révélé des lacunes dans les pipelines de données existants qui, une fois corrigées, pourraient encore affiner l'expérience utilisateur du produit.
 
-In the coming weeks, this proof-of-concept will be implemented in a sandbox environment within the marketplace. This will allow us to closely simulate real-world usage and make the necessary adjustments before proceeding with a full-scale deployment.
+Dans les semaines à venir, cette preuve de concept sera mise en place dans un environnement de test au sein de la place de marché. Cela nous permettra de simuler de près l'utilisation réelle et d'apporter les ajustements nécessaires avant de procéder à un déploiement à grande échelle.

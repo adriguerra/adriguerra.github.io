@@ -1,6 +1,6 @@
 ---
 name: Atif Aziz
-position: Principal Software Engineer at Microsoft
+position: Ingénieur Logiciel Principal chez Microsoft
 image: '../images/atif.jpg'
-blurb: Adrian does not shy away from challenges. I have seen tech professionals with years of industrial experience have trouble where he delivers with ease.
+blurb: Adrian ne recule devant aucun défi. J'ai vu des professionnels de la technologie, forts de nombreuses années d'expérience, se heurter à des difficultés là où il excelle avec aisance.
 ---

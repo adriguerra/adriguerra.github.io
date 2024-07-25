@@ -1,26 +1,26 @@
 ---
 date: 2021-07-30 06:20:35 +0300
-title: "Business Analysis for a Real Estate Price Prediction Application"
-subtitle: Business Analysis
+title: "Analyse d'Affaires pour une Application de Prévision des Prix Immobiliers"
+subtitle: Analyse d'Affaires
 image: '/images/swiss_real_estate.jpg'
 ---
 
-### Problem
-The real estate market in Switzerland is highly regulated and complex, making accurate property valuation challenging for real estate vendors. There was a need for an advanced solution that could automate the pricing process by encapsulating the deep market knowledge and pricing methodologies specific to the Swiss real estate market.
+### Problème
+Le marché immobilier en Suisse est hautement réglementé et complexe, rendant l'évaluation précise des propriétés difficile pour les vendeurs immobiliers. Il y avait un besoin d'une solution avancée qui pourrait automatiser le processus de tarification en encapsulant la connaissance approfondie du marché et les méthodologies de tarification spécifiques au marché immobilier suisse.
 
 ### Solution
-Over two months, I collaborated closely with a renowned real estate expert to distill and document extensive knowledge and insights about property valuation in Switzerland. The solution involved the following key components:
+Pendant deux mois, j'ai collaboré étroitement avec un expert immobilier renommé pour distiller et documenter des connaissances et des perspectives approfondies sur l'évaluation des propriétés en Suisse. La solution comprenait les éléments clés suivants :
 
-1. **Knowledge Capture and Documentation**: Conducting intensive sessions with the real estate expert to capture the nuanced understanding of property valuation, including market trends, regulatory impacts, and valuation methods specific to different types of properties in Switzerland. This involved establishing data dictionaries of both first and third-party data to ensure a comprehensive understanding of the datasets used in the valuation process.
+1. **Capture et Documentation des Connaissances** : Conduire des sessions intensives avec l'expert immobilier pour capturer la compréhension nuancée de l'évaluation des propriétés, y compris les tendances du marché, les impacts réglementaires et les méthodes d'évaluation spécifiques à différents types de propriétés en Suisse. Cela impliquait la création de dictionnaires de données de première et de tierce partie pour garantir une compréhension complète des ensembles de données utilisés dans le processus d'évaluation.
 
-2. **Development of Formulae and Algorithms**: Synthesizing the expert knowledge into practical, actionable formulae, algorithms, and pricing methods tailored for each distinct type of real estate property in Switzerland. Algorithm specifications of pricing methods for Swiss realty properties were meticulously crafted to ensure accuracy and relevance. This step included data pipeline modelling with input/output layer streams to streamline the flow of data and optimize the valuation process.
+2. **Développement de Formules et Algorithmes** : Synthétiser les connaissances de l'expert en formules pratiques et exploitables, algorithmes et méthodes de tarification adaptées à chaque type distinct de propriété immobilière en Suisse. Les spécifications algorithmiques des méthodes de tarification pour les propriétés immobilières suisses ont été méticuleusement élaborées pour assurer précision et pertinence. Cette étape comprenait la modélisation du pipeline de données avec des flux de couches d'entrée/sortie pour rationaliser le flux de données et optimiser le processus d'évaluation.
 
-3. **Collaboration with Developers**: Providing the detailed report, including the pricing algorithms and methodologies, to the development team. This report served as the foundation for the creation of a sophisticated real estate marketing platform. Additionally, a draft technical requirements report was drafted to outline the specifications and functionalities required for the development of the platform, ensuring seamless integration of the pricing algorithms and methodologies.
+3. **Collaboration avec les Développeurs** : Fournir le rapport détaillé, incluant les algorithmes de tarification et les méthodologies, à l'équipe de développement. Ce rapport a servi de base à la création d'une plateforme de marketing immobilier sophistiquée. De plus, un rapport préliminaire des exigences techniques a été rédigé pour définir les spécifications et les fonctionnalités nécessaires au développement de la plateforme, assurant une intégration transparente des algorithmes et des méthodologies de tarification.
 
-### Tools Used:
-1. **Business Analysis Tools**: Utilized advanced business analysis tools and techniques for documenting the expert knowledge, developing pricing formulae, and ensuring the information was structured and accessible for the development team.
+### Outils Utilisés :
+1. **Outils d'Analyse d'Affaires** : Utilisation d'outils et de techniques avancés d'analyse d'affaires pour documenter les connaissances de l'expert, développer des formules de tarification, et garantir que l'information soit structurée et accessible pour l'équipe de développement.
 
-2. **Collaboration Platforms**: Leveraged collaboration platforms to facilitate seamless communication and knowledge transfer between the real estate expert, the business analyst (myself), and the development team.
+2. **Plateformes de Collaboration** : Utilisation de plateformes de collaboration pour faciliter une communication et un transfert de connaissances fluides entre l'expert immobilier, l'analyste d'affaires (moi-même), et l'équipe de développement.
 
-### Outcome
-The project successfully culminated in the creation of a comprehensive report that encapsulated the deep market knowledge and pricing methodologies for real estate properties in Switzerland. This report was instrumental in guiding the development of a cutting-edge real estate marketing platform. The platform is capable of automatically determining property prices, thereby empowering real estate vendors to accurately price and effectively market their properties to appropriate buyers, streamlining the real estate selling process in the Swiss market.
+### Résultat
+Le projet s'est conclu avec succès par la création d'un rapport complet qui encapsulait la connaissance approfondie du marché et les méthodologies de tarification pour les propriétés immobilières en Suisse. Ce rapport a été instrumental pour guider le développement d'une plateforme de marketing immobilier de pointe. La plateforme est capable de déterminer automatiquement les prix des propriétés, permettant ainsi aux vendeurs immobiliers de fixer des prix précis et de commercialiser efficacement leurs propriétés auprès des acheteurs appropriés, rationalisant ainsi le processus de vente immobilière sur le marché suisse.

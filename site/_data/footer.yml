@@ -13,9 +13,9 @@ footer-menu-settings:
       #   url: '/services/'
         
     fr:
-      - title: 'Home'
+      - title: 'Accueil'
         url: '/fr'
-      - title: 'About'
+      - title: 'À propos de moi'
         url: '/fr/about/'
       - title: 'Blog'
         url: '/fr/blog/'
@@ -39,6 +39,6 @@ copyright_text_html:
   en: >-
     <p>&copy;2023 <a href="/">Adrian Guerra Consulting.</a> All Rights Reserved.</p>
   fr: >-
-    <p>&copy;2023 <a href="/fr">Adrian Guerra Consulting.</a> All Rights Reserved.</p>
+    <p>&copy;2023 <a href="/fr">Adrian Guerra Consulting.</a> Tous Droits Réservés.</p>
   es: >-
     <p>&copy;2023 <a href="/fr">Adrian Guerra Consulting.</a> All Rights Reserved.</p>
