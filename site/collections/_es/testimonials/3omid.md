@@ -1,6 +1,6 @@
 ---
 name: Omid Shahmirzadi, PhD
-position: Quantitative Strategist at Millenium
+position: Estratega Cuantitativo en Millennium
 image: '../images/omid.jpg'
-blurb: Adrian showcased a commendable work ethic and reliability. He efficiently used his skills in data science, data engineering, and software engineering to deliver valuable products of use to the team.
+blurb: Adrian ha demostrado una ética de trabajo y una fiabilidad notables. Ha utilizado eficazmente sus habilidades en ciencia de datos, ingeniería de datos y desarrollo de software para proporcionar productos valiosos al equipo.
 ---
