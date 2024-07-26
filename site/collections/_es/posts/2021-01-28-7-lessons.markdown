@@ -1,102 +1,96 @@
 ---
 date: 2021-01-28
-title: 7 Lessons for Student-Entrepreneurs
+title: 7 Lecciones para Estudiantes Emprendedores
 description: >-
-  7 valuable lessons to help other student-entrepreneurs move forward with their goals and ambitions.
+  7 valiosas lecciones para ayudar a otros estudiantes emprendedores a avanzar con sus metas y ambiciones.
 tags:
-  - career
-  - entrepreneurship
+  - carrera
+  - emprendimiento
 image: /images/woods_antoinebruy.jpg
 ---
 
-*This article is for student-entrepreneurs eager to getting their startup off-the-ground. I spent more than a year working on a startup project as a student at the Swiss Federal Institute of Technology in Lausanne (EPFL). I learned some valuable lessons that I hope can help other entrepreneurial-minded students move forward with their goals and ambitions.*
+*Este artículo es para estudiantes emprendedores ansiosos por poner en marcha su startup. Pasé más de un año trabajando en un proyecto de startup como estudiante en el Instituto Federal Suizo de Tecnología en Lausana (EPFL). Aprendí algunas lecciones valiosas que espero puedan ayudar a otros estudiantes con mentalidad emprendedora a avanzar con sus metas y ambiciones.*
 
-Entrepreneurship always starts with an idea. But ideas don’t matter as much as we think initially. The sustained effort put in, the lessons from your journey, and ultimately, the lessons about you matter much more.
+El emprendimiento siempre comienza con una idea. Pero las ideas no importan tanto como pensamos inicialmente. El esfuerzo sostenido, las lecciones de tu viaje y, en última instancia, las lecciones sobre ti mismo importan mucho más.
 
-Launching a startup is a major initiative. More so, if it involves refusing or quitting a job. When I was starting, I was focused on having my ideas come to fruition. I didn’t really know what I was getting myself into — thank goodness, because I wouldn’t have done it otherwise.
+Lanzar una startup es una iniciativa importante. Más aún si implica rechazar o renunciar a un trabajo. Cuando comencé, estaba enfocado en hacer que mis ideas se hicieran realidad. Realmente no sabía en lo que me estaba metiendo — gracias a Dios, porque de lo contrario no lo habría hecho.
 
-Entrepreneurship is one hell of a ride. A startup is a lot more than just ideas. A clear vision is crucial, in order to recruit a diverse team of A-players. But only by constantly putting yourself on the frontline, taking on responsibilities and showing the way forward, do you fully gain your team’s trust and confidence.
+El emprendimiento es un viaje increíble. Una startup es mucho más que solo ideas. Una visión clara es crucial para reclutar un equipo diverso de jugadores de primera. Pero solo al ponerte constantemente en la primera línea, asumir responsabilidades y mostrar el camino a seguir, ganarás completamente la confianza y el apoyo de tu equipo.
 
-Here are some key lessons from my experience as a student-entrepreneur:
+Aquí hay algunas lecciones clave de mi experiencia como estudiante emprendedor:
 
-## 1. Embrace failure.
-You’re going to fail. But it’s okay, because failing is part of life.
+## 1. Acepta el fracaso.
+Vas a fracasar. Pero está bien, porque el fracaso es parte de la vida.
 
-Elon Musk, one of the greatest entrepreneurs of our generation, said he thought SpaceX and Tesla would fail, but he was perfectly okay with that. When people asked me about the risks of failure, I would say that if I failed, I would happily go live in nature.
+Elon Musk, uno de los más grandes emprendedores de nuestra generación, dijo que pensaba que SpaceX y Tesla fracasarían, pero estaba perfectamente bien con eso. Cuando la gente me preguntaba sobre los riesgos de fracasar, yo decía que si fracasaba, me iría felizmente a vivir en la naturaleza.
 
-If you want to think like an entrepreneur, be prepared to fail. I came across a team of brilliant student-entrepreneurs who worked really hard on their project for far too long. They ended up disgusted by entrepreneurship when they decided to pull the plug. A shame, really, because startups are meant to be fun. Far too often, we hear epic stories of entrepreneurs who manage to pull out a win when things seem bleak, but we rarely hear about the countless others who don’t. When your startup has lost traction, admitting failure is probably one of the hardest but best things to do.
+Si quieres pensar como un emprendedor, prepárate para fracasar. Me encontré con un equipo de brillantes estudiantes emprendedores que trabajaron muy duro en su proyecto durante demasiado tiempo. Terminaron disgustados con el emprendimiento cuando decidieron tirar la toalla. Es una pena, realmente, porque las startups están destinadas a ser divertidas. Con demasiada frecuencia, escuchamos historias épicas de emprendedores que logran sacar una victoria cuando las cosas parecen sombrías, pero rara vez escuchamos sobre los innumerables otros que no lo hacen. Cuando tu startup ha perdido tracción, admitir el fracaso es probablemente una de las cosas más difíciles pero mejores que puedes hacer.
 
-Embrace failure. You will admit defeat more easily when your startup is sinking. More importantly: you will try more, you will learn more and you will achieve more.
+Acepta el fracaso. Admitirás la derrota más fácilmente cuando tu startup se esté hundiendo. Más importante aún: intentarás más, aprenderás más y lograrás más.
 
-## 2. Communicate.
-If you’re launching a startup, you want to spread the word out as much as possible because you never know who might provide you with crucial help down the road.
+## 2. Comunica.
+Si estás lanzando una startup, quieres difundir la palabra lo más posible porque nunca sabes quién podría brindarte ayuda crucial en el futuro.
 
-When adding team members, be aware that your team’s success depends on good communication throughout your startup. Not only do additional team members create significant communication overhead (see Brook’s Law below), but they can also pose a risk if that person does not fit in with the culture of the startup.
+Al agregar miembros al equipo, ten en cuenta que el éxito de tu equipo depende de una buena comunicación en toda tu startup. No solo los miembros adicionales del equipo crean una sobrecarga significativa de comunicación (ver la Ley de Brooks a continuación), sino que también pueden representar un riesgo si esa persona no encaja con la cultura de la startup.
 
+Ley de Brooks: un tamaño grande del equipo representa una sobrecarga significativa en términos de comunicación.
 
-Brooks’ Law: a large team size represents significant overhead in terms of communication.
+![Líneas de comunicación](https://miro.medium.com/max/1400/1*pLdfse5oA5nJOEjemvmgig.webp)
 
-![Communication lines](https://miro.medium.com/max/1400/1*pLdfse5oA5nJOEjemvmgig.webp)
+Trata a tu equipo como a tu familia: trabajas para ellos, ellos no trabajan para ti. Prepárate para adaptarte a las necesidades de tu equipo y asegúrate de que las personas que dejas entrar tengan tanto la capacidad como la personalidad para trabajar en una startup. Una persona tóxica puede ser suficiente para arruinar la diversión. Perder miembros del equipo es una de las peores cosas que le puede pasar a una startup, porque la fuerza laboral es muy pequeña.
 
-Treat your team like your family: you work for them, they don’t work for you. Be prepared to adapt to your team’s needs, and make sure that the people that you let in have both the capacity and the personality to work in a startup. One toxic person can be enough to ruin the fun. Losing team members is one of the worst things that can happen to a startup, because the workforce is so small.
+## 3. No pienses, actúa.
+Pensar demasiado es un problema clásico de pérdida de tiempo para emprendedores inexpertos. Evita la parálisis por análisis simplificando los asuntos en cuestión. En este sentido, reconocer decisiones de puerta de un solo sentido y de puerta de dos sentidos puede ayudar.
 
-## 3. Don’t think, act.
-Overthinking is a classic time-wasting issue of inexperienced entrepreneurs. Avoid analysis paralysis by simplifying matters at hand. In this sense, recognising one-way and two-way door decisions can help.
+Las decisiones de puerta de un solo sentido son decisiones que no se pueden revertir fácilmente. Estas deben hacerse metódicamente, con cuidado, lentamente, con gran deliberación y consulta. Las decisiones de puerta de dos sentidos, por otro lado, se pueden revertir. Puedes atravesar la puerta, ver si te gusta y, si no, volver atrás. Estas decisiones deben automatizarse o delegarse. La mayoría de las decisiones son decisiones de puerta de dos sentidos, así que aprende a tomarlas lo más rápido posible.
 
-One-way door decisions are decisions that you can’t easily reverse. These need to be done methodically, carefully, slowly, with great deliberation and consultation. Two-way door decisions, on the other hand, can be reversed. You can walk through the door, see if you like it, and if not go back. These decisions should be automated or delegated. Most decisions are two-way door decisions, so learn to make these as quickly as possible.
+En general, busca desarrollar hábitos que te permitan actuar y reflexionar de manera efectiva, mientras te deshaces de los malos también. Aprende a decir no, para enfocarte en lo que dices sí.
 
-Overall, seek to develop habits that allow you to act and reflect effectively, while getting rid of bad ones too. Learn to say no, in order to focus on what you say yes to.
+## 4. Escucha atentamente.
+Solo porque estás dirigiendo una startup, no significa que siempre tengas razón.
 
-## 4. Listen carefully.
-Just because you’re leading a startup, that doesn’t mean you’re always right.
+Escucha atentamente a todos a tu alrededor: tu equipo, tus clientes, tus socios, tus amigos. Rodéate de personas que piensen de manera diferente. Alienta a los miembros del equipo a generar y compartir nuevas ideas. Aprecia escuchar cosas que te hagan sentir incómodo.
 
-Listen carefully to everyone around you: your team, your clients, your partners, your friends. Surround yourself with people who think differently. Encourage team members to generate and brainstorm new ideas. Cherish hearing things that make you feel uncomfortable.
+Habla con los clientes. Ponte en los zapatos de otras personas. Aprende a pensar en lo que no estás pensando. La verdad puede doler, pero la falta de verdad dolerá aún más a largo plazo.
 
-Talk to clients. Put yourself in other people’s shoes. Learn to think about what you’re not thinking about. The truth may hurt, but a lack of truth will hurt even more in the long run.
+No caigas en la trampa de seguir ciegamente lo que otros dicen. A todos les gusta pensar que saben algunas cosas sobre negocios. Aprende a notar a las personas que hablan por vanidad — probablemente no son las personas de las que deberías seguir consejos o incluso discutir. Lee a las personas desde sus emociones, en lugar de sus palabras.
 
-Don’t fall in the trap of blindly following what other people say. Everyone likes to think they know a few things about business. Learn to notice people who speak out of vanity — they’re probably not the ones you should be following advice from or even arguing with. Read people from their emotions, rather than their words.
+Al final, debes formar tus propias opiniones. Usa la capacidad cerebral colectiva de las personas a tu alrededor para hacer la mayor parte del pensamiento — tú solo estás orquestando.
 
-In the end, you must form your own opinions. Use the collective brain power of people around you to do most of the thinking — you’re just orchestrating.
+## 5. Confía en ti mismo.
+Busca progreso constante, en lugar de metas ambiciosas e irreales.
 
-## 5. Trust yourself.
-Seek steady progress, rather than unrealistic ambitious goals.
+Siempre habrá cosas que no puedes controlar. Cuando las metas o expectativas no se alcancen, mantén una visión objetiva para contentarte con el progreso constante. No seas demasiado duro contigo mismo ni con los demás — todos están haciendo lo mejor que pueden. Hazlo el tiempo suficiente y eventualmente ganarás la lotería. Todos tienen suerte a veces.
 
-There will always be things that you can’t control. When goals or expectations aren’t reached, keep an objective view to content yourself with steady progress. Don’t be too hard on yourself and on others — everyone is doing their best. Do it for long enough and eventually you will hit the lottery. Everyone gets lucky sometimes.
+La definición de éxito también es altamente subjetiva. En última instancia, el único que puede juzgar si estás teniendo éxito o no, eres tú. Cree en ti mismo. Eres capaz de ser quien te propongas ser. Sueña. Ten fe.
 
-The definition of success is also highly subjective. Ultimately, the only one who can judge whether you’re being successful or not, is you. Believe in yourself. You’re capable of being whoever you set yourself out to be. Dream. Have faith.
+Finalmente, los líderes deben tener suficiente carácter para generar confianza. Sin confianza, no tienes seguidores. Sin seguidores, ¿a quién lideras? Comienza confiando en ti mismo. Confiarás más fácilmente en los demás y los demás confiarán más en ti también.
 
-Finally, leaders must have enough character to build trust. Without trust, you have no followers. Without followers, who do you lead? Start by trusting yourself. You will trust others more easily and others will trust you more too.
+## 6. Mejora tus relaciones.
+Busca mejorar tus relaciones, comenzando con las más cercanas a ti. Cuando comencé mi viaje emprendedor, no solo estaba tomando algo de riesgo, quería lanzar una startup de cannabis. Puedes imaginar que mis padres no estaban totalmente de acuerdo.
 
-## 6. Improve your relationships.
-Seek to improve your relationships, starting with the ones closest to you. When I started off my entrepreneurial journey, not only was I taking somewhat of a risk, I wanted to launch a cannabis startup. You can imagine that my parents weren’t totally up for it.
+El camino de una startup es largo, necesitas depender del entusiasmo de otras personas para seguir adelante. Haz que tu familia y amigos se suban a tu visión. No solo te proporcionará un valioso apoyo moral, sino que más personas querrán ayudarte.
 
-The road of a startup is long, you need to rely on other people’s enthusiasm to keep going. Get family and friends on board with your vision. Not only will it provide you with precious moral support, but more people will want to help you.
+El emprendimiento es como el deporte. Cuando pierdes, tienes que ser el primero en levantarte para animar a los miembros del equipo a continuar, sin importar cuán duro haya sido el golpe que acabas de recibir. Cuando las cosas van mal, no te rindas. Cuando las cosas van bien, sé realista.
 
-Entrepreneurship is like sports. When you lose, you have to be the first one back on your feet encouraging team members to continue, no matter how hard of a blow you may just have gone through. When things are bad, don’t give up. When things are great, be realistic.
+Mejorar todas tus relaciones te ayudará a liderar con más empatía y a difundir positividad en tu startup. Todos disfrutarán mucho más del viaje.
 
-Improving all of your relationships will help you lead with more empathy and spread positivity in your startup. Everyone will enjoy the ride a lot more.
+## 7. Conócete a ti mismo.
+Algunas preguntas filosóficas que debes hacerte constantemente durante tu viaje:
 
-## 7. Know yourself.
-Some philosophical questions you should constantly ask yourself throughout your journey:
+¿Quién eres?
+¿Por qué haces lo que haces?
+¿Cuál es el cambio que te gustaría ver en el mundo?
+La filosofía actúa como una brújula moral. Indagar en tu comprensión de la realidad, el conocimiento y cómo deberías vivir te proporcionará principios que te ayudarán a no sentirte perdido nunca más en la vida.
 
-Who are you?
-Why do you do what you do?
-What’s the change that you would like to see in the world?
-Philosophy acts like a moral compass. Inquiring into your understanding of reality, knowledge, and how you should live will provide you with principles that can help you never feel lost in life again.
-
-> “Science is what you know. Philosophy is what you don’t know.”
+> “La ciencia es lo que sabes. La filosofía es lo que no sabes.”
 > 
 > Bertrand Russell
 
-Regularly put time aside to relax and reflect. Build your character. Remember, you’re playing the long game, so strive to stay healthy in the long run. Calming your mind down will boost your creativity. My best ideas come while relaxing, not when I am desperately looking for them.
+Reserva tiempo regularmente para relajarte y reflexionar. Construye tu carácter. Recuerda, estás jugando el juego a largo plazo, así que esfuérzate por mantenerte saludable a largo plazo. Calmar tu mente impulsará tu creatividad. Mis mejores ideas vienen mientras me relajo, no cuando las busco desesperadamente.
 
-## Final thoughts
-To summarise, focus on yourself and the rest will follow. Sometimes you may have to be patient, but hard work pays off.
+## Reflexiones finales
+Para resumir, enfócate en ti mismo y el resto seguirá. A veces tendrás que ser paciente, pero el trabajo duro vale la pena.
 
-Many of the lessons that I learned, as well as several habits that I adopted, were inspired by Stoicism. Stoic principles provide useful and practical ways to find tranquility and improve one’s strengths of character. Some of the greatest leaders in history have followed Stoic philosophy.
+Muchas de las lecciones que aprendí, así como varios hábitos que adopté, fueron inspirados por el estoicismo. Los principios estoicos proporcionan formas útiles y prácticas de encontrar tranquilidad y mejorar la fortaleza del carácter de uno. Algunos de los más grandes líderes de la historia han seguido la filosofía estoica.
 
-Nonetheless, theory is never enough. Practice is just as important, because in the words of a great Stoic philosopher:
-
-> “That’s why the philosophers warn us not to be satisfied with mere learning, but to add practice and then training. For as time passes, we forget what we learned and end up doing the opposite, and hold opinions the opposite of what we should.”
-> 
-> Epictetus

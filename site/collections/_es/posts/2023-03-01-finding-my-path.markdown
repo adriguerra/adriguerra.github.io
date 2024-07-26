@@ -1,49 +1,49 @@
 ---
-date:   2023-03-01
-title: Finding my path
-image:  '/images/path.jpg'
+date: 2023-03-01
+title: Encontrando mi camino
+image: '/images/path.jpg'
 description: >-
-  Hold on tight, because life is a rollercoaster. Try to enjoy the ride though, it’s actually pretty fun!
-tags:   [career, consulting]
+  ¡Agárrate fuerte, porque la vida es una montaña rusa! Intenta disfrutar el viaje, en realidad es bastante divertido.
+tags: [carrera, consultoría]
 ---
 
-_TLDR; Hold on tight, because life is a rollercoaster. Try to enjoy the ride though, it’s actually pretty fun!_
+_TLDR; ¡Agárrate fuerte, porque la vida es una montaña rusa! Intenta disfrutar el viaje, en realidad es bastante divertido._
 
-I began my career by getting fired from my own startup project. Far from discouraging me, it gave me strength and clarity to tackle new challenges.
+Comencé mi carrera siendo despedido de mi propio proyecto de startup. Lejos de desanimarme, eso me dio fuerza y claridad para enfrentar nuevos desafíos.
 
-After a period of burning cash, I needed to find a way to generate a steady income while gaining experience to launch my own business one day.
+Después de un periodo de gastar dinero, necesitaba encontrar una manera de generar ingresos estables mientras ganaba experiencia para algún día lanzar mi propio negocio.
 
-Consulting seemed to respond best to those needs. My entourage, however, did not seem as enthusiastic:
+La consultoría parecía responder mejor a esas necesidades. Sin embargo, mi entorno no parecía tan entusiasmado:
 
-> “You don’t start a career in consulting.”
+> “No empiezas una carrera en consultoría.”
 > 
-> “Engineers who work in consulting waste their potential.”
+> “Los ingenieros que trabajan en consultoría desperdician su potencial.”
 > 
-> “Consulting is hard work. Can you handle it?”
+> “La consultoría es un trabajo duro. ¿Puedes manejarlo?”
 
-Moreover, my initial consulting experience had been quite hectic, to say the least.
+Además, mi experiencia inicial en consultoría había sido bastante agitada, por decir lo menos.
 
-After graduating from EPFL, my startup mentor hired me for a consulting gig. He, his client, and I met for a drink one afternoon to discuss a project. We established deadlines, defined a scope, and off I was to begin my summer project.
+Después de graduarme de EPFL, mi mentor de startup me contrató para un trabajo de consultoría. Él, su cliente y yo nos reunimos una tarde para discutir un proyecto. Establecimos plazos, definimos un alcance y comencé mi proyecto de verano.
 
-A few weeks in, my mentor disappeared without any prior notice. He went on holiday and completely disconnected for nearly a month. Unexpectedly, I was left to handle the client on my own.
+Unas semanas después, mi mentor desapareció sin previo aviso. Se fue de vacaciones y se desconectó completamente durante casi un mes. Inesperadamente, me quedé a cargo del cliente por mi cuenta.
 
-The client was eager to disrupt the real estate industry with technology, while I was more focused on meeting expectations. I felt my job hanging by a thread, but I managed to deliver a report detailing realty pricing models that would be subsequently put to use.
+El cliente estaba ansioso por revolucionar la industria inmobiliaria con tecnología, mientras que yo estaba más enfocado en cumplir con las expectativas. Sentía que mi trabajo colgaba de un hilo, pero logré entregar un informe detallando modelos de precios inmobiliarios que posteriormente se utilizarían.
 
-Weeks after getting that load off my back, my startup crashed. My last 2 years were gone in the blink of an eye. Fortunately, my university career fair was just around the corner. Out on the market with a failed startup story to tell, every company wanted to hire me.
+Semanas después de quitarme esa carga de encima, mi startup se derrumbó. Mis últimos dos años se desvanecieron en un abrir y cerrar de ojos. Afortunadamente, la feria de empleo de mi universidad estaba a la vuelta de la esquina. En el mercado con una historia de fracaso de startup para contar, todas las empresas querían contratarme.
 
-Skipping over several rounds of interviews, I joined Capgemini’s Insights and Data practice as a Data Analyst. A brand new team consisting of fresh consultants eager for success, led by a distinguished and experienced consultant. We were determined to attack the Swiss market, which was ripe for digitalization after the pandemic. On paper, the project seemed exciting, but in reality, it was destined for disaster. I wasn’t enjoying my experience there, so I left soon after.
+Saltando varias rondas de entrevistas, me uní a la práctica de Insights and Data de Capgemini como Analista de Datos. Un equipo nuevo compuesto por consultores frescos ansiosos de éxito, liderado por un consultor distinguido y experimentado. Estábamos decididos a atacar el mercado suizo, que estaba maduro para la digitalización después de la pandemia. En teoría, el proyecto parecía emocionante, pero en realidad, estaba destinado al desastre. No disfrutaba mi experiencia allí, así que me fui poco después.
 
-During the career fair, I was also in touch with Open Web Technology, a smaller yet reputable consulting firm. Although my head led me towards Capgemini, my heart always pumped for Open Web. The on-site interview had left a great impression on me: they were a small family of entrepreneurs sharing a similar background to mine. After leaving Capgemini, I knew where I wanted to be.
+Durante la feria de empleo, también estuve en contacto con Open Web Technology, una firma de consultoría más pequeña pero de buena reputación. Aunque mi cabeza me llevó hacia Capgemini, mi corazón siempre latió por Open Web. La entrevista en el sitio me dejó una gran impresión: eran una pequeña familia de emprendedores con un trasfondo similar al mío. Después de dejar Capgemini, supe dónde quería estar.
 
-The job did not disappoint. A few months in, I truly believed that I had found my dream job. I was learning a great deal, team events were fun, and, unlike before, my voice was heard.
+El trabajo no decepcionó. Unos meses después, realmente creí que había encontrado el trabajo de mis sueños. Estaba aprendiendo mucho, los eventos de equipo eran divertidos y, a diferencia de antes, mi voz era escuchada.
 
-Naturally, I began taking on more and more responsibilities. With the onset of cold winter days, however, I started feeling overwhelmed. “Had I taken on too much too quickly?” I wondered. Everything was happening so fast, I had no time to pause and reflect. As we were delivering my biggest project yet, I took some time off and realized that the company and I were no longer aligned. I wasn’t growing the way I wanted to, so I quit shortly thereafter.
+Naturalmente, comencé a asumir cada vez más responsabilidades. Con la llegada de los fríos días de invierno, sin embargo, comencé a sentirme abrumado. "¿Había asumido demasiado demasiado rápido?", me preguntaba. Todo estaba sucediendo tan rápido que no tenía tiempo para detenerme y reflexionar. Mientras entregábamos mi proyecto más grande hasta la fecha, tomé un tiempo libre y me di cuenta de que la empresa y yo ya no estábamos alineados. No estaba creciendo como quería, así que renuncié poco después.
 
-Nonetheless, I learned some important lessons from my experiences:
+Sin embargo, aprendí algunas lecciones importantes de mis experiencias:
 
-- A larger company does not necessarily mean it is better for you. As companies grow, they become less prone to taking risks. Their focus shifts toward maintaining profits and market share. Ideally, you should find a company that you can grow with.
-- My generation is used to quick wins and quick rewards (thank you smartphones). When we don’t receive them promptly, we become disappointed. This is important to keep in mind because building trust takes time. Based on my experiences, it takes even longer with older generations.
-- Going through several rounds of interviews is actually beneficial. You get to meet more people and get a better sense of the job. This will give you a better idea of what to expect once you start working.
-- When you start a new job, you’re not starting over — you’re starting from experience. Your experience is what sets you apart from everyone else.
+- Una empresa más grande no necesariamente significa que sea mejor para ti. A medida que las empresas crecen, se vuelven menos propensas a asumir riesgos. Su enfoque cambia hacia mantener las ganancias y la cuota de mercado. Idealmente, deberías encontrar una empresa con la que puedas crecer.
+- Mi generación está acostumbrada a las victorias rápidas y las recompensas rápidas (gracias, smartphones). Cuando no las recibimos de inmediato, nos decepcionamos. Esto es importante tenerlo en cuenta porque construir confianza lleva tiempo. Basado en mis experiencias, toma aún más tiempo con las generaciones mayores.
+- Pasar por varias rondas de entrevistas es en realidad beneficioso. Conoces a más personas y obtienes una mejor idea del trabajo. Esto te dará una mejor idea de qué esperar una vez que empieces a trabajar.
+- Cuando empiezas un nuevo trabajo, no estás comenzando de cero, estás comenzando desde la experiencia. Tu experiencia es lo que te distingue de los demás.
 
-Life is a journey. The destination doesn’t matter as much as the experiences along the way. For me, that journey is only just beginning.
+La vida es un viaje. El destino no importa tanto como las experiencias en el camino. Para mí, ese viaje apenas está comenzando.

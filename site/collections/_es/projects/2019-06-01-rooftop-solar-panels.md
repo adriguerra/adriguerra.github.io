@@ -1,31 +1,31 @@
 ---
 date: 2019-06-01
-title: "Automatic Detection of Rooftop Solar Panels using Convolutional Neural Networks"
+title: "Detección Automática de Paneles Solares en Azoteas usando Redes Neuronales Convolucionales"
 subtitle: Deep Learning
 image: '/images/deepsolar_getty-960x540.jpg'
 ---
 
-***Note:***
-*This project culminated in the publication of an academic paper, detailing our methodology, findings, and implications for the broader field of distributed energy infrastructure and urban planning. The paper, titled "Automatic Detection of Rooftop Solar Panels using Convolutional Neural Networks," and co-authored along with Roberto Castello, Simon Roquette, Martin Esguerra and Jean-Louis Scartezzini, is accessible at the following [link.](https://iopscience.iop.org/article/10.1088/1742-6596/1343/1/012034)*
+***Nota:***
+*Este proyecto culminó en la publicación de un artículo académico que detalla nuestra metodología, hallazgos e implicaciones para el campo más amplio de la infraestructura de energía distribuida y la planificación urbana. El artículo, titulado "Detección Automática de Paneles Solares en Azoteas usando Redes Neuronales Convolucionales", y coautoría de Roberto Castello, Simon Roquette, Martin Esguerra y Jean-Louis Scartezzini, está accesible en el siguiente [enlace.](https://iopscience.iop.org/article/10.1088/1742-6596/1343/1/012034)*
 
-### Problem
-Accurately mapping the location and size of solar installations in urban areas presents a significant challenge yet is crucial for policymakers and investors in distributed energy infrastructures. Traditional methods, such as surveys and database analysis, are often limited in scope and scalability, leading to a gap in comprehensive, large-scale mapping of solar installations. This gap hinders effective policy-making and investment in solar technology.
+### Problema
+Mapear con precisión la ubicación y el tamaño de las instalaciones solares en áreas urbanas presenta un desafío significativo, pero es crucial para los formuladores de políticas y los inversores en infraestructuras de energía distribuida. Los métodos tradicionales, como las encuestas y el análisis de bases de datos, a menudo son limitados en alcance y escalabilidad, lo que lleva a una falta de mapeo integral y a gran escala de las instalaciones solares. Esta brecha dificulta la toma de decisiones y las inversiones efectivas en tecnología solar.
 
-### Solution
-This project addresses the challenge by applying a supervised machine learning approach, specifically convolutional neural networks (CNNs), for the pixel-wise image segmentation of rooftop solar panels. By utilizing high-resolution aerial photos provided by the Swiss Federal Office of Topography, the project enables precise delineation and size detection of rooftop solar installations. The approach involves:
+### Solución
+Este proyecto aborda el desafío aplicando un enfoque de aprendizaje automático supervisado, específicamente redes neuronales convolucionales (CNN), para la segmentación de imágenes a nivel de píxel de los paneles solares en azoteas. Al utilizar fotos aéreas de alta resolución proporcionadas por la Oficina Federal de Topografía Suiza, el proyecto permite la delimitación precisa y la detección del tamaño de las instalaciones solares en azoteas. El enfoque incluye:
 
-1. **Data Augmentation and Parameter Tuning**: Implementing various data augmentation techniques and adjusting network parameters to optimize model performance, ensuring the model's robustness and accuracy in different urban scenarios. 
-   
-2. **Pixel-wise Image Segmentation**: Employing CNNs for pixel-wise segmentation, the model accurately identifies and delineates individual solar panels on rooftops, providing detailed insights into their distribution and size.
+1. **Aumento de Datos y Ajuste de Parámetros**: Implementación de diversas técnicas de aumento de datos y ajuste de parámetros de la red para optimizar el rendimiento del modelo, asegurando la robustez y precisión del modelo en diferentes escenarios urbanos.
 
-3. **Scalability and National Scale Prediction**: Demonstrating the scalability of the trained model by predicting the deployment of solar panels at a national level, specifically across Switzerland, showcasing the model's applicability for large-scale analysis.
+2. **Segmentación de Imágenes a Nivel de Píxel**: Empleo de CNN para la segmentación a nivel de píxel, el modelo identifica y delimita con precisión los paneles solares individuales en las azoteas, proporcionando información detallada sobre su distribución y tamaño.
 
-4. **Correlation Analysis with Environmental and Socio-economic Variables**: Analyzing the correlation between solar panel deployment and local environmental and socio-economic factors, paving the way for predictive models that can foster the future adoption of solar technology in urban areas.
+3. **Escalabilidad y Predicción a Nivel Nacional**: Demostración de la escalabilidad del modelo entrenado al predecir el despliegue de paneles solares a nivel nacional, específicamente en toda Suiza, mostrando la aplicabilidad del modelo para el análisis a gran escala.
 
-### Tools Used
-1. **Python Deep Learning Libraries**: Utilizing popular Python libraries such as PyTorch, Keras, and TensorFlow to build, train, and validate the convolutional neural networks, ensuring the use of cutting-edge techniques in deep learning.
-   
-2. **High-Resolution Aerial Photos**: Leveraging high-quality aerial imagery provided by the Swiss Federal Office of Topography as the primary data source for the model, ensuring accurate and high-fidelity input data for analysis.
+4. **Análisis de Correlación con Variables Ambientales y Socioeconómicas**: Análisis de la correlación entre el despliegue de paneles solares y los factores ambientales y socioeconómicos locales, allanando el camino para modelos predictivos que puedan fomentar la adopción futura de tecnología solar en áreas urbanas.
 
-### Outcome
-The project successfully developed a machine learning model capable of accurately detecting and delineating rooftop solar panels in urban areas with a high degree of precision (accuracy of about 0.94 and an Intersection over Union index of up to 0.64). The scalability of the model enables the prediction of solar panel deployment on a national scale, offering valuable insights for policymakers and investors. Furthermore, the correlation of solar installation data with local environmental and socio-economic variables opens avenues for predictive analytics, supporting the strategic expansion of solar technology in urban landscapes.
+### Herramientas Utilizadas
+1. **Bibliotecas de Deep Learning en Python**: Utilización de bibliotecas populares de Python como PyTorch, Keras y TensorFlow para construir, entrenar y validar las redes neuronales convolucionales, asegurando el uso de técnicas de vanguardia en deep learning.
+
+2. **Fotos Aéreas de Alta Resolución**: Aprovechamiento de imágenes aéreas de alta calidad proporcionadas por la Oficina Federal de Topografía Suiza como la fuente de datos principal para el modelo, asegurando datos de entrada precisos y de alta fidelidad para el análisis.
+
+### Resultado
+El proyecto desarrolló con éxito un modelo de aprendizaje automático capaz de detectar y delimitar con precisión los paneles solares en azoteas en áreas urbanas con un alto grado de precisión (precisión de aproximadamente 0.94 y un índice de intersección sobre unión de hasta 0.64). La escalabilidad del modelo permite la predicción del despliegue de paneles solares a escala nacional, ofreciendo información valiosa para los formuladores de políticas y los inversores. Además, la correlación de los datos de instalaciones solares con las variables ambientales y socioeconómicas locales abre vías para el análisis predictivo, apoyando la expansión estratégica de la tecnología solar en paisajes urbanos.
