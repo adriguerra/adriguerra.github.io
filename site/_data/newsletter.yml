@@ -13,8 +13,9 @@ fr:
   newsletter_placeholder: Votre addresse email
   newsletter_button: "S'abonner"
 es:
-  newsletter_title: "Join my mailing list"
-  newsletter_description: "Get inspiration, updates and, cool stuff!" # Add descriptions to the form.
-  newsletter_identifier: "adriguerra.us21.list-manage.com/subscribe/post?u=797ad5c238231ca5a3ca3478e&amp;id=3ef0806f26&amp;f_id=00fffbe6f0" # Add your MailChimp form identifier.
-  newsletter_placeholder: Your email address
-  newsletter_button: "Subscribe"
+  newsletter_title: "Únete a mi lista de correo"
+  newsletter_description: "Recibe inspiración, actualizaciones y cosas geniales!" # Añade descripciones al formulario.
+  newsletter_identifier: "adriguerra.us21.list-manage.com/subscribe/post?u=797ad5c238231ca5a3ca3478e&amp;id=3ef0806f26&amp;f_id=00fffbe6f0" # Añade tu identificador de formulario de MailChimp.
+  newsletter_placeholder: Tu dirección de correo electrónico
+  newsletter_button: "Suscribirse"
+
