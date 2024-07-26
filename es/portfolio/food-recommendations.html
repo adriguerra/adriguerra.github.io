@@ -6,21 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Product Recommendation Pipeline for a Food Delivery Online Marketplace</title>
+  <title>Recomendaciones de Productos para Entrega de Alimentos</title>
   <meta name='description' content='Adrian Guerra - Freelancing Services'>
 
   <link rel="canonical" href="/es/portfolio/food-recommendations">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Product Recommendation Pipeline for a Food Delivery Online Marketplace – Adrian Guerra">
-  <meta name="twitter:description" content="Problem
+  <meta name="twitter:title" content="Recomendaciones de Productos para Entrega de Alimentos – Adrian Guerra">
+  <meta name="twitter:description" content="Problema
 ">
   <meta name="twitter:image:src" content="/images/food_recs.jpg">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="Product Recommendation Pipeline for a Food Delivery Online Marketplace – Adrian Guerra">
-  <meta property="og:description" content="Problem
+  <meta property="og:title" content="Recomendaciones de Productos para Entrega de Alimentos – Adrian Guerra">
+  <meta property="og:description" content="Problema
 ">
   <meta property="og:image" content="/images/food_recs.jpg">
 
@@ -126,7 +126,7 @@
                   
                     
                     <li class="nav-item">
-                      <a href="/es/about" class="nav-link">About</a>
+                      <a href="/es/about" class="nav-link">Sobre mí</a>
                     </li>
                     
                   
@@ -138,13 +138,13 @@
                   
                     
                     <li class="nav-item">
-                      <a href="/es/portfolio" class="nav-link">Portfolio</a>
+                      <a href="/es/portfolio" class="nav-link">Portafolio</a>
                     </li>
                     
                   
                     
                     <li class="nav-item">
-                      <a href="/es/#contact" class="nav-link">Contact</a>
+                      <a href="/es/#contact" class="nav-link">Contacto</a>
                     </li>
                     
                   
@@ -213,9 +213,9 @@
           
 <div class="container">
   <div class="c-page-heading">
-    <h1 class="c-page-heading-title">Product Recommendation Pipeline for a Food Delivery Online Marketplace</h1>
+    <h1 class="c-page-heading-title">Recomendaciones de Productos para Entrega de Alimentos</h1>
     
-      <p class="c-page-heading-description">Data Analysis</p>
+      <p class="c-page-heading-description">Análisis de Datos</p>
     
   </div>
 </div>
@@ -235,39 +235,39 @@
           <!--bookshop-live end-->
 
   <div class="page animate" style="text-align: justify;">
-    <h3 id="problem">Problem</h3>
+    <h3 id="problema">Problema</h3>
 
-<p>An online delivery marketplace aimed to boost its revenue by integrating data-driven improvements into its user experience. We collaboratively identified four potential data science applications for its marketplace: product recommendations, delivery time predictions, dynamic fare pricing, and delivery route optimization. After evaluating the data availability and practicality of each option, we decided to initiate a proof-of-concept initiative focusing on product recommendations within the food segment.</p>
+<p>Un mercado en línea de entregas a domicilio buscaba aumentar sus ingresos integrando mejoras impulsadas por datos en su experiencia de usuario. Colaborativamente, identificamos cuatro posibles aplicaciones de ciencia de datos para su mercado: recomendaciones de productos, predicciones de tiempo de entrega, precios dinámicos y optimización de rutas de entrega. Después de evaluar la disponibilidad de datos y la viabilidad de cada opción, decidimos iniciar una prueba de concepto enfocada en recomendaciones de productos dentro del segmento de alimentos.</p>
 
-<p>In 2023 alone, the food segment accounted for over 205,000 orders, generating approximately $6 million in revenue for the marketplace. The company’s databases were brimming with underutilized data that had not been leveraged for analytical purposes nor for data-driven management decisions. Additionally, the existing user interface lacked any form of personalized recommendations. The client’s goal was to explore the potential of data science to enhance the user experience by offering personalized food recommendations.</p>
+<p>Solo en 2023, el segmento de alimentos representó más de 205,000 pedidos, generando aproximadamente $6 millones en ingresos para el mercado. Las bases de datos de la empresa estaban llenas de datos subutilizados que no se habían aprovechado para propósitos analíticos ni para decisiones de gestión basadas en datos. Además, la interfaz de usuario existente carecía de cualquier forma de recomendaciones personalizadas. El objetivo del cliente era explorar el potencial de la ciencia de datos para mejorar la experiencia del usuario ofreciendo recomendaciones de alimentos personalizadas.</p>
 
-<h3 id="solution">Solution</h3>
+<h3 id="solución">Solución</h3>
 
-<p>We identified the data requirements for building a product recommendation pipeline and collected the necessary data. Drawing inspiration from <a href="https://www.uber.com/en-CH/blog/uber-eats-recommending-marketplace/">Uber Eats’ advanced recommendation techniques</a>, we designed a proof-of-concept product recommendation pipeline combining content-based and collaborative filtering methods to deliver personalized food suggestions. The development process included several key steps:</p>
+<p>Identificamos los requisitos de datos para construir un pipeline de recomendaciones de productos y recolectamos los datos necesarios. Inspirándonos en las <a href="https://www.uber.com/en-CH/blog/uber-eats-recommending-marketplace/">técnicas avanzadas de recomendaciones de Uber Eats</a>, diseñamos una prueba de concepto de un pipeline de recomendaciones de productos combinando métodos de filtrado basado en contenido y filtrado colaborativo para ofrecer sugerencias de alimentos personalizadas. El proceso de desarrollo incluyó varios pasos clave:</p>
 
 <ol>
-  <li><strong>Data Collection</strong>: We began by extracting and manipulating relevant user and product data from MongoDB, converting this information into pandas DataFrames for in-depth analysis.</li>
-  <li><strong>Exploratory Data Analysis (EDA)</strong>: We conducted a comprehensive exploratory data analysis to identify patterns and relationships within the data, which are crucial for refining our recommendation strategies based on actual user behaviors and product attributes.</li>
-  <li><strong>Content-Based Filtering</strong>: We created user and food taste profiles using features extracted from product descriptions and user preferences. These profiles were converted into numerical vectors using sklearn’s DictVectorizer, enabling the calculation of similarity scores between user tastes and product profiles.</li>
-  <li><strong>Collaborative Filtering</strong>: This technique leveraged users’ purchase histories to identify products favored by similar users, effectively capturing evolving user preferences.</li>
-  <li><strong>Hybrid Approach</strong>: By integrating content-based and collaborative filtering, our engine was able to recommend food items that not only matched previous preferences but also included popular items among similar users, thus improving both accuracy and discovery.</li>
+  <li><strong>Recolección de Datos</strong>: Comenzamos extrayendo y manipulando datos relevantes de usuarios y productos de MongoDB, convirtiendo esta información en DataFrames de pandas para un análisis profundo.</li>
+  <li><strong>Análisis Exploratorio de Datos (EDA)</strong>: Realizamos un análisis exploratorio de datos exhaustivo para identificar patrones y relaciones dentro de los datos, lo cual es crucial para refinar nuestras estrategias de recomendación basadas en comportamientos reales de usuarios y atributos de productos.</li>
+  <li><strong>Filtrado Basado en Contenido</strong>: Creamos perfiles de gustos de usuarios y alimentos utilizando características extraídas de descripciones de productos y preferencias de usuarios. Estos perfiles se convirtieron en vectores numéricos utilizando DictVectorizer de sklearn, permitiendo el cálculo de puntuaciones de similitud entre los gustos de los usuarios y los perfiles de productos.</li>
+  <li><strong>Filtrado Colaborativo</strong>: Esta técnica aprovechó los historiales de compras de los usuarios para identificar productos preferidos por usuarios similares, capturando efectivamente las preferencias cambiantes de los usuarios.</li>
+  <li><strong>Enfoque Híbrido</strong>: Al integrar el filtrado basado en contenido y el filtrado colaborativo, nuestro motor pudo recomendar alimentos que no solo coincidían con preferencias anteriores, sino que también incluían artículos populares entre usuarios similares, mejorando tanto la precisión como el descubrimiento.</li>
 </ol>
 
-<h3 id="tools-used">Tools Used</h3>
+<h3 id="herramientas-utilizadas">Herramientas Utilizadas</h3>
 
 <ul>
-  <li><strong>MongoDB:</strong> Primary database for storing user and product data.</li>
-  <li><strong>Python:</strong> The primary programming language for developing the recommendation algorithms and performing data analysis.</li>
-  <li><strong>Pandas:</strong> Utilized for data manipulation and analysis to convert raw data into insights.</li>
-  <li><strong>Matplotlib:</strong> Primary library used to visualize data trends and algorithmic outputs.</li>
-  <li><strong>Sklearn (DictVectorizer):</strong> Used for encoding categorical data into numerical vectors, critical for our machine learning models.</li>
+  <li><strong>MongoDB:</strong> Base de datos principal para almacenar datos de usuarios y productos.</li>
+  <li><strong>Python:</strong> El lenguaje de programación principal para desarrollar los algoritmos de recomendaciones y realizar análisis de datos.</li>
+  <li><strong>Pandas:</strong> Utilizado para la manipulación y análisis de datos, convirtiendo datos crudos en información.</li>
+  <li><strong>Matplotlib:</strong> Biblioteca principal utilizada para visualizar tendencias de datos y resultados de algoritmos.</li>
+  <li><strong>Sklearn (DictVectorizer):</strong> Utilizado para codificar datos categóricos en vectores numéricos, crucial para nuestros modelos de aprendizaje automático.</li>
 </ul>
 
-<h3 id="outcome">Outcome</h3>
+<h3 id="resultado">Resultado</h3>
 
-<p>The proof-of-concept recommendation pipeline demonstrated the potential to implement complex AI-driven solutions in real-world scenarios. Its success marks a promising step towards extending recommendation services to other segments of the marketplace, potentially transforming the shopping experience for customers across various categories. Additionally, this initiative highlighted the importance of well-structured, ordered, and maintained data for making data-driven decisions. It also revealed gaps in existing data pipelines that, once addressed, could further refine the product’s user experience.</p>
+<p>El pipeline de recomendaciones de prueba de concepto demostró el potencial para implementar soluciones complejas impulsadas por IA en escenarios del mundo real. Su éxito marca un paso prometedor hacia la extensión de los servicios de recomendación a otros segmentos del mercado, potencialmente transformando la experiencia de compra para los clientes en varias categorías. Además, esta iniciativa destacó la importancia de datos bien estructurados, ordenados y mantenidos para tomar decisiones basadas en datos. También reveló brechas en los pipelines de datos existentes que, una vez abordadas, podrían mejorar aún más la experiencia del usuario del producto.</p>
 
-<p>In the coming weeks, this proof-of-concept will be implemented in a sandbox environment within the marketplace. This will allow us to closely simulate real-world usage and make the necessary adjustments before proceeding with a full-scale deployment.</p>
+<p>En las próximas semanas, esta prueba de concepto se implementará en un entorno sandbox dentro del mercado. Esto nos permitirá simular de cerca el uso en el mundo real y realizar los ajustes necesarios antes de proceder con un despliegue a gran escala.</p>
 
   </div>
 
@@ -276,7 +276,7 @@
     <a class="project-prev" href="/es/portfolio/feedly">
       <div class="project-box">
         <span class="project-nav-info">Next Project</span>
-        <h2 class="project-nav-title">Automating Social Media Engagement for Reus Pharma<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
+        <h2 class="project-nav-title">Automatización de la Publicación en Redes Sociales para Reus Pharma<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
       </div>
     </a>
   </div>
