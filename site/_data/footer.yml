@@ -42,3 +42,12 @@ copyright_text_html:
     <p>&copy;2024 <a href="/fr">Adrian Guerra Consulting.</a> Tous Droits Réservés.</p>
   es: >-
     <p>&copy;2024 <a href="/fr">Adrian Guerra Consulting.</a> Todos los derechos reservados.</p>
+    <p>&copy;2023 <a href="/fr">Adrian Guerra Consulting.</a> All Rights Reserved.</p>
+
+subscribe-text: 
+  en:
+    Subscribe to my newsletter
+  fr:
+    Subscribe to my newsletter
+  es:
+    Subscribe to my newsletter
