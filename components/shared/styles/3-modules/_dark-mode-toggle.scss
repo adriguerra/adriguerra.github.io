@@ -24,13 +24,13 @@
     transition: color 0.3s ease, transform 0.3s ease;
     position: absolute;
     top: 0;
-    transform: translateY(3.2rem);
+    transform: translateY(calc(80%));
     border-radius: 8rem;
 }
 
 #dark-mode-toggle p {
     margin: 0;
-    transform: rotate(-90deg);
+    writing-mode: vertical-rl;
 }
 
 #dark-mode-toggle svg {
