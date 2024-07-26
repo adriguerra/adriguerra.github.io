@@ -1,6 +1,6 @@
 ---
 date: 2023-01-10 07:30:35 +0300
-title: Product Recommendation Pipeline for a Food Delivery Online Marketplace
+title: Product Recommendations for a Food Delivery Marketplace
 subtitle: Data Analysis
 image: '/images/food_recs.jpg'
 ---
