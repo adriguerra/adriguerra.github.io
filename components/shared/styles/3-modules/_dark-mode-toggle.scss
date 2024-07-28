@@ -24,12 +24,13 @@
     transition: color 0.3s ease, transform 0.3s ease;
     position: absolute;
     top: 0;
-    transform: translateY(calc(80%));
+    transform: translateY(calc(var(--text-height)*0.5));
     border-radius: 8rem;
 }
 
 #dark-mode-toggle p {
     margin: 0;
+    transform: rotate(-180deg);
     writing-mode: vertical-rl;
 }
 
