@@ -225,4 +225,7 @@ document.addEventListener("DOMContentLoaded", function () {
       header_inner.classList.remove('scrolled');
     }
   });
+    const darkModeToggleElement = document.querySelector('#dark-mode-toggle');
+    const darkModeElementHeight = darkModeToggleElement.offsetHeight;
+    darkModeToggleElement.style.setProperty('--text-height', `calc(${darkModeElementHeight}px)`);
 });
