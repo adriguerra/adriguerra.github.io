@@ -3,17 +3,21 @@
     <div class="toggle-text">
         <div>
             {% include dark-mode-icon.html %}
+            <p>{{toggle_text.dark}}</p>
         </div>
         <div>
             {% include light-mode-icon.html %}
+            <p>{{toggle_text.light}}</p>
         </div>
     </div>
     <div class="label">
         <div class="darkLabel">
-            {% include dark-mode-icon.html %}
+            {% include dark-mode-icon.html %}           
+            <p>{{toggle_text.dark}}</p>
         </div>
         <div class="lightLabel">
             {% include light-mode-icon.html %}
+            <p>{{toggle_text.light}}</p>
         </div>
     </div>
 </div>
