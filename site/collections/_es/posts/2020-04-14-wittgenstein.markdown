@@ -6,12 +6,18 @@ description: >-
 tags:
   - filosofía
   - lenguaje
-image: /images/socrates.jpg
+image: /images/wittgenstein.jpg
 ---
 
 *Un breve resumen del método socrático y la filosofía del lenguaje de Wittgenstein para definir palabras.*
 
 En los diálogos socráticos, Sócrates pregunta muchas veces *“¿Qué es X?”*. X puede ser el coraje, la piedad, la justicia, la templanza o la sabiduría. Los protagonistas le dan ejemplos de estas palabras abstractas mientras intentan llegar a una definición. Pero Sócrates rechaza todas; siempre encuentra un uso de la palabra que no encaja en la definición dada.
+
+{:style="text-align:center;"}
+![Socrates](/images/socrates.jpg)
+
+{:.image-caption}
+*Sócrates c. 470–399 BC*
 
 En Eutifrón, por ejemplo, Sócrates y Eutifrón intentan establecer un significado definitivo para la palabra piedad. Sócrates pregunta: *“¿Qué es la piedad?”*, a lo que Eutifrón responde que la piedad es lo que él está haciendo en ese momento. Sócrates rechaza esta definición, porque la acción de Eutifrón es simplemente un ejemplo y no proporciona la característica esencial que hace que las acciones piadosas sean piadosas. Eutifrón intenta dar cuatro definiciones más, pero Sócrates sigue cuestionándolas (lo que se conoce como el **cuestionamiento socrático** o **método socrático**). Eutifrón termina perdiendo la paciencia y deja a Sócrates sin una definición clara de la piedad.
 
@@ -30,8 +36,12 @@ Siglos después, Ludwig Wittgenstein intentaría retomar el trabajo inacabado de
 
 > **Voices of Wittgenstein, Waismann & Wittgenstein, 2003, p. 33**
 
+
 {:style="text-align:center;"}
 ![Wittgenstein](https://miro.medium.com/max/800/0*z-u5VJtjCSKd2xiL.webp)
+
+{:.image-caption}
+*Ludwig Wittgenstein 1889–1951*
 
 En Investigaciones Filosóficas, considera ejemplos de la palabra juego para ilustrar su punto.
 

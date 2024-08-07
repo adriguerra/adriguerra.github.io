@@ -6,12 +6,18 @@ description: >-
 tags:
   - philosophie
   - langage
-image: /images/socrates.jpg
+image: /images/wittgenstein.jpg
 ---
 
 *Un bref aperçu de la méthode socratique et de la philosophie du langage de Wittgenstein pour définir les mots.*
 
 Dans les dialogues socratiques, Socrate demande souvent *“Qu'est-ce que X ?”*. X étant le courage, la piété, la justice, la tempérance ou la sagesse. Les protagonistes lui donnent des exemples de ces mots abstraits alors qu'ils essaient de trouver une définition. Mais Socrate les rejette tous ; il trouve toujours une utilisation du mot qui ne correspond pas à la définition donnée.
+
+{:style="text-align:center;"}
+![Socrate](/images/socrates.jpg)
+
+{:.image-caption}
+*Socrate c. 470–399 BC*
 
 Dans l’Euthyphron, par exemple, Socrate et Euthyphron tentent de définir de manière définitive le mot piété. Socrate demande : *“Qu'est-ce que la piété ?”*, ce à quoi Euthyphron répond que la piété est ce qu'il fait actuellement. Socrate rejette cette définition, car l'action d'Euthyphron n'est qu'un exemple et ne fournit pas la caractéristique essentielle qui rend les actions pieuses pieuses. Euthyphron tente de donner quatre autres définitions, mais Socrate continue de les questionner (ce que l'on appelle le **questionnement socratique** ou **méthode socratique**). Euthyphron finit par perdre patience et laisse Socrate sans une définition claire de la piété.
 
@@ -32,6 +38,9 @@ Des siècles plus tard, Ludwig Wittgenstein tenterait de reprendre le travail in
 
 {:style="text-align:center;"}
 ![Wittgenstein](https://miro.medium.com/max/800/0*z-u5VJtjCSKd2xiL.webp)
+
+{:.image-caption}
+*Ludwig Wittgenstein 1889–1951*
 
 Dans les Investigations Philosophiques, il considère des exemples du mot jeu pour illustrer son propos.
 
