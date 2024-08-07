@@ -6,12 +6,18 @@ description: >-
 tags:
   - philosophy
   - language
-image: /images/socrates.jpg
+image: /images/wittgenstein.jpg
 ---
 
 *A brief overview of the Socratic method and Wittgenstein’s philosophy of language to define words.*
 
 In the Socratic dialogues, Socrates asks many times *“What is X?”*. X being courage, piety, justice, temperance or wisdom. The protagonists give him instances of these abstracts words as they try to come up with a definition. But Socrates rejects all of them; he always finds a use of the word which does not fit the given definition.
+
+{:style="text-align:center;"}
+![Socrates](/images/socrates.jpg)
+
+{:.image-caption}
+*Socrates c. 470–399 BC*
 
 In Euthyphro, for instance, Socrates and Euthyphro attempt to establish a definitive meaning for the word piety. Socrates asks: *“What is piety?”*, to which Euthyphro replies that piety is what he is doing right now. Socrates rejects this definition, because Euthyphro’s action is merely an example and does not provide the essential characteristic that make pious actions pious. Euthyphro attempts to give four further definitions, but Socrates keeps questioning them (known as the **Socratic questioning** or **Socratic method**). Euthyphro ends up running out of patience and leaves Socrates without a clear definition of piety.
 
@@ -32,6 +38,9 @@ Centuries later, Ludwig Wittgenstein would attempt to resume Socrates’ unfinis
 
 {:style="text-align:center;"}
 ![Wittgenstein](https://miro.medium.com/max/800/0*z-u5VJtjCSKd2xiL.webp)
+
+{:.image-caption}
+*Ludwig Wittgenstein 1889–1951*
 
 In Philosophical Investigations, he considers instances of the word game to illustrate his point.
 
