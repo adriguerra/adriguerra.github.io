@@ -2,6 +2,18 @@
 layout: default
 ---
 
+{% assign previous_project = nil %}
+
+{% for project in site[page.collection] %}
+  {% if project.url == page.url %}
+    {% break %}
+  {% endif %}
+
+  {% if project.path contains "/projects/" %}
+    {% assign previous_project = project %}
+  {% endif %}
+{% endfor %}
+
 <div class="container">
 
   {% bookshop page-heading title=page.title description=page.subtitle %}
@@ -12,12 +24,12 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.previous.url %}
+  {% if previous_project %}
   <div class="project-navigation animate">
-    <a class="project-prev" href="{{page.previous.url}}">
+    <a class="project-prev" href="{{previous_project.url}}">
       <div class="project-box">
         <span class="project-nav-info">Next Project</span>
-        <h2 class="project-nav-title">{{page.previous.title}}<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
+        <h2 class="project-nav-title">{{previous_project.title}}<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
       </div>
     </a>
   </div>
