@@ -1,5 +1,7 @@
 title: Adrian Guerra
 
+permalink: /:slug
+
 plugins:
   - jekyll-bookshop
   - cloudcannon-jekyll-bookshop
