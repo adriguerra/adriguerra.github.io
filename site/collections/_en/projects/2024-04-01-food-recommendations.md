@@ -1,5 +1,5 @@
 ---
-date: 2023-01-10 07:30:35 +0300
+date: 2024-04-01 07:30:35 +0300
 title: Product Recommendations for a Food Delivery Marketplace
 subtitle: Data Analysis
 image: '/images/food_recs.jpg'
