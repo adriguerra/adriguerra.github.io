@@ -16,7 +16,7 @@
             {% assign sorted_projects = site[page.collection] | reverse %}
             {% assign filtered_projects = sorted_projects | where_exp: "project", "project.path contains '/projects'" %}
 
-            {% for project in filtered_projects limit:6 %}
+            {% for project in filtered_projects limit:3 %}
               {% bookshop project-card project=project %}
             {% endfor %}
           </div>
