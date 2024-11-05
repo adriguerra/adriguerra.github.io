@@ -1,6 +1,6 @@
 title: Adrian Guerra
 
-permalink: /:basename/
+permalink: /:slug
 
 plugins:
   - jekyll-bookshop
