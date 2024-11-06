@@ -75,11 +75,6 @@ defaults:
     values:
       layout: default
   - scope:
-      type: pages
-      path: _en/pages/index.html
-    values:
-      permalink: /
-  - scope:
       path: _en/projects
     values:
       layout: project
@@ -90,11 +85,6 @@ defaults:
       layout: post
       permalink: /blog/:slug/
   - scope:
-      type: pages
-      path: _fr/pages/index.html
-    values:
-      permalink: /
-  - scope:
       path: _fr/projects
     values:
       layout: project
@@ -104,11 +94,6 @@ defaults:
     values:
       layout: post
       permalink: /fr/blog/:slug/
-  - scope:
-      type: pages
-      path: _es/pages/index.html
-    values:
-      permalink: /
   - scope:
       path: _es/projects
     values:
