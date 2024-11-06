@@ -34,13 +34,13 @@ collections_dir: 'collections'
 collections:
   en:
     output: true
-    permalink: /:slug
+    permalink: /:slug/
   fr:
     output: true
-    permalink: /:collection/:slug
+    permalink: /:collection/:slug/
   es:
     output: true
-    permalink: /:collection/:slug
+    permalink: /:collection/:slug/
   
 cloudcannon:
   collections:
