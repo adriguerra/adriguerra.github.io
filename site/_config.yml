@@ -83,13 +83,12 @@ defaults:
       path: _en/projects
     values:
       layout: project
-      permalink: /portfolio/:slug
+      permalink: /portfolio/:slug/
   - scope:
       path: _en/posts
     values:
       layout: post
-      permalink: /blog/:slug
-
+      permalink: /blog/:slug/
   - scope:
       type: pages
       path: _fr/pages/index.html
@@ -99,13 +98,12 @@ defaults:
       path: _fr/projects
     values:
       layout: project
-      permalink: /fr/portfolio/:slug
+      permalink: /fr/portfolio/:slug/
   - scope:
       path: _fr/posts
     values:
       layout: post
-      permalink: /fr/blog/:slug
-
+      permalink: /fr/blog/:slug/
   - scope:
       type: pages
       path: _es/pages/index.html
@@ -115,9 +113,9 @@ defaults:
       path: _es/projects
     values:
       layout: project
-      permalink: /es/portfolio/:slug
+      permalink: /es/portfolio/:slug/
   - scope:
       path: _es/posts
     values:
       layout: post
-      permalink: /es/blog/:slug
+      permalink: /es/blog/:slug/
