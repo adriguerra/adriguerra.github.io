@@ -258,7 +258,7 @@ table td {
 body.dark{
   color: $dark-heading-font-color;
   background: $dark-background-color,
-  linear-gradient(135deg, #763EF5, #512CF8);
+  linear-gradient(135deg, $dark-primary-color, $dark-secondary-color);
   &::after {
     background-color: $dark; 
   }
