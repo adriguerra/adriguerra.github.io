@@ -201,7 +201,7 @@
 
   &-tag {
     color: $dark;
-    background: linear-gradient(90deg, $dark-primary-color 0%, $dark-secondary-color 167%);
+    background: linear-gradient(90deg, $dark-white 0%, $dark-secondary-color 167%);
 
     &::before {
       background: linear-gradient(90deg, $dark-primary-color 0%, $dark-secondary-color 107%);

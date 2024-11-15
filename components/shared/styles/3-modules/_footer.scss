@@ -23,10 +23,10 @@
     justify-content: end;
   }
   .logo-image {
-    display: none;
+    display: block;
   }
   .logo-image-white {
-    display: block;
+    display: none;
   }
 
   .language-dropdown {
@@ -253,19 +253,19 @@
 
   .footer_nav {
     .footer_nav-link {
-      color: $dark; 
+      color: $dark-white; 
     }
   }
   .logo-image-white {
-    display: none;
-  }
-
-  .logo-image {
     display: block;
   }
 
+  .logo-image {
+    display: none;
+  }
+
   .language-dropdown, .dropdown {
-    color: $dark;
+    color: $dark-white;
   }
 
   option {
@@ -275,7 +275,7 @@
   
   .social .social-link{
     background-color: transparent;
-    color: $dark;
+    color: $dark-white;
 
     &:hover {
       color: $dark-primary-color;
@@ -286,7 +286,7 @@
     }
   }
   .form-subscribe{
-    color: $dark;
+    color: $dark-white;
   }
 
   input {
@@ -332,10 +332,10 @@
 }
 
 .dark .copyright {
-  color: $dark;
+  color: $dark-white;
 
   a {
-    color: $dark; 
+    color: $dark-white; 
   }
 }
 

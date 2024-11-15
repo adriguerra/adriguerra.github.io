@@ -74,7 +74,7 @@
 
   &--primary {
     color: $dark;
-    background: linear-gradient(90deg, $dark-third-color 0%, $dark-secondary-color 167%);
+    background: linear-gradient(90deg, $dark-white 0%, $dark-secondary-color 167%);
 
     &:hover {
       color: $dark !important;
