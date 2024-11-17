@@ -4,7 +4,7 @@
   margin-top: 44px;
   padding: 50px 50px 30px;
   overflow: hidden;
-  background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+  background: $background-color;
 
   .first-row {
     display: flex;
@@ -23,10 +23,10 @@
     justify-content: end;
   }
   .logo-image {
-    display: none;
+    display: block;
   }
   .logo-image-white {
-    display: block;
+    display: none;
   }
 
   .language-dropdown {
@@ -39,7 +39,7 @@
   }
 
   .language-dropdown, .dropdown {
-    color: $white;
+    color: $dark;
   }
 
   .dropdown {
@@ -64,7 +64,7 @@
       transition: all .25s;
       will-change: transform;
       background-color: transparent;
-      color: $white;
+      color: $dark;
 
       i {
         font-size: $font-size-h2;
@@ -91,7 +91,7 @@
     flex-direction: column;
     gap: 0.4rem;
     max-height: min-content;
-    color: $white;
+    color: $dark;
 
     @media only screen and (max-width: $mobile) {
       align-items: center;
@@ -182,7 +182,7 @@
     .footer_nav-link {
       font-size: 16px;
       font-weight: 600;
-      color: $white;
+      color: $dark;
       max-height: 10px;
     }
   }
@@ -253,19 +253,19 @@
 
   .footer_nav {
     .footer_nav-link {
-      color: $dark; 
+      color: $dark-white; 
     }
   }
   .logo-image-white {
-    display: none;
-  }
-
-  .logo-image {
     display: block;
   }
 
+  .logo-image {
+    display: none;
+  }
+
   .language-dropdown, .dropdown {
-    color: $dark;
+    color: $dark-white;
   }
 
   option {
@@ -275,7 +275,7 @@
   
   .social .social-link{
     background-color: transparent;
-    color: $dark;
+    color: $dark-white;
 
     &:hover {
       color: $dark-primary-color;
@@ -286,7 +286,7 @@
     }
   }
   .form-subscribe{
-    color: $dark;
+    color: $dark-white;
   }
 
   input {
@@ -314,7 +314,7 @@
   font-size: 16px;
   line-height: 1.5;
   text-align: start;
-  color: $white;
+  color: $dark;
   font-weight: normal;
 
   p {
@@ -322,7 +322,7 @@
   }
 
   a {
-    color: $white 
+    color: $dark 
   }
 
   @media only screen and (max-width: $mobile) {
@@ -332,10 +332,10 @@
 }
 
 .dark .copyright {
-  color: $dark;
+  color: $dark-white;
 
   a {
-    color: $dark; 
+    color: $dark-white; 
   }
 }
 

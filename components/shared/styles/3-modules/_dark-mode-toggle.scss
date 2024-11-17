@@ -32,6 +32,7 @@
     margin: 0;
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
+    color: black;
 }
 
 #dark-mode-toggle svg {
@@ -100,6 +101,10 @@
 
 .dark .lightLabel {
     display: none;
+}
+
+.dark #dark-mode-toggle p {
+    color: white; /* White text in dark mode */
 }
 
 @media (max-width: 1024px) {
