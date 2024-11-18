@@ -1,6 +1,10 @@
 ---
 layout: default
+title: "{{ page.tag | capitalize }} - Articles by Adrian Guerra"
+description: "Explore posts tagged with {{ page.tag | capitalize }} on Adrian Guerra's blog."
+canonical_url: "{{ site.baseurl }}/tag/{{ page.tag | downcase }}"
 ---
+
 
 {% assign tag=page.tag | capitalize %}
 {% bookshop page-heading title=tag %}
