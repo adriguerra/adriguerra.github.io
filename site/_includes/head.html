@@ -32,6 +32,28 @@
   <meta name="twitter:description" content="{% if page.url == "/" %}{{ site.data.general_settings.description | strip_html | xml_escape }}{% elsif page.description %}{{ page.description | strip_html | xml_escape }}{% else %}{{ page.excerpt | strip_html | xml_escape }}{% endif %}">
   <meta name="twitter:image" content="{% if page.url == "/" %}{{ site.data.general_settings.social_media_share_image | absolute_url }}{% else %}{{ page.image | absolute_url }}{% endif %}">
 
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Adrian Guerra",
+      "url": "https://adriguerra.com",
+      "image": "https://adriguerra.com/images/adrian-profile.jpg",
+      "jobTitle": "Marketing Scientist",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Adaminds",
+        "url": "https://adaminds.com"
+      },
+      "sameAs": [
+        "https://linkedin.com/in/adriguerra",
+        "https://twitter.com/adriguerra",
+        "https://instagram.com/adriguerra"
+      ]
+    }
+    </script>
+
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -39,7 +61,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-KQVKLBLB');
   </script>
-    <!-- End Google Tag Manager -->
+  <!-- End Google Tag Manager -->
 
   <!-- Author -->
   <meta name="author" content="{{ site.data.author.author_name }}">
