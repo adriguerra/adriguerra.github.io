@@ -20,7 +20,7 @@
   <title>
     {% if page.url == "/" or page.url == "/fr/" or page.url == "/es/" %}
       {{ site.data.general_settings.title }}
-    {% elif page.tag %}
+    {% elsif page.tag %}
       Posts Tagged "{{ page.tag | capitalize }}" - Adrian Guerra
     {% elsif page.title %}
       {{ page.title }} – {{ site.data.general_settings.title }}
