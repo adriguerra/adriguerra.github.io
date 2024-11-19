@@ -6,7 +6,7 @@ description: >-
 tags:
   - philosophy
   - language
-image: /images/wittgenstein.jpg
+image: /images/wittgenstein.webp
 ---
 
 *A brief overview of the Socratic method and Wittgenstein’s philosophy of language to define words.*
@@ -14,7 +14,7 @@ image: /images/wittgenstein.jpg
 In the Socratic dialogues, Socrates asks many times *“What is X?”*. X being courage, piety, justice, temperance or wisdom. The protagonists give him instances of these abstracts words as they try to come up with a definition. But Socrates rejects all of them; he always finds a use of the word which does not fit the given definition.
 
 {:style="text-align:center;"}
-![Socrates](/images/socrates.jpg)
+![Socrates](/images/socrates.webp)
 
 {:.image-caption}
 *Socrates c. 470–399 BC*

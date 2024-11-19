@@ -2,7 +2,7 @@
 date: 2022-01-15 07:20:35 +0300
 title: Automated Costs Allocation Based on Historical Inputs of Financial Controllers
 subtitle: Machine Learning
-image: '/images/semiconductor.jpg'
+image: '/images/semiconductor.webp'
 ---
 
 ### Problem

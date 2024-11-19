@@ -1,7 +1,7 @@
 ---
 date: 2023-03-01
 title: Encontrando mi camino
-image: '/images/path.jpg'
+image: '/images/path.webp'
 description: >-
   ¡Agárrate fuerte, porque la vida es una montaña rusa! Intenta disfrutar el viaje, en realidad es bastante divertido.
 tags: [carrera, consultoría]

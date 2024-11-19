@@ -2,7 +2,7 @@
 date: 2024-04-01 07:30:35 +0300
 title: Recomendaciones de Productos para Entrega de Alimentos
 subtitle: Análisis de Datos
-image: '/images/food_recs.jpg'
+image: '/images/food_recs.webp'
 ---
 
 ### Problema

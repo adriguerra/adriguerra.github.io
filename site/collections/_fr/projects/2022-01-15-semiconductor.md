@@ -2,7 +2,7 @@
 date: 2022-01-15 07:20:35 +0300
 title: Allocation Automatisée des Coûts Basée sur les Entrées Historiques des Contrôleurs Financiers
 subtitle: Machine Learning
-image: '/images/semiconductor.jpg'
+image: '/images/semiconductor.webp'
 ---
 
 ### Problème

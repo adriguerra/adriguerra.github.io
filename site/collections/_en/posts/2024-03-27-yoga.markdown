@@ -4,7 +4,7 @@ title:  "How Yoga Transformed Me"
 description: >-
    Yoga has sparked a profound journey of self-discovery and healing for me; continually pushing boundaries and embracing new ways of living with an open heart and an eager spirit.
 tags:   [travel, life, story]
-image:  '/images/ytt.jpg'
+image:  '/images/ytt.webp'
 ---
 
 *Feeling burned out from my last job and uncertain about my next steps, I decided to pursue a lifelong aspiration of mine: a Yoga Teacher Training. The training was nothing short of transformative: a profound journey of healing and growth unfolded. Since completing the training, my exploration of life's vast possibilities has been ceaseless, continually pushing boundaries and embracing new ways of living with an open heart and an eager spirit.*
@@ -31,7 +31,7 @@ The farm turned out to offer a variety of activities that nurtured the mind, bod
 
 The community was also special and played a crucial role in my recovery. Together with everyone at the farm, we cultivated a sanctuary of safety and freedom. The place became a space where every single one of us could freely express themselves and experience warm unconditional love and acceptance from the community. Through each practice, ceremony, and shared moment, my spirit was slowly infused with a profound sense of belonging and love.
 
-![The Yoga Group](/images/yoga_group.jpg)
+![The Yoga Group](/images/yoga_group.webp)
 
 ## Studying the theory
 
@@ -57,4 +57,4 @@ As I navigate a world overly characterized by its history, conservative values a
 
 In closing, my journey through yoga has been much more than a path to personal growth; it has been a call to challenge the status quo, to seek a life that is rich in connection, authenticity, and purpose. It is a reminder that happiness and fulfilment lie not in what we own or achieve, but in how deeply we connect with ourselves, with others and ultimately, with our Universe. As I look forward, I hope to carry this wisdom with me and to spread it around me, forging a path that leads not only to individual well-being but to the healing of the world.
 
-![Sunset](/images/sunset.jpeg)
+![Sunset](/images/sunset.webp)

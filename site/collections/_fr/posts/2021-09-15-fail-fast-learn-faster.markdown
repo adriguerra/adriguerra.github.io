@@ -6,7 +6,7 @@ description: >-
 tags:
   - carrière
   - entrepreneuriat
-image: /images/knight_surrender.jpg
+image: /images/knight_surrender.webp
 ---
 
 *Deux ans après avoir pris l'initiative de lancer une startup, je m'agenouille et rends mon épée pour commencer à chercher de nouvelles opportunités de carrière. Le parcours a été fou. Des moments d'extase se sont transformés à plusieurs reprises en naufrages émotionnels, seulement pour que de nouvelles impulsions me poussent à avancer encore. Malgré le résultat final, les leçons ont été inestimables. Aujourd'hui, je me sens plus résilient que jamais pour affronter les prochains défis que la vie me réservera.*

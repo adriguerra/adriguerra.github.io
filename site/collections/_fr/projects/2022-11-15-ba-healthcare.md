@@ -2,7 +2,7 @@
 date: 2022-11-15
 title: Analyse d'Affaires pour une Plateforme d'Agence de Santé
 subtitle: Analyse d'Affaires
-image: '/images/ba-swiss-healthcare.png'
+image: '/images/ba-swiss-healthcare.webp'
 ---
 
 ### Problème

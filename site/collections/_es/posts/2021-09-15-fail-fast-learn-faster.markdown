@@ -6,7 +6,7 @@ description: >-
 tags:
   - carrera
   - emprendimiento
-image: /images/knight_surrender.jpg
+image: /images/knight_surrender.webp
 ---
 
 *Dos años después de tomar la iniciativa de lanzar una startup, me arrodillo y entrego mi espada para empezar a buscar nuevas oportunidades profesionales. El viaje fue una locura. Momentos de éxtasis se convirtieron repetidamente en desastres emocionales, solo para que nuevos impulsos me empujaran hacia adelante nuevamente. A pesar del resultado final, las lecciones fueron invaluables. Hoy, me siento más resiliente que nunca para enfrentar los próximos desafíos que la vida me arrojará.*

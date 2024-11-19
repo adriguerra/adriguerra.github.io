@@ -1,7 +1,7 @@
 ---
 date:   2023-03-01
 title: Finding my path
-image:  '/images/path.jpg'
+image:  '/images/path.webp'
 description: >-
   Hold on tight, because life is a rollercoaster. Try to enjoy the ride though, it’s actually pretty fun!
 tags:   [career, consulting]

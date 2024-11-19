@@ -6,7 +6,7 @@ description: >-
 tags:
   - filosofía
   - lenguaje
-image: /images/wittgenstein.jpg
+image: /images/wittgenstein.webp
 ---
 
 *Un breve resumen del método socrático y la filosofía del lenguaje de Wittgenstein para definir palabras.*
@@ -14,7 +14,7 @@ image: /images/wittgenstein.jpg
 En los diálogos socráticos, Sócrates pregunta muchas veces *“¿Qué es X?”*. X puede ser el coraje, la piedad, la justicia, la templanza o la sabiduría. Los protagonistas le dan ejemplos de estas palabras abstractas mientras intentan llegar a una definición. Pero Sócrates rechaza todas; siempre encuentra un uso de la palabra que no encaja en la definición dada.
 
 {:style="text-align:center;"}
-![Socrates](/images/socrates.jpg)
+![Socrates](/images/socrates.webp)
 
 {:.image-caption}
 *Sócrates c. 470–399 BC*

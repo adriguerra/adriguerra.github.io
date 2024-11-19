@@ -4,7 +4,7 @@ title:  "Comment le yoga m'a transformé"
 description: >-
    Le yoga a déclenché un profond voyage de découverte de soi et de guérison pour moi ; repoussant continuellement les limites et embrassant de nouvelles façons de vivre avec un cœur ouvert et un esprit avide.
 tags:   [voyage, vie, histoire]
-image:  '/images/ytt.jpg'
+image:  '/images/ytt.webp'
 ---
 
 *Épuisé par mon dernier emploi et incertain de mes prochaines étapes, j'ai décidé de poursuivre une aspiration de longue date : une formation de professeur de yoga. La formation a été rien de moins que transformative : un profond voyage de guérison et de croissance s'est déroulé. Depuis que j'ai terminé la formation, mon exploration des vastes possibilités de la vie n'a cessé, repoussant continuellement les limites et embrassant de nouvelles façons de vivre avec un cœur ouvert et un esprit avide.*
@@ -31,7 +31,7 @@ La ferme s'est avérée offrir une variété d'activités qui nourrissaient l'es
 
 La communauté était également spéciale et a joué un rôle crucial dans ma récupération. Ensemble, avec tout le monde à la ferme, nous avons cultivé un sanctuaire de sécurité et de liberté. L'endroit est devenu un espace où chacun de nous pouvait s'exprimer librement et ressentir l'amour et l'acceptation inconditionnels de la communauté. À travers chaque pratique, cérémonie et moment partagé, mon esprit a été lentement imprégné d'un profond sentiment d'appartenance et d'amour.
 
-![Le groupe de yoga](/images/yoga_group.jpg)
+![Le groupe de yoga](/images/yoga_group.webp)
 
 ## Étudier la théorie
 
@@ -59,4 +59,4 @@ En conclusion, mon parcours à travers le yoga a été
 
  bien plus qu'un chemin de croissance personnelle ; il a été un appel à remettre en question le statu quo, à chercher une vie riche en connexions, en authenticité et en but. C'est un rappel que le bonheur et l'épanouissement ne résident pas dans ce que nous possédons ou accomplissons, mais dans la profondeur de notre connexion avec nous-mêmes, avec les autres et finalement, avec notre Univers. En regardant vers l'avenir, j'espère porter cette sagesse avec moi et la répandre autour de moi, forgeant un chemin qui mène non seulement au bien-être individuel mais à la guérison du monde.
 
-![Coucher de soleil](/images/sunset.jpeg)
+![Coucher de soleil](/images/sunset.webp)

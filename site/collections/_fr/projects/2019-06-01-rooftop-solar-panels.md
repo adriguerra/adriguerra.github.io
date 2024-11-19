@@ -2,7 +2,7 @@
 date: 2019-06-01
 title: "Détection Automatique de Panneaux Solaires sur les Toits en Utilisant des Réseaux de Neurones Convolutionnels"
 subtitle: Deep Learning
-image: '/images/deepsolar_getty-960x540.jpg'
+image: '/images/deepsolar_getty-960x540.webp'
 ---
 
 ***Note:***

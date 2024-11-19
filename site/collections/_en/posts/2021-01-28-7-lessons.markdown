@@ -6,7 +6,7 @@ description: >-
 tags:
   - career
   - entrepreneurship
-image: /images/woods_antoinebruy.jpg
+image: /images/woods_antoinebruy.webp
 ---
 
 *This article is for student-entrepreneurs eager to getting their startup off-the-ground. I spent more than a year working on a startup project as a student at the Swiss Federal Institute of Technology in Lausanne (EPFL). I learned some valuable lessons that I hope can help other entrepreneurial-minded students move forward with their goals and ambitions.*

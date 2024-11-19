@@ -6,7 +6,7 @@ description: >-
 tags:
   - carrera
   - emprendimiento
-image: /images/woods_antoinebruy.jpg
+image: /images/woods_antoinebruy.webp
 ---
 
 *Este artículo es para estudiantes emprendedores ansiosos por poner en marcha su startup. Pasé más de un año trabajando en un proyecto de startup como estudiante en el Instituto Federal Suizo de Tecnología en Lausana (EPFL). Aprendí algunas lecciones valiosas que espero puedan ayudar a otros estudiantes con mentalidad emprendedora a avanzar con sus metas y ambiciones.*
