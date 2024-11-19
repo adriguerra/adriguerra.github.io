@@ -2,7 +2,7 @@
 date: 2018-07-01
 title: Mejora de la Adquisición de Datos para el Mercado Energético a través de Soluciones Avanzadas de Web Scraping
 subtitle: Desarrollo de Software
-image: '/images/electricity.jpg'
+image: '/images/electricity.webp'
 ---
 
 ### Problema

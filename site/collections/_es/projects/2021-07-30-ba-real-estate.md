@@ -2,7 +2,7 @@
 date: 2021-07-30 06:20:35 +0300
 title: "Análisis de Negocios para una Aplicación de Predicción de Precios Inmobiliarios"
 subtitle: Análisis de Negocios
-image: '/images/swiss_real_estate.jpg'
+image: '/images/swiss_real_estate.webp'
 ---
 
 ### Problema

@@ -2,7 +2,7 @@
 date: 2022-11-15
 title: Análisis de Negocios para una Plataforma de una Agencia de Salud
 subtitle: Análisis de Negocios
-image: '/images/ba-swiss-healthcare.png'
+image: '/images/ba-swiss-healthcare.webp'
 ---
 
 ### Problema

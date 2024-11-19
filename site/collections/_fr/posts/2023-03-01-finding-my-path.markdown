@@ -1,7 +1,7 @@
 ---
 date:   2023-03-01
 title: Trouver ma voie
-image:  '/images/path.jpg'
+image:  '/images/path.webp'
 description: >-
   Accrochez-vous, car la vie est une montagne russe. Essayez d'en profiter tout de même - elle est amusante !
 tags:   [carrière, consulting]

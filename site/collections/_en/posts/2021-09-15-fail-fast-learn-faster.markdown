@@ -6,7 +6,7 @@ description: >-
 tags:
   - career
   - entrepreneurship
-image: /images/knight_surrender.jpg
+image: /images/knight_surrender.webp
 ---
 
 *Two years after taking the initiative of launching a startup, I kneel down and surrender my sword to begin looking at new career opportunities. The ride was crazy. Ecstatic moments repeatedly turned into emotional wreckages, only for new impulses to push me forward again. Despite the final outcome, the lessons were invaluable. Today, I feel more resilient than ever to face the next challenges that life will throw at me.*

@@ -2,7 +2,7 @@
 date: 2021-07-30 06:20:35 +0300
 title: "Analyse d'Affaires pour une Application de Prévision des Prix Immobiliers"
 subtitle: Analyse d'Affaires
-image: '/images/swiss_real_estate.jpg'
+image: '/images/swiss_real_estate.webp'
 ---
 
 ### Problème

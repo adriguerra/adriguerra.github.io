@@ -2,7 +2,7 @@
 date: 2022-01-15 07:20:35 +0300
 title: Asignación Automática de Costos Basada en Entradas Históricas de Controladores Financieros
 subtitle: Aprendizaje Automático
-image: '/images/semiconductor.jpg'
+image: '/images/semiconductor.webp'
 ---
 
 ### Problema

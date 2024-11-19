@@ -2,7 +2,7 @@
 date: 2018-07-01
 title: Enhancing Data Acquisition for Energy Market Through Advanced Web Scraping Solutions
 subtitle: Software Development
-image: '/images/electricity.jpg'
+image: '/images/electricity.webp'
 ---
 
 ### Problem

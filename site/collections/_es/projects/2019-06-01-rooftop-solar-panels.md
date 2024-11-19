@@ -2,7 +2,7 @@
 date: 2019-06-01
 title: "Detección Automática de Paneles Solares en Azoteas usando Redes Neuronales Convolucionales"
 subtitle: Deep Learning
-image: '/images/deepsolar_getty-960x540.jpg'
+image: '/images/deepsolar_getty-960x540.webp'
 ---
 
 ***Nota:***

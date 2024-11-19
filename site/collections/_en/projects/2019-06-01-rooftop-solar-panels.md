@@ -2,7 +2,7 @@
 date: 2019-06-01
 title: "Automatic Detection of Rooftop Solar Panels using Convolutional Neural Networks"
 subtitle: Deep Learning
-image: '/images/deepsolar_getty-960x540.jpg'
+image: '/images/deepsolar_getty-960x540.webp'
 ---
 
 ***Note:***

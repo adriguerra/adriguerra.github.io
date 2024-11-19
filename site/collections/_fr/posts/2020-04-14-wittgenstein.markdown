@@ -6,7 +6,7 @@ description: >-
 tags:
   - philosophie
   - langage
-image: /images/wittgenstein.jpg
+image: /images/wittgenstein.webp
 ---
 
 *Un bref aperçu de la méthode socratique et de la philosophie du langage de Wittgenstein pour définir les mots.*
@@ -14,7 +14,7 @@ image: /images/wittgenstein.jpg
 Dans les dialogues socratiques, Socrate demande souvent *“Qu'est-ce que X ?”*. X étant le courage, la piété, la justice, la tempérance ou la sagesse. Les protagonistes lui donnent des exemples de ces mots abstraits alors qu'ils essaient de trouver une définition. Mais Socrate les rejette tous ; il trouve toujours une utilisation du mot qui ne correspond pas à la définition donnée.
 
 {:style="text-align:center;"}
-![Socrate](/images/socrates.jpg)
+![Socrate](/images/socrates.webp)
 
 {:.image-caption}
 *Socrate c. 470–399 BC*

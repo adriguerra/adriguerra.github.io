@@ -4,7 +4,7 @@ title: "Cómo el Yoga me Transformó"
 description: >-
    El yoga ha desencadenado un profundo viaje de autodescubrimiento y sanación para mí; empujando continuamente los límites y abrazando nuevas formas de vivir con un corazón abierto y un espíritu ansioso.
 tags: [viajes, vida, historia]
-image: '/images/ytt.jpg'
+image: '/images/ytt.webp'
 ---
 
 *Sintiendo agotamiento por mi último trabajo e inseguridad sobre mis próximos pasos, decidí perseguir una aspiración de toda la vida: una Formación de Instructores de Yoga. La formación fue nada menos que transformadora: un profundo viaje de sanación y crecimiento se desarrolló. Desde que completé la formación, mi exploración de las vastas posibilidades de la vida ha sido incesante, empujando continuamente los límites y abrazando nuevas formas de vivir con un corazón abierto y un espíritu ansioso.*
@@ -31,7 +31,7 @@ La granja resultó ofrecer una variedad de actividades que nutrieron la mente, e
 
 La comunidad también fue especial y jugó un papel crucial en mi recuperación. Junto con todos en la granja, cultivamos un santuario de seguridad y libertad. El lugar se convirtió en un espacio donde cada uno de nosotros podía expresarse libremente y experimentar el cálido amor y aceptación incondicional de la comunidad. A través de cada práctica, ceremonia y momento compartido, mi espíritu se infundió lentamente con un profundo sentido de pertenencia y amor.
 
-![El Grupo de Yoga](/images/yoga_group.jpg)
+![El Grupo de Yoga](/images/yoga_group.webp)
 
 ## Estudiando la teoría
 
@@ -57,4 +57,4 @@ Mientras navego por un mundo caracterizado en exceso por su historia, valores co
 
 En conclusión, mi viaje a través del yoga ha sido mucho más que un camino hacia el crecimiento personal; ha sido un llamado a desafiar el statu quo, a buscar una vida rica en conexión, autenticidad y propósito. Es un recordatorio de que la felicidad y la realización no residen en lo que poseemos o logramos, sino en qué tan profundamente nos conectamos con nosotros mismos, con los demás y, en última instancia, con nuestro Universo. Al mirar hacia adelante, espero llevar esta sabiduría conmigo y difundirla a mi alrededor, forjando un camino que no solo conduzca al bienestar individual sino a la sanación del mundo.
 
-![Atardecer](/images/sunset.jpeg)
+![Atardecer](/images/sunset.webp)

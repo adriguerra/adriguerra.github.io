@@ -6,7 +6,7 @@ description: >-
 tags:
   - carrière
   - entrepreneuriat
-image: /images/woods_antoinebruy.jpg
+image: /images/woods_antoinebruy.webp
 ---
 
 *Cet article s'adresse aux étudiants-entrepreneurs désireux de lancer leur startup. J'ai passé plus d'un an à travailler sur un projet de startup en tant qu'étudiant à l'École Polytechnique Fédérale de Lausanne (EPFL). J'ai appris des leçons précieuses que j'espère pouvoir aider d'autres étudiants entreprenants à progresser dans leurs objectifs et ambitions.*

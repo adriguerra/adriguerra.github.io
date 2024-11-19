@@ -1,5 +1,7 @@
-title: Adrian Guerra
-description: Adrian Guerra - Freelancing Services
-social_media_share_image: /images/AG.jpg
+title: Adrian Guerra | Marketing Scientist
+description: Unlock growth by extracting value from your data with Adrian Guerra - Marketing Scientist
+social_media_share_image: /images/adrian_guerra.jpg
 disqus-identifier:
 google-analytics: G-YDKXV85N7Q
+author: '{{ site.data.author.author_name }}'
+author_url: '{{ site.data.author.author_url }}'

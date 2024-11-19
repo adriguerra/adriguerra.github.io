@@ -2,7 +2,7 @@
 date: 2022-11-15
 title: Business Analysis for a Health Agency Platform
 subtitle: Business Analysis
-image: '/images/ba-swiss-healthcare.png'
+image: '/images/ba-swiss-healthcare.webp'
 ---
 
 ### Problem

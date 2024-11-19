@@ -2,7 +2,7 @@
 date: 2023-04-01 07:30:35 +0300
 title: Recommandation de Produits pour la Livraison de Nourriture en Ligne
 subtitle: Analyse de Données
-image: '/images/food_recs.jpg'
+image: '/images/food_recs.webp'
 ---
 
 ### Problème
