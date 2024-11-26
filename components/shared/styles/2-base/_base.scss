@@ -82,6 +82,12 @@ h6 {
   font-size: $font-size-h6;
 }
 
+p {
+  text-align: justify;
+  margin-bottom: 1rem; 
+  line-height: 1.6;
+}
+
 blockquote {
   position: relative;
   margin: 44px 0;
