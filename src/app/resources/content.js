@@ -52,12 +52,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Marketing Scientist</>,
+  headline: <>Quit guessing your growth</>,
   subline: (
     <>
-      I'm Adrian, a Marketing Scientist at <InlineCode>Adaminds</InlineCode>,
-      where I craft intuitive
-      <br /> user experiences.
+      I'm Adrian, a Marketing Scientist at <InlineCode>Adaminds</InlineCode>
+      generating growth for B2B SaaS companies.
     </>
   ),
 };
