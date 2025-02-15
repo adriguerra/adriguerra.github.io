@@ -72,39 +72,79 @@ export default function Home() {
         }}
       />
       <Column fillWidth paddingY="l" gap="m">
-        <Column maxWidth="s">
-          <RevealFx translateY="4" fillWidth horizontal="start" paddingBottom="m">
-            <Heading wrap="balance" variant="display-strong-l">
-              {home.headline}
-            </Heading>
-          </RevealFx>
-          <RevealFx translateY="8" delay={0.2} fillWidth horizontal="start" paddingBottom="m">
-            <Text wrap="balance" onBackground="neutral-weak" variant="heading-default-xl">
-              {home.subline}
-            </Text>
-          </RevealFx>
-          <RevealFx translateY="12" delay={0.4} horizontal="start">
-            <Button
-              id="about"
-              data-border="rounded"
-              href="/about"
-              variant="secondary"
-              size="m"
-              arrowIcon
+        <RevealFx translateY="4" fillWidth horizontal="start" paddingBottom="m">
+          {/* Full-width container for text & image */}
+          <Flex
+            fillWidth
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "space-between", // Pushes text left & image right
+              gap: "2rem",
+              width: "100%", // Ensures it takes the full screen width
+              maxWidth: "1200px", // Keeps content centered and readable
+              margin: "0 auto", // Centers content horizontally
+              padding: "0 2rem", // Adds spacing on the sides
+            }}
+          >
+            {/* Left Side: Text Section */}
+            <Column fillWidth style={{ flex: "1" }}>
+              <Heading wrap="balance" variant="display-strong-l">
+                {home.headline} {/* "Quit guessing your growth" */}
+              </Heading>
+              <Text
+                wrap="balance"
+                onBackground="neutral-weak"
+                variant="heading-default-xl"
+                style={{ marginTop: "1rem" }}
+              >
+                {home.subline}
+              </Text>
+            </Column>
+
+            {/* Right Side: Image */}
+            <Column
+              style={{
+                flex: "0 0 35%", // Ensures image takes up 35% of space
+                display: "flex",
+                justifyContent: "flex-end",
+              }}
             >
-              <Flex gap="8" vertical="center">
-                {about.avatar.display && (
-                  <Avatar
-                    style={{ marginLeft: "-0.75rem", marginRight: "0.25rem" }}
-                    src={person.avatar}
-                    size="m"
-                  />
-                )}
-                {about.title}
-              </Flex>
-            </Button>
-          </RevealFx>
-        </Column>
+              <img
+                src={person.avatar}
+                alt="Adrian Guerra"
+                style={{
+                  width: "320px",
+                  height: "320px",
+                  borderRadius: "30%",
+                  objectFit: "cover",
+                }}
+              />
+            </Column>
+          </Flex>
+        </RevealFx>
+        <RevealFx translateY="12" delay={0.4} horizontal="start">
+          <Button
+            id="about"
+            data-border="rounded"
+            href="/about"
+            variant="secondary"
+            size="m"
+            arrowIcon
+          >
+            <Flex gap="8" vertical="center">
+              {about.avatar.display && (
+                <Avatar
+                  style={{ marginLeft: "-0.75rem", marginRight: "0.25rem" }}
+                  src={person.avatar}
+                  size="m"
+                />
+              )}
+              {about.title}
+            </Flex>
+          </Button>
+        </RevealFx>
       </Column>
       <RevealFx translateY="16" delay={0.6}>
         <Projects range={[1, 1]} />
