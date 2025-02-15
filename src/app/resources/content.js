@@ -42,6 +42,11 @@ const social = [
     link: "https://www.instagram.com/adriguerra/",
   },
   {
+    name: "YouTube",
+    icon: "youtube",
+    link: "https://www.youtube.com/@adriguerra_",
+  },
+  {
     name: "Email",
     icon: "email",
     link: "mailto:hello@adriguerra.com",

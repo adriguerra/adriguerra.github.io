@@ -9,11 +9,18 @@ import {
   RevealFx,
   Arrow,
   Column,
+  IconButton,
 } from "@/once-ui/components";
 import { Projects } from "@/components/work/Projects";
 
 import { baseURL, routes } from "@/app/resources";
-import { home, about, person, newsletter } from "@/app/resources/content";
+import {
+  home,
+  about,
+  person,
+  newsletter,
+  social,
+} from "@/app/resources/content";
 import { Mailchimp } from "@/components";
 import { Posts } from "@/components/blog/Posts";
 
@@ -101,6 +108,44 @@ export default function Home() {
               >
                 {home.subline}
               </Text>
+              {/* Social Icons Section */}
+              {social.length > 0 && (
+                <Flex
+                  paddingTop="20"
+                  paddingBottom="8"
+                  gap="8"
+                  wrap
+                  horizontal="start"
+                  fitWidth
+                >
+                  {social.map(
+                    (item) =>
+                      item.link && (
+                        <>
+                          {/* Button for Larger Screens */}
+                          <Button
+                            className="s-flex-hide"
+                            key={item.name}
+                            href={item.link}
+                            prefixIcon={item.icon}
+                            label={item.name}
+                            size="s"
+                            variant="secondary"
+                          />
+                          {/* Icon Button for Smaller Screens */}
+                          <IconButton
+                            className="s-flex-show"
+                            size="l"
+                            key={`${item.name}-icon`}
+                            href={item.link}
+                            icon={item.icon}
+                            variant="secondary"
+                          />
+                        </>
+                      )
+                  )}
+                </Flex>
+              )}
             </Column>
 
             {/* Right Side: Image */}
