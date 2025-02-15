@@ -32,14 +32,14 @@ const social = [
     link: "https://github.com/adriguerra",
   },
   {
-    name: "LinkedIn",
+    name: "Linkedin",
     icon: "linkedin",
     link: "https://www.linkedin.com/in/adriguerra/",
   },
   {
-    name: "X",
-    icon: "x",
-    link: "",
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://www.instagram.com/adriguerra/",
   },
   {
     name: "Email",
