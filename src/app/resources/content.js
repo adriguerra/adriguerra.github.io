@@ -66,7 +66,7 @@ const about = {
   title: "About me",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
-    display: true,
+    display: false,
     subItems: false,
   },
   avatar: {
@@ -139,11 +139,11 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "EPFL",
         description: <>Studied software engineering.</>,
       },
       {
-        name: "Build the Future",
+        name: "TU Berlin",
         description: <>Studied online marketing and personal branding.</>,
       },
     ],
@@ -194,7 +194,7 @@ const about = {
 
 const blog = {
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "A collection of stories",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -203,7 +203,7 @@ const blog = {
 const work = {
   label: "Work",
   title: "My projects",
-  description: `Design and dev projects by ${person.name}`,
+  description: `My best works`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
