@@ -3,44 +3,29 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-import { Fade, Flex, Line, ToggleButton } from "@/once-ui/components";
+import {
+  Fade,
+  Flex,
+  Text,
+  Line,
+  ToggleButton,
+  Column,
+} from "@/once-ui/components";
 import styles from "@/components/Header.module.scss";
 
+import Image from "next/image";
+
+import TimeDisplay from "@/components/TimeDisplay";
+
 import { routes, display } from "@/app/resources";
-import { person, home, about, blog, work, gallery } from "@/app/resources/content";
-
-type TimeDisplayProps = {
-  timeZone: string;
-  locale?: string; // Optionally allow locale, defaulting to 'en-GB'
-};
-
-const TimeDisplay: React.FC<TimeDisplayProps> = ({ timeZone, locale = "en-GB" }) => {
-  const [currentTime, setCurrentTime] = useState("");
-
-  useEffect(() => {
-    const updateTime = () => {
-      const now = new Date();
-      const options: Intl.DateTimeFormatOptions = {
-        timeZone,
-        hour: "2-digit",
-        minute: "2-digit",
-        second: "2-digit",
-        hour12: false,
-      };
-      const timeString = new Intl.DateTimeFormat(locale, options).format(now);
-      setCurrentTime(timeString);
-    };
-
-    updateTime();
-    const intervalId = setInterval(updateTime, 1000);
-
-    return () => clearInterval(intervalId);
-  }, [timeZone, locale]);
-
-  return <>{currentTime}</>;
-};
-
-export default TimeDisplay;
+import {
+  person,
+  home,
+  about,
+  blog,
+  work,
+  gallery,
+} from "@/app/resources/content";
 
 export const Header = () => {
   const pathname = usePathname() ?? "";
@@ -48,7 +33,15 @@ export const Header = () => {
   return (
     <>
       <Fade hide="s" fillWidth position="fixed" height="80" zIndex={9} />
-      <Fade show="s" fillWidth position="fixed" bottom="0" to="top" height="80" zIndex={9} />
+      <Fade
+        show="s"
+        fillWidth
+        position="fixed"
+        bottom="0"
+        to="top"
+        height="80"
+        zIndex={9}
+      />
       <Flex
         fitHeight
         className={styles.position}
@@ -58,10 +51,23 @@ export const Header = () => {
         padding="8"
         horizontal="center"
       >
-        <Flex paddingLeft="12" fillWidth vertical="center" textVariant="body-default-s">
-          {display.location && <Flex hide="s">{person.location}</Flex>}
+        {/* Left: Logo */}
+        <Flex
+          style={{ flex: 1, minWidth: "200px" }}
+          horizontal="start"
+          vertical="center"
+          hide="s"
+        >
+          <Image
+            src="/images/adriguerra_white.svg"
+            alt="Logo"
+            width={240}
+            height={60}
+          />
         </Flex>
-        <Flex fillWidth horizontal="center">
+
+        {/* Center: Navigation */}
+        <Flex flex={2} horizontal="center">
           <Flex
             background="surface"
             border="neutral-medium"
@@ -72,7 +78,11 @@ export const Header = () => {
           >
             <Flex gap="4" vertical="center" textVariant="body-default-s">
               {routes["/"] && (
-                <ToggleButton prefixIcon="home" href="/" selected={pathname === "/"} />
+                <ToggleButton
+                  prefixIcon="home"
+                  href="/"
+                  selected={pathname === "/"}
+                />
               )}
               <Line vert maxHeight="24" />
               {routes["/about"] && (
@@ -146,16 +156,31 @@ export const Header = () => {
             </Flex>
           </Flex>
         </Flex>
-        <Flex fillWidth horizontal="end" vertical="center">
-          <Flex
-            paddingRight="12"
-            horizontal="end"
-            vertical="center"
-            textVariant="body-default-s"
-            gap="20"
-          >
-            <Flex hide="s">{display.time && <TimeDisplay timeZone={person.location} />}</Flex>
-          </Flex>
+
+        {/* Right: Time above, Location below */}
+        <Flex
+          style={{ flex: 1, minWidth: "200px" }}
+          paddingRight="12"
+          vertical="center"
+          horizontal="end"
+          hide="s"
+        >
+          {display.time && (
+            <Column horizontal="center" gap="4">
+              {/* Time with Clock Emoji 🕒 (Ensures one line) */}
+              <Flex horizontal="center" vertical="center" gap="4">
+                <Text variant="body-default-m">
+                  <TimeDisplay timeZone={person.location} />
+                </Text>
+              </Flex>
+
+              {/* Location with Pin Emoji 📍 (Ensures one line) */}
+              <Flex horizontal="center" vertical="center" gap="4">
+                <Text variant="body-default-s">📍</Text>
+                <Text variant="body-default-s">{person.location}</Text>
+              </Flex>
+            </Column>
+          )}
         </Flex>
       </Flex>
     </>
