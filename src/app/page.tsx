@@ -11,7 +11,6 @@ import {
   Column,
   IconButton,
 } from "@/once-ui/components";
-import { Projects } from "@/components/work/Projects";
 
 import { baseURL, routes } from "@/app/resources";
 import {
@@ -191,9 +190,6 @@ export default function Home() {
           </Button>
         </RevealFx>
       </Column>
-      <RevealFx translateY="16" delay={0.6}>
-        <Projects range={[1, 1]} />
-      </RevealFx>
       {routes["/blog"] && (
         <Flex fillWidth gap="24" mobileDirection="column">
           <Flex flex={1} paddingLeft="l">
@@ -206,7 +202,6 @@ export default function Home() {
           </Flex>
         </Flex>
       )}
-      <Projects range={[2]} />
       {newsletter.display && <Mailchimp newsletter={newsletter} />}
     </Column>
   );
