@@ -27,11 +27,6 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/adriguerra",
-  },
-  {
     name: "Linkedin",
     icon: "linkedin",
     link: "https://www.linkedin.com/in/adriguerra/",
@@ -47,9 +42,14 @@ const social = [
     link: "https://www.youtube.com/@adriguerra_",
   },
   {
-    name: "Email",
-    icon: "email",
-    link: "mailto:hello@adriguerra.com",
+    name: "Threads",
+    icon: "threads",
+    link: "https://www.threads.net/@adriguerra",
+  },
+  {
+    name: "X",
+    icon: "x",
+    link: "https://twitter.com/adriguerra27",
   },
 ];
 
