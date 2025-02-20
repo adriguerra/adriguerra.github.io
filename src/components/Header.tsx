@@ -53,7 +53,7 @@ export const Header = () => {
       >
         {/* Left: Logo */}
         <Flex
-          style={{ flex: 1, minWidth: "200px" }}
+          style={{ flex: 1, minWidth: "200px", paddingLeft: "2rem" }}
           horizontal="start"
           vertical="center"
           hide="s"
