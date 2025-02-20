@@ -91,7 +91,7 @@ export default function Home() {
               width: "100%", // Ensures it takes the full screen width
               maxWidth: "1200px", // Keeps content centered and readable
               margin: "0 auto", // Centers content horizontally
-              padding: "0 2rem", // Adds spacing on the sides
+              padding: "0 1rem", // Adds spacing on the sides
             }}
           >
             {/* Left Side: Text Section */}
