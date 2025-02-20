@@ -73,10 +73,10 @@ export const Header = () => {
             border="neutral-medium"
             radius="m-4"
             shadow="l"
-            padding="4"
+            padding="2"
             horizontal="center"
           >
-            <Flex gap="4" vertical="center" textVariant="body-default-s">
+            <Flex gap="0" vertical="center" textVariant="body-default-s">
               {routes["/"] && (
                 <>
                   <ToggleButton
