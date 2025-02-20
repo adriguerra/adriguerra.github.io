@@ -168,27 +168,6 @@ export default function Home() {
             </Column>
           </Flex>
         </RevealFx>
-        <RevealFx translateY="12" delay={0.4} horizontal="start">
-          <Button
-            id="about"
-            data-border="rounded"
-            href="/about"
-            variant="secondary"
-            size="m"
-            arrowIcon
-          >
-            <Flex gap="8" vertical="center">
-              {about.avatar.display && (
-                <Avatar
-                  style={{ marginLeft: "-0.75rem", marginRight: "0.25rem" }}
-                  src={person.avatar}
-                  size="m"
-                />
-              )}
-              {about.title}
-            </Flex>
-          </Button>
-        </RevealFx>
       </Column>
       {routes["/blog"] && (
         <Flex fillWidth gap="24" mobileDirection="column">
