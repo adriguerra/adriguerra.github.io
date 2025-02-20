@@ -77,7 +77,7 @@ export default function Home() {
           }),
         }}
       />
-      <Column fillWidth paddingY="l" gap="m">
+      <Column fillWidth paddingY="xl" gap="m">
         <RevealFx translateY="4" fillWidth horizontal="start" paddingBottom="m">
           {/* Full-width container for text & image */}
           <Flex
