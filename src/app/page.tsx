@@ -170,16 +170,14 @@ export default function Home() {
         </RevealFx>
       </Column>
       {routes["/blog"] && (
-        <Flex fillWidth gap="24" mobileDirection="column">
-          <Flex flex={1} paddingLeft="l">
-            <Heading as="h2" variant="display-strong-xs" wrap="balance">
-              Latest from the blog
-            </Heading>
+        <Column fillWidth paddingX="l" gap="m">
+          <Heading as="h2" variant="display-strong-xs" wrap="balance">
+            Latest from the blog
+          </Heading>
+          <Flex fillWidth paddingX="20">
+            <Posts range={[1, 3]} columns="3" thumbnail={true} />
           </Flex>
-          <Flex flex={3} paddingX="20">
-            <Posts range={[1, 2]} columns="2" />
-          </Flex>
-        </Flex>
+        </Column>
       )}
       {newsletter.display && <Mailchimp newsletter={newsletter} />}
     </Column>

@@ -1,7 +1,23 @@
 .hover {
-    transition: var(--transition-micro-medium);
+  transition: var(--transition-micro-medium);
 
-    &:hover {
-        transform: translateX(var(--static-space-8));
-    }
+  &:hover {
+    transform: translateX(var(--static-space-8));
+  }
+}
+
+.imageWrapper {
+  width: 100%; /* Ensures full width */
+  aspect-ratio: 1 / 1; /* Forces square shape */
+  overflow: hidden; /* Ensures no stretching */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crops instead of stretching */
+  border-radius: 8px; /* Optional rounded corners */
 }

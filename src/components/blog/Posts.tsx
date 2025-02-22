@@ -8,21 +8,33 @@ interface PostsProps {
   thumbnail?: boolean;
 }
 
-export function Posts({ range, columns = "1", thumbnail = false }: PostsProps) {
+export function Posts({ range, columns = "1", thumbnail = true }: PostsProps) {
   let allBlogs = getPosts(["src", "app", "blog", "posts"]);
 
   const sortedBlogs = allBlogs.sort((a, b) => {
-    return new Date(b.metadata.publishedAt).getTime() - new Date(a.metadata.publishedAt).getTime();
+    return (
+      new Date(b.metadata.publishedAt).getTime() -
+      new Date(a.metadata.publishedAt).getTime()
+    );
   });
 
   const displayedBlogs = range
-    ? sortedBlogs.slice(range[0] - 1, range.length === 2 ? range[1] : sortedBlogs.length)
+    ? sortedBlogs.slice(
+        range[0] - 1,
+        range.length === 2 ? range[1] : sortedBlogs.length
+      )
     : sortedBlogs;
 
   return (
     <>
       {displayedBlogs.length > 0 && (
-        <Grid columns={columns} mobileColumns="1" fillWidth marginBottom="40" gap="m">
+        <Grid
+          columns={columns}
+          mobileColumns="1"
+          fillWidth
+          marginBottom="40"
+          gap="m"
+        >
           {displayedBlogs.map((post) => (
             <Post key={post.slug} post={post} thumbnail={thumbnail} />
           ))}
