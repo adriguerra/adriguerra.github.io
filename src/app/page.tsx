@@ -175,7 +175,7 @@ export default function Home() {
             Latest from the blog
           </Heading>
           <Flex fillWidth paddingX="20">
-            <Posts range={[1, 3]} columns="3" thumbnail={true} />
+            <Posts range={[1, 2]} columns="2" thumbnail={true} />
           </Flex>
         </Column>
       )}
