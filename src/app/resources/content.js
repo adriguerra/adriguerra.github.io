@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Marketing Scientist",
+  role: "Founder",
   avatar: "/images/adrian_guerra.jpg",
   location: "America/Guatemala", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Spanish", "French"], // optional: Leave the array empty if you don't want to display languages
@@ -86,8 +86,13 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Thanks for stopping by. I'm Adrian, Marketing Scientist and Founder at
-        Adaminds, where I help B2B SaaS companies grow.
+        Before helping B2B SaaS companies grow, I was:
+        <ul>
+          <li>Business Analyst at a Swisscom consulting company</li>
+          <li>Data Analyst at Capgemini</li>
+          <li>Co-founder of a cannabis e-commerce</li>
+          <li>Data Scientist at Koch Minerals & Trading</li>
+        </ul>
       </>
     ),
   },

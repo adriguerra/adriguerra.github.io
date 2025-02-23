@@ -170,13 +170,6 @@ export default function About() {
             <Heading className={styles.textAlign} variant="display-strong-xl">
               {person.name}
             </Heading>
-            <Text
-              className={styles.textAlign}
-              variant="display-default-xs"
-              onBackground="neutral-weak"
-            >
-              {person.role}
-            </Text>
             {social.length > 0 && (
               <Flex
                 className={styles.blockAlign}
