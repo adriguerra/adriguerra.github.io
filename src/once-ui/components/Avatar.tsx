@@ -18,15 +18,19 @@ interface AvatarProps extends React.ComponentProps<typeof Flex> {
   className?: string;
 }
 
-const sizeMapping: Record<"xs" | "s" | "m" | "l" | "xl", number> = {
+const sizeMapping: Record<"xs" | "s" | "m" | "l" | "xl" | "xxl", number> = {
   xs: 20,
   s: 24,
   m: 32,
   l: 48,
   xl: 160,
+  xxl: 320,
 };
 
-const statusIndicatorSizeMapping: Record<"xs" | "s" | "m" | "l" | "xl", "s" | "m" | "l"> = {
+const statusIndicatorSizeMapping: Record<
+  "xs" | "s" | "m" | "l" | "xl",
+  "s" | "m" | "l"
+> = {
   xs: "s",
   s: "s",
   m: "m",
@@ -35,7 +39,20 @@ const statusIndicatorSizeMapping: Record<"xs" | "s" | "m" | "l" | "xl", "s" | "m
 };
 
 const Avatar = forwardRef<HTMLDivElement, AvatarProps>(
-  ({ size = "m", value, src, loading, empty, statusIndicator, className, style, ...rest }, ref) => {
+  (
+    {
+      size = "m",
+      value,
+      src,
+      loading,
+      empty,
+      statusIndicator,
+      className,
+      style,
+      ...rest
+    },
+    ref
+  ) => {
     const isEmpty = empty || (!src && !value);
 
     if (value && src) {
@@ -63,7 +80,7 @@ const Avatar = forwardRef<HTMLDivElement, AvatarProps>(
           <Icon
             onBackground="neutral-medium"
             name="person"
-            size={size as "xs" | "s" | "m" | "l" | "xl"}
+            size={size as "xs" | "s" | "m" | "l" | "xl" | "xxl"}
             className={styles.icon}
             aria-label="Empty avatar"
           />
@@ -73,12 +90,16 @@ const Avatar = forwardRef<HTMLDivElement, AvatarProps>(
       if (src) {
         return (
           <SmartImage
-            radius="full"
             src={src}
             fill
             alt="Avatar"
             sizes={`${sizeMapping[size]}px`}
             className={styles.image}
+            style={{
+              width: `${sizeMapping[size]}px`,
+              height: `${sizeMapping[size]}px`,
+              borderRadius: "30%", // ✅ Rounded corners instead of a full circle
+            }}
           />
         );
       }
@@ -119,13 +140,15 @@ const Avatar = forwardRef<HTMLDivElement, AvatarProps>(
           <StatusIndicator
             size={statusIndicatorSizeMapping[size]}
             color={statusIndicator.color}
-            className={`${styles.className || ""} ${styles.indicator} ${size === "xl" ? styles.position : ""}`}
+            className={`${styles.className || ""} ${styles.indicator} ${
+              size === "xl" ? styles.position : ""
+            }`}
             aria-label={`Status: ${statusIndicator.color}`}
           />
         )}
       </Flex>
     );
-  },
+  }
 );
 
 Avatar.displayName = "Avatar";

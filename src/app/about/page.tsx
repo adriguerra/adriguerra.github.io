@@ -15,6 +15,14 @@ import TableOfContents from "@/components/about/TableOfContents";
 import styles from "@/components/about/about.module.scss";
 import { person, about, social } from "@/app/resources/content";
 
+const languageEmojis: Record<string, string> = {
+  English: "🇺🇸", // (UK or US flag isn't well-supported in some systems)
+  French: "🇫🇷",
+  Spanish: "🇪🇸",
+  German: "🇩🇪",
+  Italian: "🇮🇹",
+};
+
 export async function generateMetadata() {
   const title = about.title;
   const description = about.description;
@@ -114,30 +122,23 @@ export default function About() {
             flex={3}
             horizontal="center"
           >
-            <Avatar src={person.avatar} size="xl" />
-            <Flex gap="8" vertical="center">
-              <Icon onBackground="accent-weak" name="globe" />
-              {person.location}
-            </Flex>
+            <Avatar
+              src={person.avatar}
+              size="xxl"
+              style={{
+                borderRadius: "30%",
+                objectFit: "cover", // Ensures it fills the frame properly
+              }}
+            />
             {person.languages.length > 0 && (
-              <Flex wrap gap="8">
+              <Flex wrap gap="2">
                 {person.languages.map((language, index) => (
                   <Tag key={index} size="l">
-                    {language}
+                    {languageEmojis[language]} {language}
                   </Tag>
                 ))}
               </Flex>
             )}
-          </Column>
-        )}
-        <Column className={styles.blockAlign} flex={9} maxWidth={40}>
-          <Column
-            id={about.intro.title}
-            fillWidth
-            minHeight="160"
-            vertical="center"
-            marginBottom="32"
-          >
             {about.calendar.display && (
               <Flex
                 fitWidth
@@ -167,6 +168,16 @@ export default function About() {
                 />
               </Flex>
             )}
+          </Column>
+        )}
+        <Column className={styles.blockAlign} flex={9} maxWidth={40}>
+          <Column
+            id={about.intro.title}
+            fillWidth
+            minHeight="160"
+            vertical="center"
+            marginBottom="32"
+          >
             <Heading className={styles.textAlign} variant="display-strong-xl">
               {person.name}
             </Heading>

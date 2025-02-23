@@ -88,10 +88,10 @@ const about = {
       <>
         Before helping B2B SaaS companies grow, I was:
         <ul>
-          <li>Business Analyst at a Swisscom consulting company</li>
-          <li>Data Analyst at Capgemini</li>
-          <li>Co-founder of a cannabis e-commerce</li>
-          <li>Data Scientist at Koch Minerals & Trading</li>
+          <li>Business Analyst at Swisscom,</li>
+          <li>Sr Data Analyst at Capgemini,</li>
+          <li>Co-founder of a cannabis e-commerce,</li>
+          <li>Data Scientist at Koch Minerals & Trading.</li>
         </ul>
       </>
     ),
