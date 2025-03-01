@@ -97,16 +97,41 @@ export default function Blog({ params }: BlogParams) {
           }),
         }}
       />
-      <Button href="/blog" weight="default" variant="tertiary" size="s" prefixIcon="chevronLeft">
+      <Button
+        href="/blog"
+        weight="default"
+        variant="tertiary"
+        size="s"
+        prefixIcon="chevronLeft"
+      >
         Posts
       </Button>
+      {/* ✅ Blog Title */}
       <Heading variant="display-strong-s">{post.metadata.title}</Heading>
+      {/* ✅ Date */}
       <Row gap="12" vertical="center">
         {avatars.length > 0 && <AvatarGroup size="s" avatars={avatars} />}
         <Text variant="body-default-s" onBackground="neutral-weak">
           {formatDate(post.metadata.publishedAt)}
         </Text>
       </Row>
+      {/* ✅ Blog Image */}
+      {post.metadata.image && (
+        <>
+          <img
+            src={post.metadata.image}
+            alt={post.metadata.title}
+            style={{
+              width: "100%", // Make it responsive
+              maxWidth: "700px",
+              height: "auto",
+              borderRadius: "10px", // ✅ Adds rounded corners
+              margin: "16px auto", // ✅ Centers the image
+            }}
+          />
+        </>
+      )}
+
       <Column as="article" fillWidth>
         <CustomMDX source={post.content} />
       </Column>
