@@ -59,7 +59,7 @@ const home = {
     <>
       I'm Adrian, Marketing Scientist at{" "}
       <Link
-        href="https://adaminds.com"
+        href="https://adaminds.com?utm_source=adriguerra.com&utm_medium=referral&utm_campaign=personal_website"
         target="_blank"
         rel="noopener noreferrer"
       >
