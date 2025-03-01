@@ -1,4 +1,6 @@
 import { InlineCode } from "@/once-ui/components";
+import Image from "next/image";
+import Link from "next/link";
 
 const person = {
   firstName: "Adrian",
@@ -55,8 +57,21 @@ const home = {
   headline: <>Quit guessing your growth</>,
   subline: (
     <>
-      I'm Adrian, a Marketing Scientist at <InlineCode>Adaminds</InlineCode>
-      generating growth for B2B SaaS companies.
+      I'm Adrian, Marketing Scientist at{" "}
+      <Link
+        href="https://adaminds.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          src="/images/adaminds-white.svg"
+          alt="Adaminds"
+          width={180}
+          height={50}
+          style={{ display: "inline-block", verticalAlign: "middle" }}
+        />
+      </Link>
+      <br></br> generating growth for B2B SaaS companies.
     </>
   ),
 };
