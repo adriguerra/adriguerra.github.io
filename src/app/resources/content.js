@@ -57,7 +57,7 @@ const home = {
   headline: <>Quit guessing your growth</>,
   subline: (
     <>
-      I'm Adrian, Marketing Scientist at{" "}
+      I'm Adrian, Founder of{" "}
       <Link
         href="https://adaminds.com?utm_source=adriguerra.com&utm_medium=referral&utm_campaign=personal_website"
         target="_blank"
@@ -71,7 +71,7 @@ const home = {
           style={{ display: "inline-block", verticalAlign: "middle" }}
         />
       </Link>
-      <br></br> generating growth for B2B SaaS companies.
+      <br></br> Lead generation agency for B2B SaaS
     </>
   ),
 };
