@@ -8,15 +8,21 @@ import { Flex } from "./Flex";
 
 interface SkeletonProps extends React.ComponentProps<typeof Flex> {
   shape: "line" | "circle" | "block";
-  width?: "xl" | "l" | "m" | "s" | "xs";
-  height?: "xl" | "l" | "m" | "s" | "xs";
+  width?: "xxl" | "xl" | "l" | "m" | "s" | "xs" | number;
+  height?: "xxl" | "xl" | "l" | "m" | "s" | "xs" | number;
   delay?: "1" | "2" | "3" | "4" | "5" | "6";
   style?: React.CSSProperties;
   className?: string;
 }
 
-const Skeleton: React.FC<SkeletonProps> = forwardRef<HTMLDivElement, SkeletonProps>(
-  ({ shape = "line", width, height, delay, style, className, ...props }, ref) => {
+const Skeleton: React.FC<SkeletonProps> = forwardRef<
+  HTMLDivElement,
+  SkeletonProps
+>(
+  (
+    { shape = "line", width, height, delay, style, className, ...props },
+    ref
+  ) => {
     return (
       <Flex
         {...props}
@@ -30,11 +36,11 @@ const Skeleton: React.FC<SkeletonProps> = forwardRef<HTMLDivElement, SkeletonPro
           width && styles["w-" + width],
           height && styles["h-" + height],
           delay && styles["delay-" + delay],
-          className,
+          className
         )}
       />
     );
-  },
+  }
 );
 
 Skeleton.displayName = "Skeleton";

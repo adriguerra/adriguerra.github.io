@@ -6,7 +6,7 @@ import { Skeleton, Icon, Text, StatusIndicator, Flex, SmartImage } from ".";
 import styles from "./Avatar.module.scss";
 
 interface AvatarProps extends React.ComponentProps<typeof Flex> {
-  size?: "xs" | "s" | "m" | "l" | "xl";
+  size?: "xs" | "s" | "m" | "l" | "xl" | "xxl";
   value?: string;
   src?: string;
   loading?: boolean;
