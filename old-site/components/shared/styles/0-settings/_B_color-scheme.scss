@@ -1,13 +1,13 @@
 /* Color Scheme */
-$primary-color: #512CF8;
-$secondary-color: #763EF5;
+$primary-color: #512cf8;
+$secondary-color: #763ef5;
 $white: #fff;
-$dark: #512CF8;
+$dark: #512cf8;
 $gray: #d9d9d9;
 $light-gray: #f5f5f5;
 $blue-gray: #d5dce3;
 
-$background-color: #FEFDE3;
+$background-color: #fefde3;
 $background-color-alt: $white;
 
 $text-color: $dark;
@@ -28,19 +28,21 @@ $tr-color: #f0f0f0;
 
 $syntax-highlighting-background: #f3f3f3;
 
-
-
 /* Dark Mode Color Scheme */
-$dark-primary-color: #763EF5;
-$dark-secondary-color: #512CF8;
-$dark-third-color: #B92BEF;
-$dark-white: #FEFDE3;
-$dark-dark: #512CF8;
+$dark-primary-color: #763ef5;
+$dark-secondary-color: #512cf8;
+$dark-third-color: #b92bef;
+$dark-white: #fefde3;
+$dark-dark: #512cf8;
 $dark-gray: #d9d9d9;
 $dark-light-gray: #f5f5f5;
-$dark-blue-gray: #512CF8;
+$dark-blue-gray: #512cf8;
 
-$dark-background-color: radial-gradient(circle at 30% 30%, $dark-third-color, $dark-secondary-color 60%);
+$dark-background-color: radial-gradient(
+  circle at 30% 30%,
+  $dark-third-color,
+  $dark-secondary-color 60%
+);
 $dark-background-color-alt: $dark-blue-gray;
 
 $dark-text-color: $dark-white;
@@ -60,4 +62,3 @@ $dark-hr-color: $dark-text-color;
 $dark-tr-color: #222;
 
 $dark-syntax-highlighting-background: darken($dark-dark, 5%);
-

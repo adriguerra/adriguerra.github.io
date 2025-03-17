@@ -71,7 +71,6 @@ const home = {
           style={{ display: "inline-block", verticalAlign: "middle" }}
         />
       </Link>
-      <br></br> Lead generation agency for B2B SaaS
     </>
   ),
 };
