@@ -23,6 +23,11 @@ const newsletter = {
 const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
+  // {
+  //   name: "Adaminds",
+  //   icon: "globe",
+  //   link: "https://adaminds.com?utm_source=adriguerra.com&utm_medium=referral&utm_campaign=personal_website",
+  // },
   {
     name: "Linkedin",
     icon: "linkedin",
@@ -52,27 +57,10 @@ const social = [
 
 const home = {
   label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
+  title: `${person.name}`,
+  description: `Personal website showcasing my work as a ${person.role}`,
   headline: <>Quit guessing your growth</>,
-  subline: (
-    <>
-      I'm Adrian, Founder of{" "}
-      <Link
-        href="https://adaminds.com?utm_source=adriguerra.com&utm_medium=referral&utm_campaign=personal_website"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image
-          src="/images/adaminds-white.svg"
-          alt="Adaminds"
-          width={180}
-          height={50}
-          style={{ display: "inline-block", verticalAlign: "middle" }}
-        />
-      </Link>
-    </>
-  ),
+  subline: <>Growth Architect for Software Founders</>,
 };
 
 const about = {
