@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 import {
   Heading,
@@ -22,6 +23,7 @@ import {
 } from "@/app/resources/content";
 import { Mailchimp } from "@/components";
 import { Posts } from "@/components/blog/Posts";
+import styles from "./page.module.scss";
 
 export async function generateMetadata() {
   const title = home.title;
@@ -82,6 +84,7 @@ export default function Home() {
           {/* Full-width container for text & image */}
           <Flex
             fillWidth
+            className="s-flex-column"
             style={{
               display: "flex",
               flexDirection: "row",
@@ -95,18 +98,37 @@ export default function Home() {
             }}
           >
             {/* Left Side: Text Section */}
-            <Column fillWidth style={{ flex: "1" }}>
-              <Heading wrap="balance" variant="display-strong-l">
-                {home.headline} {/* "Quit guessing your growth" */}
-              </Heading>
-              <Text
+            <Column
+              fillWidth
+              style={{ flex: "1" }}
+              className={styles.mobileLogoContainer}
+            >
+              <Image
+                src="/images/adriguerra_white.svg"
+                alt="Adri Guerra"
+                width={480}
+                height={120}
+                className={styles.mobileLogo}
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                  textAlign: "center",
+                  width: "100%",
+                }}
+              />
+              {/* <Text
                 wrap="balance"
-                onBackground="neutral-weak"
-                variant="heading-default-xl"
-                style={{ marginTop: "1rem" }}
+                variant="heading-default-l"
+                horizontal="center"
+                fillWidth
+                style={{
+                  marginTop: "1rem",
+                  color: "white",
+                  textAlign: "center",
+                }}
               >
                 {home.subline}
-              </Text>
+              </Text> */}
               {/* Social Icons Section */}
               {social.length > 0 && (
                 <Flex
@@ -149,6 +171,7 @@ export default function Home() {
 
             {/* Right Side: Image */}
             <Column
+              className={styles.mobileAvatarContainer}
               style={{
                 flex: "0 0 35%", // Ensures image takes up 35% of space
                 display: "flex",
@@ -158,6 +181,7 @@ export default function Home() {
               <img
                 src={person.avatar}
                 alt="Adrian Guerra"
+                className={styles.mobileAvatar}
                 style={{
                   width: "320px",
                   height: "320px",

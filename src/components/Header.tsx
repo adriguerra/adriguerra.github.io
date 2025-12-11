@@ -13,8 +13,6 @@ import {
 } from "@/once-ui/components";
 import styles from "@/components/Header.module.scss";
 
-import Image from "next/image";
-
 import TimeDisplay from "@/components/TimeDisplay";
 
 import { routes, display } from "@/app/resources";
@@ -51,23 +49,8 @@ export const Header = () => {
         padding="8"
         horizontal="center"
       >
-        {/* Left: Logo */}
-        <Flex
-          style={{ flex: 1, minWidth: "200px", paddingLeft: "2rem" }}
-          horizontal="start"
-          vertical="center"
-          hide="s"
-        >
-          <Image
-            src="/images/adriguerra_white.svg"
-            alt="Logo"
-            width={240}
-            height={60}
-          />
-        </Flex>
-
         {/* Center: Navigation */}
-        <Flex flex={2} horizontal="center">
+        <Flex horizontal="center">
           <Flex
             background="surface"
             border="neutral-medium"
@@ -167,14 +150,14 @@ export const Header = () => {
         </Flex>
 
         {/* Right: Time above, Location below */}
-        <Flex
-          style={{ flex: 1, minWidth: "200px" }}
-          paddingRight="12"
-          vertical="center"
-          horizontal="end"
-          hide="s"
-        >
-          {display.time && (
+        {display.time && (
+          <Flex
+            style={{ flex: 1, minWidth: "200px" }}
+            paddingRight="12"
+            vertical="center"
+            horizontal="end"
+            hide="s"
+          >
             <Column horizontal="center" gap="4">
               {/* Time with Clock Emoji 🕒 (Ensures one line) */}
               <Flex horizontal="center" vertical="center" gap="4">
@@ -189,8 +172,8 @@ export const Header = () => {
                 <Text variant="body-default-s">{person.location}</Text>
               </Flex>
             </Column>
-          )}
-        </Flex>
+          </Flex>
+        )}
       </Flex>
     </>
   );

@@ -1,0 +1,29 @@
+@media (--s) {
+  .mobileLogoContainer {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 2rem;
+  }
+
+  .mobileLogo {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .mobileAvatarContainer {
+    width: 100% !important;
+    flex: 1 1 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .mobileAvatar {
+    width: 100% !important;
+    max-width: 320px !important;
+    height: auto !important;
+  }
+}
