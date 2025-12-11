@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 import {
   Heading,
@@ -96,9 +97,16 @@ export default function Home() {
           >
             {/* Left Side: Text Section */}
             <Column fillWidth style={{ flex: "1" }}>
-              <Heading wrap="balance" variant="display-strong-l">
-                {home.headline} {/* "Quit guessing your growth" */}
-              </Heading>
+              <Image
+                src="/images/adriguerra_white.svg"
+                alt="Adri Guerra"
+                width={480}
+                height={120}
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
+              />
               <Text
                 wrap="balance"
                 onBackground="neutral-weak"
